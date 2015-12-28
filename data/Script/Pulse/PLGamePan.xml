@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<PLGamePan>
+    <!--<PanSprite Path="Sprite/Pulse/GamePan/GamePan_FeiYin.png"/>-->
+	<PanSize Width="246" Height="246"/>
+	<Effect>
+	    <VaryTime Value="2.0"/>
+		<MinColor Value="0"/>
+		<MaxColor Value="255"/>
+	</Effect>
+</PLGamePan>

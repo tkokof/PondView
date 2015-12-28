@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<PLVisualizationFlowLine>
+    <FlowLines>
+	    <!--<FlowLine Type="Bezier" Config="Script/Pulse/Visualization/FlowLine.xml"/>
+		<FlowLine Type="Bezier" Config="Script/Pulse/Visualization/FlowLine_1.xml"/>
+		<FlowLine Type="Bezier" Config="Script/Pulse/Visualization/FlowLine_2.xml"/>
+		<FlowLine Type="Bezier" Config="Script/Pulse/Visualization/FlowLine2.xml"/>
+		<FlowLine Type="Bezier" Config="Script/Pulse/Visualization/FlowLine2_1.xml"/>
+		<FlowLine Type="Bezier" Config="Script/Pulse/Visualization/FlowLine2_2.xml"/>
+		<FlowLine Type="Bezier" Config="Script/Pulse/Visualization/FlowLine3.xml"/>
+		<FlowLine Type="Bezier" Config="Script/Pulse/Visualization/FlowLine3_1.xml"/>
+		<FlowLine Type="Bezier" Config="Script/Pulse/Visualization/FlowLine3_2.xml"/>-->
+		
+		<!--
+		<FlowLine Type="Sine" Config="Script/Pulse/Visualization/FlowLineSineThin0.xml"/>	
+		-->
+		
+		<FlowLine Type="Sine" Config="Script/Pulse/Visualization/LI/FlowLineSineThin1.xml"/> 
+		<FlowLine Type="Sine" Config="Script/Pulse/Visualization/LI/FlowLineSineThin2.xml"/>
+		<FlowLine Type="Sine" Config="Script/Pulse/Visualization/LI/FlowLineSineThin3.xml"/>
+		<FlowLine Type="Sine" Config="Script/Pulse/Visualization/LI/FlowLineSineThin4.xml"/>
+		<FlowLine Type="Sine" Config="Script/Pulse/Visualization/LI/FlowLineSineThin5.xml"/>	
+		<FlowLine Type="Sine" Config="Script/Pulse/Visualization/LI/FlowLineSineThin6.xml"/>
+		<!--FlowLine Type="Sine" Config="Script/Pulse/Visualization/FlowLineSineThin7.xml"/>
+		<FlowLine Type="Sine" Config="Script/Pulse/Visualization/FlowLineSineThin8.xml"/>
+		<FlowLine Type="Sine" Config="Script/Pulse/Visualization/FlowLineSineThin9.xml"/>
+		<FlowLine Type="Sine" Config="Script/Pulse/Visualization/FlowLineSineThin10.xml"/-->
+	</FlowLines>
+</PLVisualizationFlowLine>

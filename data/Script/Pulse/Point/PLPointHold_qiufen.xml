@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<PLPointHold>
+    <Sprite Frame="HoldPoint_dashu.png"/>
+	<Pan Frame="HoldPan_qiufen.png"/>
+	<Ring Frame="Ring.png"/>
+	<Circle Frame="pointPrompt.png"/>
+	<!--<PointColor R="255" G="64" B="18"/>-->
+	<PointColor R="255" G="255" B="255"/>
+	<Effects>
+	    <Perfect GroupName="WanMeiEffect_qiufen"/>
+		<Nice GroupName="LiangHaoEffect_qiufen"/>
+		<Fail GroupName="FailEffect_qiufen"/>
+	</Effects>
+</PLPointHold>

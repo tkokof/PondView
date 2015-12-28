@@ -1,0 +1,462 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- 被2011 rel. 2 sp1 (Hugo) 使用XMLSpy vChina编辑的 (http://www.altova.com) by -->
+<PLEffectManager>
+	<Effects>
+		<Effect Name="PerfectSound" Config="Script/Pulse/Effect/PLEffectSoundPerfect.xml"/>
+		<Effect Name="NiceSound" Config="Script/Pulse/Effect/PLEffectSoundNice.xml"/>
+		<Effect Name="FailSound" Config="Script/Pulse/Effect/PLEffectSoundFail.xml"/>
+		<Effect Name="Explosion_error" Config="Script/Pulse/Effect/PLEffectExplosion_error.xml"/>
+		<Effect Name="Explosion_dashu_guang" Config="Script/Pulse/Effect/PLEffectExplosion_xuanguang.xml"/>
+		<Effect Name="Explosion_lidong_shuye" Config="Script/Pulse/Effect/PLEffectExplosion_lidong_shuye.xml"/>
+		<Effect Name="Explosion_dongzhi_shuye" Config="Script/Pulse/Effect/PLEffectExplosion_dongzhi_shuye.xml"/>
+		<Effect Name="Explosion_dahan_shuye" Config="Script/Pulse/Effect/PLEffectExplosion_dahan_shuye.xml"/>
+		<Effect Name="Explosion_lichun_shuye" Config="Script/Pulse/Effect/PLEffectExplosion_lichun_shuye.xml"/>
+		<Effect Name="Explosion_chunfen_shuye" Config="Script/Pulse/Effect/PLEffectExplosion_chunfen_shuye.xml"/>
+		<Effect Name="Explosion_qingming_shuye" Config="Script/Pulse/Effect/PLEffectExplosion_qingming_shuye.xml"/>
+		<Effect Name="Explosion_lixia_shuye" Config="Script/Pulse/Effect/PLEffectExplosion_lixia_shuye.xml"/>
+		<Effect Name="Explosion_xiazhi_shuye" Config="Script/Pulse/Effect/PLEffectExplosion_xiazhi_shuye.xml"/>
+		<Effect Name="Explosion_dashu_shuye" Config="Script/Pulse/Effect/PLEffectExplosion_dashu_shuye.xml"/>
+		<Effect Name="Explosion_chushu_shuye" Config="Script/Pulse/Effect/PLEffectExplosion_chushu_shuye.xml"/>
+		<Effect Name="Explosion_qiufen_shuye" Config="Script/Pulse/Effect/PLEffectExplosion_qiufen_shuye.xml"/>
+		<Effect Name="Explosion_shuangjiang_shuye" Config="Script/Pulse/Effect/PLEffectExplosion_shuangjiang_shuye.xml"/>
+		<Effect Name="Explosion_lidong_huaye" Config="Script/Pulse/Effect/PLEffectExplosion_lidong_huaye.xml"/>
+		<Effect Name="Explosion_dongzhi_huaye" Config="Script/Pulse/Effect/PLEffectExplosion_dongzhi_huaye.xml"/>
+		<Effect Name="Explosion_dahan_huaye" Config="Script/Pulse/Effect/PLEffectExplosion_dahan_huaye.xml"/>
+		<Effect Name="Explosion_lichun_huaye" Config="Script/Pulse/Effect/PLEffectExplosion_lichun_huaye.xml"/>
+		<Effect Name="Explosion_chunfen_huaye" Config="Script/Pulse/Effect/PLEffectExplosion_chunfen_huaye.xml"/>
+		<Effect Name="Explosion_qingming_huaye" Config="Script/Pulse/Effect/PLEffectExplosion_qingming_huaye.xml"/>
+		<Effect Name="Explosion_lixia_huaye" Config="Script/Pulse/Effect/PLEffectExplosion_lixia_huaye.xml"/>
+		<Effect Name="Explosion_xiazhi_huaye" Config="Script/Pulse/Effect/PLEffectExplosion_xiazhi_huaye.xml"/>
+		<Effect Name="Explosion_dashu_huaye" Config="Script/Pulse/Effect/PLEffectExplosion_dashu_huaye.xml"/>
+		<Effect Name="Explosion_chushu_huaye" Config="Script/Pulse/Effect/PLEffectExplosion_chushu_huaye.xml"/>
+		<Effect Name="Explosion_qiufen_huaye" Config="Script/Pulse/Effect/PLEffectExplosion_qiufen_huaye.xml"/>
+		<Effect Name="Explosion_shuangjiang_huaye" Config="Script/Pulse/Effect/PLEffectExplosion_shuangjiang_huaye.xml"/>
+		<Effect Name="Explosion_lidong_huaban" Config="Script/Pulse/Effect/PLEffectExplosion_lidong_huaban.xml"/>
+		<Effect Name="Explosion_dongzhi_huaban" Config="Script/Pulse/Effect/PLEffectExplosion_dongzhi_huaban.xml"/>
+		<Effect Name="Explosion_dahan_huaban" Config="Script/Pulse/Effect/PLEffectExplosion_dahan_huaban.xml"/>
+		<Effect Name="Explosion_lichun_huaban" Config="Script/Pulse/Effect/PLEffectExplosion_lichun_huaban.xml"/>
+		<Effect Name="Explosion_chunfen_huaban" Config="Script/Pulse/Effect/PLEffectExplosion_chunfen_huaban.xml"/>
+		<Effect Name="Explosion_qingming_huaban" Config="Script/Pulse/Effect/PLEffectExplosion_qingming_huaban.xml"/>
+		<Effect Name="Explosion_lixia_huaban" Config="Script/Pulse/Effect/PLEffectExplosion_lixia_huaban.xml"/>
+		<Effect Name="Explosion_xiazhi_huaban" Config="Script/Pulse/Effect/PLEffectExplosion_xiazhi_huaban.xml"/>
+		<Effect Name="Explosion_chushu_huaban" Config="Script/Pulse/Effect/PLEffectExplosion_chushu_huaban.xml"/>
+		<Effect Name="Explosion_dashu_huaban" Config="Script/Pulse/Effect/PLEffectExplosion_dashu_huaban.xml"/>
+		<Effect Name="Explosion_qiufen_huaban" Config="Script/Pulse/Effect/PLEffectExplosion_qiufen_huaban.xml"/>
+		<Effect Name="Explosion_shuangjiang_huaban" Config="Script/Pulse/Effect/PLEffectExplosion_shuangjiang_huaban.xml"/>
+		<Effect Name="Explosion_lidong_ye" Config="Script/Pulse/Effect/PLEffectExplosion_lidong_ye.xml"/>
+		<Effect Name="Explosion_dongzhi_ye" Config="Script/Pulse/Effect/PLEffectExplosion_dongzhi_ye.xml"/>
+		<Effect Name="Explosion_dahan_ye" Config="Script/Pulse/Effect/PLEffectExplosion_dahan_ye.xml"/>
+		<Effect Name="Explosion_lichun_ye" Config="Script/Pulse/Effect/PLEffectExplosion_lichun_ye.xml"/>
+		<Effect Name="Explosion_chunfen_ye" Config="Script/Pulse/Effect/PLEffectExplosion_chunfen_ye.xml"/>
+		<Effect Name="Explosion_qingming_ye" Config="Script/Pulse/Effect/PLEffectExplosion_qingming_ye.xml"/>
+		<Effect Name="Explosion_lixia_ye" Config="Script/Pulse/Effect/PLEffectExplosion_lixia_ye.xml"/>
+		<Effect Name="Explosion_xiazhi_ye" Config="Script/Pulse/Effect/PLEffectExplosion_xiazhi_ye.xml"/>
+		<Effect Name="Explosion_dashu_ye" Config="Script/Pulse/Effect/PLEffectExplosion_dashu_ye.xml"/>
+		<Effect Name="Explosion_chushu_ye" Config="Script/Pulse/Effect/PLEffectExplosion_chushu_ye.xml"/>
+		<Effect Name="Explosion_qiufen_ye" Config="Script/Pulse/Effect/PLEffectExplosion_qiufen_ye.xml"/>
+		<Effect Name="Explosion_shuangjiang_ye" Config="Script/Pulse/Effect/PLEffectExplosion_shuangjiang_ye.xml"/>
+		<Effect Name="Explosion_tutorial_you" Config="Script/Pulse/Effect/PLEffectExplosion_tutorial_you.xml"/>
+		<Effect Name="Explosion_tutorial_liang" Config="Script/Pulse/Effect/PLEffectExplosion_tutorial_liang.xml"/>
+		<Effect Name="Explosion_tutorial_cha" Config="Script/Pulse/Effect/PLEffectExplosion_tutorial_cha.xml"/>
+		<Effect Name="Explosion_tutorial_liang_combo" Config="Script/Pulse/Effect/PLEffectExplosion_tutorial_liang_combo.xml"/>
+		<Effect Name="Explosion_tutorial_you_combo" Config="Script/Pulse/Effect/PLEffectExplosion_tutorial_you_combo.xml"/>
+		<!-- combopress -->
+		<Effect Name="Explosion_combo_xuanguang" Config="Script/Pulse/Effect/PLEffectExplosion_combo_xuanguang.xml"/>
+		<Effect Name="Explosion_tutorial_combo_huaban" Config="Script/Pulse/Effect/PLEffectExplosion_tutorial_combo_huaban.xml"/>
+		<Effect Name="Explosion_lichun_combo_huaban" Config="Script/Pulse/Effect/PLEffectExplosion_lichun_combo_huaban.xml"/>
+		<Effect Name="Explosion_qingming_combo_huaban" Config="Script/Pulse/Effect/PLEffectExplosion_qingming_combo_huaban.xml"/>
+		<Effect Name="Explosion_lixia_combo_huaban" Config="Script/Pulse/Effect/PLEffectExplosion_lixia_combo_huaban.xml"/>
+		<Effect Name="Explosion_chushu_combo_huaban" Config="Script/Pulse/Effect/PLEffectExplosion_chushu_combo_huaban.xml"/>
+		<Effect Name="Explosion_qiufen_combo_huaban" Config="Script/Pulse/Effect/PLEffectExplosion_qiufen_combo_huaban.xml"/>
+		<Effect Name="Explosion_shuangjiang_combo_huaban" Config="Script/Pulse/Effect/PLEffectExplosion_shuangjiang_combo_huaban.xml"/>
+		<Effect Name="Explosion_tutorial_combo_ye" Config="Script/Pulse/Effect/PLEffectExplosion_tutorial_combo_ye.xml"/>
+		<Effect Name="Explosion_lichun_combo_ye" Config="Script/Pulse/Effect/PLEffectExplosion_lichun_combo_ye.xml"/>
+		<Effect Name="Explosion_qingming_combo_ye" Config="Script/Pulse/Effect/PLEffectExplosion_qingming_combo_ye.xml"/>
+		<Effect Name="Explosion_lixia_combo_ye" Config="Script/Pulse/Effect/PLEffectExplosion_lixia_combo_ye.xml"/>
+		<Effect Name="Explosion_chushu_combo_ye" Config="Script/Pulse/Effect/PLEffectExplosion_chushu_combo_ye.xml"/>
+		<Effect Name="Explosion_qiufen_combo_ye" Config="Script/Pulse/Effect/PLEffectExplosion_qiufen_combo_ye.xml"/>
+		<Effect Name="Explosion_shuangjiang_combo_ye" Config="Script/Pulse/Effect/PLEffectExplosion_shuangjiang_combo_ye.xml"/>
+		<Effect Name="Explosion_lichun_combo_huaye" Config="Script/Pulse/Effect/PLEffectExplosion_lichun_combo_huaye.xml"/>
+		<Effect Name="Explosion_qingming_combo_huaye" Config="Script/Pulse/Effect/PLEffectExplosion_qingming_combo_huaye.xml"/>
+		<Effect Name="Explosion_lixia_combo_huaye" Config="Script/Pulse/Effect/PLEffectExplosion_lixia_combo_huaye.xml"/>
+		<Effect Name="Explosion_chushu_combo_huaye" Config="Script/Pulse/Effect/PLEffectExplosion_chushu_combo_huaye.xml"/>
+		<Effect Name="Explosion_qiufen_combo_huaye" Config="Script/Pulse/Effect/PLEffectExplosion_qiufen_combo_huaye.xml"/>
+		<Effect Name="Explosion_shuangjiang_combo_huaye" Config="Script/Pulse/Effect/PLEffectExplosion_shuangjiang_combo_huaye.xml"/>
+		<Effect Name="Explosion_tutorial_combo_huaye" Config="Script/Pulse/Effect/PLEffectExplosion_tutorial_combo_huaye.xml"/>
+		<!-- new effects -->
+		<Effect Name="Explosion_BaiHuaLiaoLuan" Config="Script/Pulse/Effect/PLEffectExplosionBaiHuaLiaoLuan.xml"/>
+		<Effect Name="Explosion_BaiHuaLiaoLuanLong" Config="Script/Pulse/Effect/PLEffectExplosionBaiHuaLiaoLuanLong.xml"/>
+		<Effect Name="NormalSound_1" Config="Script/Pulse/Effect/PLEffectSoundNormal1.xml"/>
+		<Effect Name="NormalSound_2" Config="Script/Pulse/Effect/PLEffectSoundNormal2.xml"/>
+		<Effect Name="SoftSound_1" Config="Script/Pulse/Effect/PLEffectSoundSoft1.xml"/>
+		<Effect Name="SoftSound_2" Config="Script/Pulse/Effect/PLEffectSoundSoft2.xml"/>
+		<Effect Name="Explosion_Flower_Combo_Perfect" Config="Script/Pulse/Effect/PLEffectExplosion_dashu_huaban.xml"/>
+		<Effect Name="Explosion_Flower_Combo_Nice" Config="Script/Pulse/Effect/PLEffectExplosion_dashu_huaban.xml"/>
+		<Effect Name="Explosion_Flower_Hold_Perfect" Config="Script/Pulse/Effect/PLEffectExplosion_dashu_huaban.xml"/>
+		<Effect Name="Explosion_Flower_Hold_Nice" Config="Script/Pulse/Effect/PLEffectExplosion_dashu_huaban.xml"/>
+		<!-- new effects -->
+		<!-- animation effects -->
+		<Effect Name="Explosion_Animation_Fish" Config="Script/Pulse/Effect/PLEffectExplosionFish.xml"/>
+		<!-- animation effects -->
+	</Effects>
+	<EffectGroups>
+		<!--tutorial_texiao-->
+		<EffectGroup Name="WanMeiEffect_tutorial">
+			<Effect Name="Explosion_tutorial_you"/>
+			<Effect Name="Explosion_dashu_guang" Order="-1"/>
+			<Effect Name="Explosion_dashu_huaye"/>
+		</EffectGroup>
+		<EffectGroup Name="LiangHaoEffect_tutorial">
+			<Effect Name="Explosion_tutorial_liang"/>
+			<Effect Name="Explosion_dashu_huaban"/>
+		</EffectGroup>
+		<EffectGroup Name="FailEffect_tutorial">
+			<Effect Name="Explosion_tutorial_cha"/>
+			<Effect Name="Explosion_error"/>
+			<Effect Name="FailSound"/>
+		</EffectGroup>
+		<EffectGroup Name="WanMeiEffect_tutorial_combo">
+			<!-- <Effect Name="Explosion_dashu_guang" Order="-1"/> -->
+			<Effect Name="Explosion_tutorial_combo_huaye"/>
+			<Effect Name="Explosion_tutorial_you_combo"/>
+		</EffectGroup>
+		<EffectGroup Name="LiangHaoEffect_tutorial_combo">
+			<Effect Name="Explosion_tutorial_combo_huaban"/>
+			<Effect Name="Explosion_tutorial_liang_combo"/>
+		</EffectGroup>
+		<!--lidong_texiao-->
+		<EffectGroup Name="WanMeiEffect_lidong">
+			<Effect Name="Explosion_lidong_huaye"/>
+			<Effect Name="Explosion_dashu_guang" Order="-1"/>
+		</EffectGroup>
+		<EffectGroup Name="LiangHaoEffect_lidong">
+			<Effect Name="Explosion_lidong_huaban"/>
+		</EffectGroup>
+		<EffectGroup Name="FailEffect_lidong">
+			<Effect Name="Explosion_error"/>
+			<Effect Name="FailSound"/>
+		</EffectGroup>
+		<EffectGroup Name="Lidong_End_Perfect">
+			<Effect Name="Explosion_dashu_guang" Order="-1"/>
+			<Effect Name="Explosion_lidong_shuye"/>
+		</EffectGroup>
+		<EffectGroup Name="Lidong_End_Nice">
+			<Effect Name="Explosion_lidong_shuye"/>
+		</EffectGroup>
+		<!--dongzhi_texiao-->
+		<EffectGroup Name="WanMeiEffect_dongzhi">
+			<Effect Name="Explosion_dashu_guang" Order="-1"/>
+			<Effect Name="Explosion_dongzhi_huaye"/>
+		</EffectGroup>
+		<EffectGroup Name="LiangHaoEffect_dongzhi">
+			<Effect Name="Explosion_dongzhi_huaban"/>
+		</EffectGroup>
+		<EffectGroup Name="FailEffect_dongzhi">
+			<Effect Name="Explosion_error"/>
+			<Effect Name="FailSound"/>
+		</EffectGroup>
+		<EffectGroup Name="Dongzhi_End_Perfect">
+			<Effect Name="Explosion_dashu_guang" Order="-1"/>
+			<Effect Name="Explosion_dongzhi_shuye"/>
+		</EffectGroup>
+		<EffectGroup Name="Dongzhi_End_Nice">
+			<Effect Name="Explosion_dongzhi_shuye"/>
+		</EffectGroup>
+		<!--dahan_texiao-->
+		<EffectGroup Name="WanMeiEffect_dahan">
+			<Effect Name="Explosion_dashu_guang" Order="-1"/>
+			<Effect Name="Explosion_dahan_huaye"/>
+		</EffectGroup>
+		<EffectGroup Name="LiangHaoEffect_dahan">
+			<Effect Name="Explosion_dahan_huaban"/>
+		</EffectGroup>
+		<EffectGroup Name="FailEffect_dahan">
+			<Effect Name="Explosion_error"/>
+			<Effect Name="FailSound"/>
+		</EffectGroup>
+		<EffectGroup Name="Dahan_End_Perfect">
+			<Effect Name="Explosion_dashu_guang" Order="-1"/>
+			<Effect Name="Explosion_dahan_shuye"/>
+		</EffectGroup>
+		<EffectGroup Name="Dahan_End_Nice">
+			<Effect Name="Explosion_dahan_shuye"/>
+		</EffectGroup>
+		<!--lichun_texiao-->
+		<EffectGroup Name="WanMeiEffect_lichun">
+			<Effect Name="Explosion_dashu_guang" Order="-1"/>
+			<Effect Name="Explosion_lichun_huaye"/>
+		</EffectGroup>
+		<EffectGroup Name="LiangHaoEffect_lichun">
+			<Effect Name="Explosion_lichun_huaban"/>
+		</EffectGroup>
+		<EffectGroup Name="FailEffect_lichun">
+			<Effect Name="Explosion_error"/>
+			<Effect Name="FailSound"/>
+		</EffectGroup>
+		<EffectGroup Name="Lichun_End_Perfect">
+			<Effect Name="Explosion_dashu_guang" Order="-1"/>
+			<Effect Name="Explosion_lichun_shuye"/>
+		</EffectGroup>
+		<EffectGroup Name="Lichun_End_Nice">
+			<Effect Name="Explosion_lichun_shuye"/>
+		</EffectGroup>
+		<EffectGroup Name="WanMeiEffect_lichun_combo">
+			<!-- <Effect Name="Explosion_dashu_guang" Order="-1"/> -->
+			<Effect Name="Explosion_lichun_combo_huaye"/>
+		</EffectGroup>
+		<EffectGroup Name="LiangHaoEffect_lichun_combo">
+			<Effect Name="Explosion_lichun_combo_huaban"/>
+		</EffectGroup>
+		<!--chunfen_texiao-->
+		<EffectGroup Name="WanMeiEffect_chunfen">
+			<Effect Name="Explosion_dashu_guang" Order="-1"/>
+			<Effect Name="Explosion_chunfen_huaye"/>
+		</EffectGroup>
+		<EffectGroup Name="LiangHaoEffect_chunfen">
+			<Effect Name="Explosion_chunfen_huaban"/>
+		</EffectGroup>
+		<EffectGroup Name="FailEffect_chunfen">
+			<Effect Name="Explosion_error"/>
+			<Effect Name="FailSound"/>
+		</EffectGroup>
+		<EffectGroup Name="Chunfen_End_Perfect">
+			<Effect Name="Explosion_dashu_guang" Order="-1"/>
+			<Effect Name="Explosion_chunfen_shuye"/>
+		</EffectGroup>
+		<EffectGroup Name="Chunfen_End_Nice">
+			<Effect Name="Explosion_chunfen_shuye"/>
+		</EffectGroup>
+		<!--qingming_texiao-->
+		<EffectGroup Name="WanMeiEffect_qingming">
+			<Effect Name="Explosion_dashu_guang" Order="-1"/>
+			<Effect Name="Explosion_qingming_huaye"/>
+		</EffectGroup>
+		<EffectGroup Name="LiangHaoEffect_qingming">
+			<Effect Name="Explosion_qingming_huaban"/>
+		</EffectGroup>
+		<EffectGroup Name="FailEffect_qingming">
+			<Effect Name="Explosion_error"/>
+			<Effect Name="FailSound"/>
+		</EffectGroup>
+		<EffectGroup Name="Qingming_End_Perfect">
+			<Effect Name="Explosion_dashu_guang" Order="-1"/>
+			<Effect Name="Explosion_qingming_shuye"/>
+		</EffectGroup>
+		<EffectGroup Name="Qingming_End_Nice">
+			<Effect Name="Explosion_qingming_shuye"/>
+		</EffectGroup>
+		<EffectGroup Name="WanMeiEffect_qingming_combo">
+			<!-- <Effect Name="Explosion_dashu_guang" Order="-1"/> -->
+			<Effect Name="Explosion_qingming_combo_huaye"/>
+		</EffectGroup>
+		<EffectGroup Name="LiangHaoEffect_qingming_combo">
+			<Effect Name="Explosion_qingming_combo_huaban"/>
+		</EffectGroup>
+		<!--lixia_texiao-->
+		<EffectGroup Name="WanMeiEffect_lixia">
+			<Effect Name="Explosion_dashu_guang" Order="-1"/>
+			<Effect Name="Explosion_lixia_huaye"/>
+		</EffectGroup>
+		<EffectGroup Name="LiangHaoEffect_lixia">
+			<Effect Name="Explosion_lixia_huaban"/>
+		</EffectGroup>
+		<EffectGroup Name="FailEffect_lixia">
+			<Effect Name="Explosion_error"/>
+			<Effect Name="FailSound"/>
+		</EffectGroup>
+		<EffectGroup Name="Lixia_End_Perfect">
+			<Effect Name="Explosion_dashu_guang" Order="-1"/>
+			<Effect Name="Explosion_lixia_shuye"/>
+		</EffectGroup>
+		<EffectGroup Name="Lixia_End_Nice">
+			<Effect Name="Explosion_lixia_shuye"/>
+		</EffectGroup>
+		<EffectGroup Name="WanMeiEffect_lixia_combo">
+			<!-- <Effect Name="Explosion_dashu_guang" Order="-1"/> -->
+			<Effect Name="Explosion_lixia_combo_huaye"/>
+		</EffectGroup>
+		<EffectGroup Name="LiangHaoEffect_lixia_combo">
+			<Effect Name="Explosion_lixia_combo_huaban"/>
+		</EffectGroup>
+		<!--xiazhi_texiao-->
+		<EffectGroup Name="WanMeiEffect_xiazhi">
+			<Effect Name="Explosion_xiazhi_huaye"/>
+			<Effect Name="Explosion_dashu_guang" Order="-1"/>
+		</EffectGroup>
+		<EffectGroup Name="LiangHaoEffect_xiazhi">
+			<Effect Name="Explosion_xiazhi_huaban"/>
+		</EffectGroup>
+		<EffectGroup Name="FailEffect_xiazhi">
+			<Effect Name="Explosion_error"/>
+			<Effect Name="FailSound"/>
+		</EffectGroup>
+		<EffectGroup Name="Xiazhi_End_Perfect">
+			<Effect Name="Explosion_dashu_guang" Order="-1"/>
+			<Effect Name="Explosion_xiazhi_shuye"/>
+		</EffectGroup>
+		<EffectGroup Name="Xiazhi_End_Nice">
+			<Effect Name="Explosion_xiazhi_shuye"/>
+		</EffectGroup>
+		<!--dashu_texiao-->
+		<EffectGroup Name="WanMeiEffect_dashu">
+			<Effect Name="Explosion_dashu_huaye"/>
+			<Effect Name="Explosion_dashu_guang" Order="-1"/>
+		</EffectGroup>
+		<EffectGroup Name="LiangHaoEffect_dashu">
+			<Effect Name="Explosion_dashu_huaban"/>
+		</EffectGroup>
+		<EffectGroup Name="FailEffect_dashu">
+			<Effect Name="Explosion_error"/>
+			<Effect Name="FailSound"/>
+		</EffectGroup>
+		<EffectGroup Name="Dashu_End_Perfect">
+			<Effect Name="Explosion_dashu_guang" Order="-1"/>
+			<Effect Name="Explosion_dashu_shuye"/>
+		</EffectGroup>
+		<EffectGroup Name="Dashu_End_Nice">
+			<Effect Name="Explosion_dashu_shuye"/>
+		</EffectGroup>
+		<!--chushu_texiao-->
+		<EffectGroup Name="WanMeiEffect_chushu">
+			<Effect Name="Explosion_dashu_guang" Order="-1"/>
+			<Effect Name="Explosion_chushu_huaye"/>
+		</EffectGroup>
+		<EffectGroup Name="LiangHaoEffect_chushu">
+			<Effect Name="Explosion_chushu_huaban"/>
+		</EffectGroup>
+		<EffectGroup Name="FailEffect_chushu">
+			<Effect Name="Explosion_error"/>
+			<Effect Name="FailSound"/>
+		</EffectGroup>
+		<EffectGroup Name="Chushu_End_Perfect">
+			<Effect Name="Explosion_dashu_guang" Order="-1"/>
+			<Effect Name="Explosion_chushu_shuye"/>
+		</EffectGroup>
+		<EffectGroup Name="Chushu_End_Nice">
+			<Effect Name="Explosion_chushu_shuye"/>
+		</EffectGroup>
+		<EffectGroup Name="WanMeiEffect_chushu_combo">
+			<!-- <Effect Name="Explosion_dashu_guang" Order="-1"/> -->
+			<Effect Name="Explosion_chushu_combo_huaye"/>
+		</EffectGroup>
+		<EffectGroup Name="LiangHaoEffect_chushu_combo">
+			<Effect Name="Explosion_chushu_combo_huaban"/>
+		</EffectGroup>
+		<!--qiufen_texiao-->
+		<EffectGroup Name="WanMeiEffect_qiufen">
+			<Effect Name="Explosion_dashu_guang" Order="-1"/>
+			<Effect Name="Explosion_qiufen_huaye"/>
+		</EffectGroup>
+		<EffectGroup Name="LiangHaoEffect_qiufen">
+			<Effect Name="Explosion_qiufen_huaban"/>
+		</EffectGroup>
+		<EffectGroup Name="FailEffect_qiufen">
+			<Effect Name="Explosion_error"/>
+			<Effect Name="FailSound"/>
+		</EffectGroup>
+		<EffectGroup Name="Qiufen_End_Perfect">
+			<Effect Name="Explosion_dashu_guang" Order="-1"/>
+			<Effect Name="Explosion_qiufen_shuye"/>
+		</EffectGroup>
+		<EffectGroup Name="Qiufen_End_Nice">
+			<Effect Name="Explosion_qiufen_shuye"/>
+		</EffectGroup>
+		<EffectGroup Name="WanMeiEffect_qiufen_combo">
+			<!-- <Effect Name="Explosion_dashu_guang" Order="-1"/> -->
+			<Effect Name="Explosion_qiufen_combo_huaye"/>
+		</EffectGroup>
+		<EffectGroup Name="LiangHaoEffect_qiufen_combo">
+			<Effect Name="Explosion_qiufen_combo_huaban"/>
+		</EffectGroup>
+		<!--shuangjiang_texiao-->
+		<EffectGroup Name="WanMeiEffect_shuangjiang">
+			<Effect Name="Explosion_dashu_guang" Order="-1"/>
+			<Effect Name="Explosion_shuangjiang_huaye"/>
+		</EffectGroup>
+		<EffectGroup Name="LiangHaoEffect_shuangjiang">
+			<Effect Name="Explosion_shuangjiang_huaban"/>
+		</EffectGroup>
+		<EffectGroup Name="FailEffect_shuangjiang">
+			<Effect Name="Explosion_error"/>
+			<Effect Name="FailSound"/>
+		</EffectGroup>
+		<EffectGroup Name="Shuangjiang_End_Perfect">
+			<Effect Name="Explosion_dashu_guang" Order="-1"/>
+			<Effect Name="Explosion_shuangjiang_shuye"/>
+		</EffectGroup>
+		<EffectGroup Name="Shuangjiang_End_Nice">
+			<Effect Name="Explosion_shuangjiang_shuye"/>
+		</EffectGroup>
+		<EffectGroup Name="WanMeiEffect_shuangjiang_combo">
+			<!-- <Effect Name="Explosion_dashu_guang" Order="-1"/> -->
+			<Effect Name="Explosion_shuangjiang_combo_huaye"/>
+		</EffectGroup>
+		<EffectGroup Name="LiangHaoEffect_shuangjiang_combo">
+			<Effect Name="Explosion_shuangjiang_combo_huaban"/>
+		</EffectGroup>
+		<!-- null effect -->
+		<EffectGroup Name="NullEffect">
+		</EffectGroup>
+		<EffectGroup Name="ComboPerfect_1">
+			<Effect Name="Explosion_Flower_Combo_Perfect"/>
+		</EffectGroup>
+		<EffectGroup Name="ComboNice_1">
+			<Effect Name="Explosion_Flower_Combo_Nice"/>
+		</EffectGroup>
+		<EffectGroup Name="HoldPerfect_1">
+			<Effect Name="Explosion_Flower_Hold_Perfect"/>
+		</EffectGroup>
+		<EffectGroup Name="HoldNice_1">
+			<Effect Name="Explosion_Flower_Hold_Nice"/>
+		</EffectGroup>
+		<!--
+		< fail effects >
+		<EffectGroup Name="FailEffect_1">
+		    <Effect Name="FailSound"/>
+			<Effect Name="Explosion_3"/>
+		</EffectGroup>
+		< perfect effects >
+	    
+		
+		<EffectGroup Name="PerfectEffect_2">
+		    <Effect Name="PerfectSound"/>
+		    <Effect Name="Explosion_3"/>
+		</EffectGroup>
+		< nice effects >
+		<EffectGroup Name="NiceEffect_1">
+		    <Effect Name="NiceSound"/>
+		    <Effect Name="Explosion_dongzhi_2"/>
+		</EffectGroup>
+		<EffectGroup Name="NiceEffect_2">
+		    <Effect Name="NiceSound"/>
+		    <Effect Name="Explosion_3"/>
+		</EffectGroup>
+		< wanmei effects >
+		<EffectGroup Name="WanMeiEffect_2">
+		    <Effect Name="Explosion_3"/>
+		</EffectGroup>
+		< lianghao effects >
+		
+		
+		<EffectGroup Name="LiangHaoEffect_2">
+		    <Effect Name="Explosion_3"/>
+		</EffectGroup>
+		-->
+		<!-- test effects -->
+		<EffectGroup Name="BaiHuaLiaoLuan">
+			<Effect Name="NormalSound_1"/>
+			<Effect Name="Explosion_BaiHuaLiaoLuan"/>
+		</EffectGroup>
+		<EffectGroup Name="BaiHuaLiaoLuanLong">
+			<Effect Name="SoftSound_2"/>
+			<Effect Name="Explosion_BaiHuaLiaoLuanLong"/>
+		</EffectGroup>
+		<EffectGroup Name="AnimationFish">
+			<Effect Name="Explosion_Animation_Fish"/>
+		</EffectGroup>
+		<EffectGroup Name="FailEffectCommon">
+		    <Effect Name="Explosion_error"/>
+		</EffectGroup>
+		<!-- test effects -->
+	</EffectGroups>
+</PLEffectManager>

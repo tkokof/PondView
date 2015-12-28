@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<PLVisualizationBubble>
+   <Sprite Path="Sprite/Pulse/Point/ComboPress.png"/>
+   <Spawn>
+       <Count Value="8"/>
+	   <Opacity Value="72"/>
+	   <Duration Value="1.0"/>
+	   <Scale Value="1.2"/>
+   </Spawn>
+</PLVisualizationBubble>

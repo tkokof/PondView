@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<PLPointSinglePress>
+    <Sprite Frame="SinglePress_chunfen_Big.png"/>
+	<Circle Frame="pointPrompt.png"/>
+	<OriginalColor R="117" G="117" B="117"/>
+	<OriginalColorCircle R="255" G="255" B="255"/>
+	<TargetColor R="255" G="255" B="255"/>
+	<TargetColorCircle R="239" G="53" B="123"/>
+	<TargetSize Value="2.0"/>
+	<SpeedValue Value="128"/>
+	<Effects>
+	    <Perfect GroupName="WanMeiEffect_chunfen"/>
+		<Nice GroupName="LiangHaoEffect_chunfen"/>
+		<Fail GroupName="FailEffect_chunfen"/>
+	</Effects>
+</PLPointSinglePress>

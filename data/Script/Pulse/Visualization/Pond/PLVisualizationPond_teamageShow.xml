@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<PLVisualizationPond>
+    <FishConfig>
+	    <Fish Config="Script/Pulse/Visualization/Pond/lidong/Fish_lidong_00.xml"/>
+	    <Fish Config="Script/Pulse/Visualization/Pond/lidong/Fish_lidong_01.xml"/>
+		<Fish Config="Script/Pulse/Visualization/Pond/lidong/Fish_lidong_02.xml"/>
+		<Fish Config="Script/Pulse/Visualization/Pond/lidong/Fish_lidong_03.xml"/>
+		<Fish Config="Script/Pulse/Visualization/Pond/lidong/Fish_lidong_04.xml"/>
+		<Fish Config="Script/Pulse/Visualization/Pond/lidong/Fish_lidong_05.xml"/>
+	</FishConfig>
+    <DrawElements/>
+	<PLPondRender Config="Script/Pulse/Visualization/Pond/PLPondRender_teamageShow.xml"/>
+</PLVisualizationPond>

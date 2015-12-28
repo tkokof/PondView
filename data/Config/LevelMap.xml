@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<LevelMap>
+	<!--<Map Song="LaDiDa.mp3" Level="LevelTest_LaDiDa_GC.xml"/>-->
+	<Map Song="LaDiDa2.mp3" Level="LevelTest_LaDiDa2_GC.xml"/>
+	<Map Song="FateOp.mp3" Level="LevelTest_FateOp_GC.xml"/>
+	<Map Song="CallingTheMaker.mp3" Level="LevelTest_CallingTheMaker_GC.xml"/>
+	<Map Song="ZuixXuanMinZuFeng.ogg" Level="LevelTest_ZuixXuanMinZuFeng_GC.xml"/>
+	<Map Song="CallingTheMaker2.mp3" Level="LevelTest_CallingTheMaker2_GC.xml"/>
+	<Map Song="AndImHome.mp3" Level="LevelTest_AndImHome_GC.xml"/>
+	<Map Song="HanaNoIro.mp3" Level="LevelTest_HanaNoIro_GC.xml"/>
+	<Map Song="ChuShu.mp3" Level="LevelTest_ChuShu_PL.xml"/>
+	<Map Song="LowTide2.mp3" Level="LevelTest_LowTide2_PL.xml"/>
+	<Map Song="Tougenkyou.mp3" Level="LevelTest_Tougenkyou_PL.xml"/>
+	<Map Song="Sakura.mp3" Level="LevelTest_Sakura_PL.xml"/>
+    <Map Song="001.mp3" Level="LevelTest_001_PL.xml"/>
+    <Map Song="LiDong.mp3" Level="LevelTest_LiDong_PL.xml"/>
+	<Map Song="QingMing.mp3" Level="LevelTest_QingMing_PL.xml"/>
+    <Map Song="FeiYin.mp3" Level="LevelTest_DongZhi_PL.xml"/>
+	<Map Song="DaShu.mp3" Level="LevelTest_DaShu_PL.xml"/>
+	<Map Song="DaHan.mp3" Level="LevelTest_DaHan_PL.xml"/>
+	<Map Song="DongZhi.mp3" Level="LevelTest_DongZhi_PL.xml"/>
+	<Map Song="LiChun.mp3" Level="LevelTest_LiChun_PL.xml"/>
+	<Map Song="LaDiDa.mp3" Level="LevelTest_LaDiDa_PL.xml"/>
+	<Map Song="ChunFen.mp3" Level="LevelTest_ChunFen_PL.xml"/>
+	<Map Song="LiXia.mp3" Level="LevelTest_LiXia_PL.xml"/>
+	<Map Song="XiaZhi.mp3" Level="LevelTest_XiaZhi_PL.xml"/>
+	<Map Song="QiuFen.mp3" Level="LevelTest_QiuFen_PL.xml"/>
+	<Map Song="ShuangJiang.mp3" Level="LevelTest_ShuangJiang_PL.xml"/>
+	<Map Song="Straylight.mp3" Level="LevelTest_Straylight_PL.xml"/>
+	<Map Song="Tutorial.mp3" Level="LevelTest_Tutorial_PL.xml"/>
+	<Map Song="TeamageShow.mp3" Level="LevelTest_TeamageShow_PL.xml"/>
+</LevelMap>

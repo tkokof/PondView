@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<PLPondRender>
+    <BGSprite Path="Sprite/Pulse/Visualization/Pond/bg_lidong.png"/>
+	<LightSprite Path="Animation/Pulse/WaterLight/wl_samlltouming.png" Opacity="50" Scroll="0,0"/>
+	<LightAnimation Path="Animation/Pulse/WaterLight/wl_samlltouming.plist" FrameName="wl_samlltou_" Interval="0.06" Repeat="0"/>
+	<MaskSprite Path="Sprite/Pulse/GamePan/GamePanMask.png"/>
+	<RippleSprite QuadCountX="48" QuadCountY="48" TouchRadius="3" UpdateInterval="0.033"/>
+</PLPondRender>

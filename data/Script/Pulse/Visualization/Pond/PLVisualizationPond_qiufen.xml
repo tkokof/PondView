@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<PLVisualizationPond>
+    <FishConfig>
+	    <Fish Config="Script/Pulse/Visualization/Pond/qiufen/Fish_qiufen_00.xml"/>
+	    <Fish Config="Script/Pulse/Visualization/Pond/qiufen/Fish_qiufen_01.xml"/>
+		<Fish Config="Script/Pulse/Visualization/Pond/qiufen/Fish_qiufen_02.xml"/>
+		<Fish Config="Script/Pulse/Visualization/Pond/qiufen/Fish_qiufen_03.xml"/>
+		<Fish Config="Script/Pulse/Visualization/Pond/qiufen/Fish_qiufen_04.xml"/>
+		<Fish Config="Script/Pulse/Visualization/Pond/qiufen/Fish_qiufen_05.xml"/> 
+	</FishConfig>
+    <DrawElements>
+	<!--     <DrawElement Sprite="Sprite/Pulse/GamePan/Lotus_01.png" Pos="180,100" Scale="0.6" Opacity="255" Order="-1"/>
+		<DrawElement Sprite="Sprite/Pulse/GamePan/Lotus_02.png" Pos="275,210" Scale="0.4" Opacity="255" Order="-1"/> -->
+		<!--<DrawElement />-->
+	</DrawElements>
+	<PLPondRender Config="Script/Pulse/Visualization/Pond/PLPondRender_qiufen.xml"/>
+</PLVisualizationPond>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<StaticScene>
+    <Fade>
+	    <Stage Time="1.25" Value="191.25"/>
+		<Stage Time="0.5" Value="255"/>
+		<Stage Time="1.2" Value="255"/>
+		<Stage Time="0.4" Value="0"/>
+	</Fade>
+	<Sprites>
+	    <Sprite Path="Sprite/LogoAndInfo/cocos2d_x.png" PosX="240" PosY="160"/>
+	</Sprites>
+</StaticScene>

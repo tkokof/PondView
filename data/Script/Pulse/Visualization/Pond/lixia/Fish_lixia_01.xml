@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<PLPondFish>
+    <Sprite Path="Sprite/Pulse/Fish/Fish_FeiYin_03.png" Type="3" MixAmp="0.001" MixFreq="0.02" MixPhase="5" SpeedFactor="0.05" NodeCount="12" Scale="0.3"/>
+	<Pos Value="240,20"/>
+	<!--<Animation Path="Animation/Pulse/Fish/Fish.plist" FrameName="fish" Interval="0.05" Repeat="0" SpeedFactor="0.03"/>-->
+	<!-- <Animation Path="Animation/Pulse/Fish/Fish.plist" FrameName="fish" Interval="0.05" Repeat="0" SpeedFactor="0.03"/> --> 
+	<Damping Value="0.3"/>
+	<Speed Value="0"/>
+	<Threshold Value="64"/>
+	<Boundary X="112" Y="32" Width="256" Height="256"/>
+</PLPondFish>

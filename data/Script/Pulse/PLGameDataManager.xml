@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<PLGameDataManager>
+    <Score Visible="0">
+	    <Font Path="Font/InkFont.fnt" Scale="1.0" Color="37,84,90"/>
+		<Coord X="390" Y="30" Relative="0"/>
+		<Gain>
+		    <PerfectSP Value="300"/>
+			<NiceSP Value="150"/>
+			<PerfectCP Value="50"/>
+			<NiceCP Value="20"/>
+			<PerfectHD Value="300"/>
+			<NiceHD Value="150"/>
+			<DurationHD Value="200"/>
+			<ComboFactor Value="0.8"/>
+			<InputTimeTweak Value="0.8"/>
+		</Gain>
+	</Score>
+	<Combo Visible="0">
+	    <Font Path="Font/InkFont.fnt" Scale="0.8"/>
+		<ShowCount Value="3"/>
+		<Prefix Value="{"/>
+		<Suffix Value="}"/>
+		<Positions>
+		    <Position X="240" Y="160" Relative="0"/>
+			<!--
+			<Position X="300" Y="220" Relative="0"/>
+			<Position X="300" Y="100" Relative="0"/>
+			<Position X="180" Y="100" Relative="0"/>
+			<Position X="180" Y="220" Relative="0"/>
+			-->
+		</Positions>
+	</Combo>
+</PLGameDataManager>

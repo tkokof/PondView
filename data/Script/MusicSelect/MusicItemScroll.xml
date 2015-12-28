@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<MusicItemScroll>
+    <CenterPoint X="240" Y="160"/>
+	<NodeSpace Value="210"/>
+	<SingleScrollTime Value="0.3"/>
+	<MultiScrollTime Value="0.1"/><!-- 0.15xN -->
+	<PingPongScrollTime Value="0.1"/><!-- 不能拖动后弹回的时间 -->
+	<PingPongScrollSpace Value="100"/>
+	<OriginalSize Value="0.5"/><!-- 未选中歌曲 -->
+	<TargetSize Value="1"/><!-- 选中歌曲 -->
+	<TouchThreshold Value="10"/>
+	<TouchFactor Value="256"/>
+	<NetworkScroll BeginOffset="0" EndOffset="0"/>
+</MusicItemScroll>

@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- 被2011 rel. 2 sp1 (Hugo) 使用XMLSpy vChina编辑的 (http://www.altova.com) by -->
+<PLEffect Type="1">
+	<Render>
+		<SpriteSheet Path="Animation/Pulse/Fish/FishStraightSwim_Black.png"/>
+		<PropertyList Path="Animation/Pulse/Fish/FishStraightSwim_Black.plist"/>
+		<Frames AnimationInterval="0.032">
+			<Frame Name="zhixing_1.png"/>
+			<Frame Name="zhixing_2.png"/>
+			<Frame Name="zhixing_3.png"/>
+			<Frame Name="zhixing_4.png"/>
+			<Frame Name="zhixing_5.png"/>
+			<Frame Name="zhixing_6.png"/>
+			<Frame Name="zhixing_7.png"/>
+			<Frame Name="zhixing_8.png"/>
+			<Frame Name="zhixing_9.png"/>
+			<Frame Name="zhixing_10.png"/>
+			<Frame Name="zhixing_11.png"/>
+			<Frame Name="zhixing_12.png"/>
+			<Frame Name="zhixing_13.png"/>
+			<Frame Name="zhixing_14.png"/>
+			<Frame Name="zhixing_15.png"/>
+			<Frame Name="zhixing_16.png"/>
+			<Frame Name="zhixing_17.png"/>
+			<Frame Name="zhixing_18.png"/>
+			<Frame Name="zhixing_19.png"/>
+			<Frame Name="zhixing_20.png"/>
+			<Frame Name="zhixing_21.png"/>
+			<Frame Name="zhixing_22.png"/>
+			<Frame Name="zhixing_23.png"/>
+			<Frame Name="zhixing_24.png"/>
+			<Frame Name="zhixing_25.png"/>
+			<Frame Name="zhixing_26.png"/>
+			<Frame Name="zhixing_27.png"/>
+			<Frame Name="zhixing_28.png"/>
+			<Frame Name="zhixing_29.png"/>
+			<Frame Name="zhixing_30.png"/>
+			<Frame Name="zhixing_31.png"/>
+			<Frame Name="zhixing_32.png"/>
+		</Frames>
+	</Render>
+	<Effect>
+		<WholeDuration Value="2.0"/>
+		<StayDuration Value="1.0"/>
+		<IntervalDegree Value="30"/>
+		<IntervalDegreeDeviation Value="0"/>
+		<MinSpreadDistance Value="64"/>
+		<MaxSpreadDistance Value="64"/>
+		<RandomRotation Value="0"/>
+		<AlignRotation Value="1"/>
+		<MinRotateAngle Value="0"/>
+		<MaxRotateAngle Value="0"/>
+		<RandomColor Value="0"/>
+		<MinScaleFactor Value="0.2"/>
+		<MaxScaleFactor Value="0.25"/>
+		<CurveFactor Value="0"/>
+	</Effect>
+</PLEffect>

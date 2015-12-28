@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<PLPondFish>
+    <Sprite Path="Sprite/Pulse/Fish/Fish_02.png" Scale="0.5"/>
+	<!--<Animation Path="Animation/Pulse/Fish/Fish.plist" FrameName="fish" Interval="0.05" Repeat="0"/>-->
+	<Damping Value="0.05"/>
+	<Speed Value="32"/>
+	<Threshold Value="64"/>
+	<Boundary X="112" Y="32" Width="256" Height="256"/>
+</PLPondFish>

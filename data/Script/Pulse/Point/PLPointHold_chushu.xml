@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<PLPointHold>
+    <Sprite Frame="HoldPoint_chushu.png"/>
+	<Pan Frame="HoldPan_chushu.png"/>
+	<Ring Frame="Point/Ring.png"/>
+	<Circle Frame="pointPrompt.png"/>
+	<!--<PointColor R="255" G="64" B="18"/>-->
+	<PointColor R="255" G="255" B="255"/>
+	<Effects>
+	    <Perfect GroupName="WanMeiEffect_chushu"/>
+		<Nice GroupName="LiangHaoEffect_chushu"/>
+		<Fail GroupName="FailEffect_chushu"/>
+	</Effects>
+</PLPointHold>

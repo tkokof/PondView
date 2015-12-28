@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<PLPointSinglePress>
+    <Sprite Frame="SinglePress_dongzhi_Big.png"/>
+	<Circle Frame="pointPrompt.png"/>
+	<OriginalColor R="117" G="117" B="117"/>
+	<OriginalColorCircle R="255" G="255" B="255"/>
+	<TargetColor R="255" G="255" B="255"/>
+	<TargetColorCircle R="200" G="0" B="0"/>
+	<TargetSize Value="2.0"/>
+	<SpeedValue Value="128"/>
+	<Effects>
+	    <Perfect GroupName="WanMeiEffect_dongzhi"/>
+		<Nice GroupName="LiangHaoEffect_dongzhi"/>
+		<Fail GroupName="FailEffect_dongzhi"/>
+	</Effects>
+</PLPointSinglePress>

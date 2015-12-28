@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<MainMenu>
+
+<Item>
+  <StartGame>
+    <Normal>Sprite/MainMenu/play/play.png</Normal>
+	<Selected>Sprite/MainMenu/play/play-1.png</Selected>
+	<!--<Coord x = "0.48" y = "0.55" relative="1"/>-->
+	<Coord x = "0.71" y = "0.28" relative="1"/>
+  </StartGame>
+  <Tutorial>
+    <Normal>Sprite/MainMenu/play/help-1.png</Normal>
+	<Selected>Sprite/MainMenu/play/help.png</Selected>
+	<!--
+	<Coord x = "0.91" y = "0.12" relative="1"/>
+	-->
+	<Coord x = "2" y = "2" relative="1"/>
+  </Tutorial>
+</Item>
+
+<Background>Sprite/MainMenu/beijing.png</Background>
+
+<!--Mode1 x = "0.75" y = "0.3">音乐模式</Mode1>
+<Mode2 x = "0.75" y = "0.2">攀岩模式</Mode2-->
+
+<Scroll speedX="0" speedY="0"/>
+<Effect3D Amplitude="0"/>
+
+</MainMenu>

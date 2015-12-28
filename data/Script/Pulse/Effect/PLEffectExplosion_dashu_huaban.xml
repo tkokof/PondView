@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<PLEffect Type="1">
+    <Render>
+		<SpriteSheet Path="Sprite/Pulse/Effect/Explosion/PulseEffectSprites.png"/>
+		<PropertyList Path="Sprite/Pulse/Effect/Explosion/PulseEffectSprites.plist"/>
+		<Frames>
+		    <Frame Name="dashu_Perfect_huaban_1.png"/>
+			<Frame Name="dashu_Perfect_huaban_2.png"/>
+			<!--Frame Name="flower_3.png"/>
+			<Frame Name="ye_1.png"/>
+			<Frame Name="ye_2.png"/>
+			<Frame Name="ye_3.png"/-->
+		</Frames>
+	</Render>
+	<Effect>
+	    <WholeDuration Value="1.3"/>
+		<StayDuration Value="0.6"/>
+		<IntervalDegree Value="100"/>
+		<IntervalDegreeDeviation Value="90"/>
+		<MinSpreadDistance Value="0"/>
+		<MaxSpreadDistance Value="64"/>
+		<RandomRotation Value="0"/>
+		<AlignRotation Value="1"/>
+		<MinRotateAngle Value="0"/>
+		<MaxRotateAngle Value="0"/>
+		<RandomColor Value="0"/>
+		<MinScaleFactor Value="0.6"/>
+		<MaxScaleFactor Value="1.0"/>
+		<CurveFactor Value="0"/>
+	</Effect>
+</PLEffect>

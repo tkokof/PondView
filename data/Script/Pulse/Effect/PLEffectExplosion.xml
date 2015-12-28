@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<PLEffect Type="1">
+    <Render>
+		<SpriteSheet Path="Sprite/Pulse/Effect/Explosion/texiao_lidong_2.png"/>
+		<PropertyList Path="Sprite/Pulse/Effect/Explosion/texiao_lidong_2.plist"/>
+		<Frames>
+		    <Frame Name="lidong.png"/>
+			<!--Frame Name="lidong_2.png"/>
+			<Frame Name="lidong_3.png"/>
+			<Frame Name="lidong_4.png"/-->
+		</Frames>
+	</Render>
+	<Effect>
+	    <WholeDuration Value="1.0"/>
+		<StayDuration Value="0.75"/>
+		<IntervalDegree Value="15"/>
+		<MinSpreadDistance Value="0"/>
+		<MaxSpreadDistance Value="50"/>
+		<RotateAngle Value="0"/>
+		<RandomColor Value="0"/>
+		<ScaleFactor Value="0.5"/>
+	</Effect>
+</PLEffect>

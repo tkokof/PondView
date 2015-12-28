@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<MusicItemData>
+    <Items>
+	    <Item Id="1" CurPercent="0" IsLock="0" UnlockPercent="60"/>
+	    <Item Id="5" CurPercent="0" IsLock="0" UnlockPercent="60"/>
+		<Item Id="7" CurPercent="0" IsLock="0" UnlockPercent="60"/>
+	</Items>
+</MusicItemData>

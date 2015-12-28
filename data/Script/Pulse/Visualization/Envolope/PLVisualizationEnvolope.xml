@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<PLVisualizationEnvolope>
+    <Lines>
+	    <!--
+	    <Line Config="Script/Pulse/Visualization/Envolope/EnvolopeLine/EnvolopeLine.xml"/>
+		-->
+		<Line Config="Script/Pulse/Visualization/Envolope/EnvolopeLine/EnvolopeLineThin.xml"/>
+		<Line Config="Script/Pulse/Visualization/Envolope/EnvolopeLine/EnvolopeLineFat.xml"/>
+		<Line Config="Script/Pulse/Visualization/Envolope/EnvolopeLine/EnvolopeLineTriangle.xml"/>
+		<Line Config="Script/Pulse/Visualization/Envolope/EnvolopeLine/EnvolopeLineSquare.xml"/>
+	</Lines>
+</PLVisualizationEnvolope>

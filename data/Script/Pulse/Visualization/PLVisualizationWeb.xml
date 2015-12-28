@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<PLVisualizationWeb>
+    <StretchFactor Value="4"/>
+	<PointCount Value="48"/>
+	<StretchTimer Value="1"/>
+	<DrawColor R="200" G="200" B="200" A="128"/>
+	<WebFactor Value="0.1"/>
+	<ThreshScale Value="12"/>
+	<DeltaAngle Value="0.15"/>
+</PLVisualizationWeb>

@@ -1,0 +1,4 @@
+<PLFish>
+    <Sprite Path="Sprite/Pulse/Fish/Fish.png" Scale="0.5"/>
+	<Animation Path="Animation/Pulse/Fish/Fish.plist" FrameName="fish" Interval="0.05" Repeat="0"/>
+</PLFish>

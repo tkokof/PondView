@@ -1,0 +1,437 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- 被2011 rel. 2 sp1 (TeaM DJiNN) 使用XMLSpy vTeaM DJiNN编辑的 (http://www.altova.com) by -->
+<Level Audio="ChunFen.ogg" Offset="-1">
+  <Tempos>
+  </Tempos>
+  <GameElements>
+    <PLPointSinglePress Config="Script/Pulse/Point/PLPointSinglePress_chunfen.xml" />
+    <PLBackground Config="Script/Pulse/PLBackground_chunfen.xml" />
+    <!--<PLPointComboPress Config="Script/Pulse/Point/PLPointComboPress_chunfen.xml" />-->
+    <PLPointHold Config="Script/Pulse/Point/PLPointHold_chunfen.xml" />
+  </GameElements>
+  <Visualizations>
+    <!--<Visualization Name="Envolope" Config="Script/Pulse/Visualization/Envolope/PLVisualizationEnvolope.xml"/>-->
+    <!--
+		<Visualization Name="Bubble2" Config="Script/Pulse/Visualization/Bubble2/PLVisualizationBubble2.xml"/>
+		-->
+    <Visualization Name="Pond" Config="Script/Pulse/Visualization/Pond/PLVisualizationPond_chunfen.xml" />
+  </Visualizations>
+  <Commands>
+    <Command Time="0" Name="PLSetVisualPond" Params="SetWaveCenter:0.501,-0.003" />
+    <!-- 常速，四条鱼，水波舒缓 -->
+    <Command Time="0" Name="PLSetVisualPond" Params="SetWave:0.005,1;SetLight:0" />
+    <Command Time="5" Name="PLSetVisualPond" Params="FishIndex:0;SetDestRand:240,160,10,0;SetSpeed:40" />
+    <Command Time="7" Name="PLSetVisualPond" Params="FishIndex:1;SetDestRand:240,160,10,0;SetSpeed:40" />
+    <Command Time="13.000" Name="PLSetVisualPond" Params="FishIndex:2;SetDestRand:240,160,10,0;SetSpeed:40" />
+    <Command Time="16.000" Name="PLSetVisualPond" Params="FishIndex:3;SetDestRand:240,160,10,0;SetSpeed:40" />
+    <!-- <Command Time="77.402" Name="PLSetVisualPond" Params="FishIndex:-1;EnableEvade:1"/>
+		<Command Time="77.902" Name="PLSetVisualPond" Params="FishIndex:-1;EnableEvade:-1"/> -->
+    <!-- 过渡 -->
+    <Command Time="0" Name="PLSetVisualPond" Params="SetWave:0.01,1;SetLight:0" />
+    <Command Time="29" Name="PLSetVisualPond" Params="FishIndex:0;SetDestRand:240,160,10,0;SetSpeed:60" />
+    <Command Time="29" Name="PLSetVisualPond" Params="FishIndex:1;SetDestRand:240,160,10,0;SetSpeed:60" />
+    <Command Time="29" Name="PLSetVisualPond" Params="FishIndex:2;SetDestRand:240,160,10,0;SetSpeed:60" />
+    <Command Time="29" Name="PLSetVisualPond" Params="FishIndex:3;SetDestRand:240,160,10,0;SetSpeed:60" />
+    <!-- 曲速变快，鱼变多，速度加快，水波加快 -->
+    <Command Time="53" Name="PLSetVisualPond" Params="SetWave:0.015,2;SetLight:0" />
+    <Command Time="53" Name="PLSetVisualPond" Params="FishIndex:-1;SetDestRand:240,160,10,0;SetSpeed:80" />
+    <Command Time="76" Name="PLSetVisualPond" Params="FishIndex:4;SetDest:100,180,1" />
+    <Command Time="76" Name="PLSetVisualPond" Params="FishIndex:5;SetDest:100,180,1" />
+    <!-- 尾声，恢复常速-->
+    <Command Time="77" Name="PLSetVisualPond" Params="AddRipple:240,260,1.2" />
+    <Command Time="78" Name="PLSetVisualPond" Params="SetWave:0.005,3;SetLight:0" />
+    <Command Time="78" Name="PLSetVisualPond" Params="FishIndex:0;SetDestRand:240,160,10,0;SetSpeed:40" />
+    <Command Time="78" Name="PLSetVisualPond" Params="FishIndex:1;SetDestRand:240,160,10,0;SetSpeed:40" />
+    <Command Time="78" Name="PLSetVisualPond" Params="FishIndex:2;SetDestRand:240,160,10,0;SetSpeed:40" />
+    <Command Time="78" Name="PLSetVisualPond" Params="FishIndex:3;SetDestRand:240,160,10,0;SetSpeed:40" />
+    <Command Time="99" Name="PLSetVisualPond" Params="FishIndex:0;SetDestRand:240,160,10,1" />
+    <Command Time="99" Name="PLSetVisualPond" Params="FishIndex:1;SetDestRand:240,160,10,1" />
+    <Command Time="99" Name="PLSetVisualPond" Params="FishIndex:2;SetDestRand:240,160,10,1" />
+    <Command Time="99" Name="PLSetVisualPond" Params="FishIndex:3;SetDestRand:240,160,10,1" />
+    <Command Time="100.5" Name="PLSetVisualPond" Params="FishIndex:0;SetDest:240,300,1" />
+    <Command Time="100.5" Name="PLSetVisualPond" Params="FishIndex:1;SetDest:100,160,1" />
+    <Command Time="100.5" Name="PLSetVisualPond" Params="FishIndex:2;SetDest:240,20,1" />
+    <Command Time="100.5" Name="PLSetVisualPond" Params="FishIndex:3;SetDest:380,160,1" />
+    <Command Time="104.5" Name="PLSetVisualPond" Params="AddRipple:240,50,1.2" />
+    <Command Time="103" Name="PLSetVisualPond" Params="SetWave:0.00,1;SetLight:0" />
+  </Commands>
+  <NetworkCommands>
+    <Command Time="0" Name="PLSetVisualPond" Params="SetWaveCenter:0.501,-0.003" />
+    <!-- 常速，四条鱼，水波舒缓 -->
+    <Command Time="0" Name="PLSetVisualPond" Params="SetWave:0.005,1;SetLight:0" />
+    <Command Time="5" Name="PLSetVisualPond" Params="FishIndex:0;SetDestRand:240,160,10,0;SetSpeed:40" />
+    <Command Time="7" Name="PLSetVisualPond" Params="FishIndex:1;SetDestRand:240,160,10,0;SetSpeed:40" />
+    <Command Time="13.000" Name="PLSetVisualPond" Params="FishIndex:2;SetDestRand:240,160,10,0;SetSpeed:40" />
+    <Command Time="16.000" Name="PLSetVisualPond" Params="FishIndex:3;SetDestRand:240,160,10,0;SetSpeed:40" />
+    <!-- <Command Time="77.402" Name="PLSetVisualPond" Params="FishIndex:-1;EnableEvade:1"/>
+		<Command Time="77.902" Name="PLSetVisualPond" Params="FishIndex:-1;EnableEvade:-1"/> -->
+    <!-- 过渡 -->
+    <Command Time="0" Name="PLSetVisualPond" Params="SetWave:0.01,1;SetLight:0" />
+    <Command Time="29" Name="PLSetVisualPond" Params="FishIndex:0;SetDestRand:240,160,10,0;SetSpeed:60" />
+    <Command Time="29" Name="PLSetVisualPond" Params="FishIndex:1;SetDestRand:240,160,10,0;SetSpeed:60" />
+    <Command Time="29" Name="PLSetVisualPond" Params="FishIndex:2;SetDestRand:240,160,10,0;SetSpeed:60" />
+    <Command Time="29" Name="PLSetVisualPond" Params="FishIndex:3;SetDestRand:240,160,10,0;SetSpeed:60" />
+    <!-- 曲速变快，鱼变多，速度加快，水波加快 -->
+    <Command Time="53" Name="PLSetVisualPond" Params="SetWave:0.015,2;SetLight:0" />
+    <Command Time="53" Name="PLSetVisualPond" Params="FishIndex:-1;SetDestRand:240,160,10,0;SetSpeed:80" />
+    <Command Time="76" Name="PLSetVisualPond" Params="FishIndex:4;SetDest:100,180,1" />
+    <Command Time="76" Name="PLSetVisualPond" Params="FishIndex:5;SetDest:100,180,1" />
+    <!-- 尾声，恢复常速-->
+    <Command Time="77" Name="PLSetVisualPond" Params="AddRipple:240,260,1.2" />
+    <Command Time="78" Name="PLSetVisualPond" Params="SetWave:0.005,3;SetLight:0" />
+    <Command Time="78" Name="PLSetVisualPond" Params="FishIndex:0;SetDestRand:240,160,10,0;SetSpeed:40" />
+    <Command Time="78" Name="PLSetVisualPond" Params="FishIndex:1;SetDestRand:240,160,10,0;SetSpeed:40" />
+    <Command Time="78" Name="PLSetVisualPond" Params="FishIndex:2;SetDestRand:240,160,10,0;SetSpeed:40" />
+    <Command Time="78" Name="PLSetVisualPond" Params="FishIndex:3;SetDestRand:240,160,10,0;SetSpeed:40" />
+    <Command Time="99" Name="PLSetVisualPond" Params="FishIndex:0;SetDestRand:240,160,10,1" />
+    <Command Time="99" Name="PLSetVisualPond" Params="FishIndex:1;SetDestRand:240,160,10,1" />
+    <Command Time="99" Name="PLSetVisualPond" Params="FishIndex:2;SetDestRand:240,160,10,1" />
+    <Command Time="99" Name="PLSetVisualPond" Params="FishIndex:3;SetDestRand:240,160,10,1" />
+    <Command Time="100.5" Name="PLSetVisualPond" Params="FishIndex:0;SetDest:240,300,1" />
+    <Command Time="100.5" Name="PLSetVisualPond" Params="FishIndex:1;SetDest:100,160,1" />
+    <Command Time="100.5" Name="PLSetVisualPond" Params="FishIndex:2;SetDest:240,20,1" />
+    <Command Time="100.5" Name="PLSetVisualPond" Params="FishIndex:3;SetDest:380,160,1" />
+    <Command Time="104.5" Name="PLSetVisualPond" Params="AddRipple:240,50,1.2" />
+    <Command Time="103" Name="PLSetVisualPond" Params="SetWave:0.00,1;SetLight:0" />
+  </NetworkCommands>
+  <Points InputDuration="0.385">
+    <Point Type="SinglePress" EnterTime="4.055" ExactTime="5.603125" LeaveTime="5.855" Angle="20" MotionParams="0" InputType="0" IgnoreFocus="0" />
+    <Point Type="SinglePress" EnterTime="4.24" ExactTime="5.788125" LeaveTime="6.04" Angle="0" MotionParams="0" InputType="0" IgnoreFocus="0" />
+    <Point Type="SinglePress" EnterTime="4.425" ExactTime="5.973125" LeaveTime="6.225" Angle="-20" MotionParams="0" InputType="0" IgnoreFocus="0" />
+    <Point Type="SinglePress" EnterTime="5.537" ExactTime="7.085125" LeaveTime="7.307" Angle="90" MotionParams="1,30" InputType="0" IgnoreFocus="0" />
+    <Point Type="SinglePress" EnterTime="6.948" ExactTime="8.196125" LeaveTime="8.448" Angle="160" MotionParams="0" InputType="0" IgnoreFocus="0" />
+    <Point Type="SinglePress" EnterTime="7.018" ExactTime="8.566125" LeaveTime="8.818" Angle="180" MotionParams="1,20" InputType="0" IgnoreFocus="0" />
+    <Point Type="SinglePress" EnterTime="7.388" ExactTime="8.936125" LeaveTime="9.188" Angle="-160" MotionParams="0" InputType="0" IgnoreFocus="0" />
+    <Point Type="SinglePress" EnterTime="8.499" ExactTime="10.04712" LeaveTime="10.299" Angle="-90" MotionParams="1,30" InputType="0" IgnoreFocus="0" />
+    <Point Type="SinglePress" EnterTime="9.981" ExactTime="11.52913" LeaveTime="11.781" Angle="15" MotionParams="0" InputType="0" IgnoreFocus="0" />
+    <Point Type="SinglePress" EnterTime="10.351" ExactTime="11.89913" LeaveTime="12.151" Angle="-15" MotionParams="0" InputType="0" IgnoreFocus="0" />
+    <Point Type="SinglePress" EnterTime="11.462" ExactTime="13.01013" LeaveTime="13.262" Angle="0" MotionParams="1,-20" InputType="0" IgnoreFocus="0" />
+    <Point Type="SinglePress" EnterTime="12.203" ExactTime="13.75113" LeaveTime="14.003" Angle="135" MotionParams="0" InputType="0" IgnoreFocus="0" />
+    <Point Type="SinglePress" EnterTime="12.574" ExactTime="14.12212" LeaveTime="14.374" Angle="165" MotionParams="0" InputType="0" IgnoreFocus="0" />
+    <Point Type="SinglePress" EnterTime="12.944" ExactTime="14.49212" LeaveTime="14.744" Angle="-165" MotionParams="0" InputType="0" IgnoreFocus="0" />
+    <Point Type="SinglePress" EnterTime="13.314" ExactTime="14.86213" LeaveTime="15.114" Angle="-135" MotionParams="0" InputType="0" IgnoreFocus="0" />
+    <Point Type="SinglePress" EnterTime="14.796" ExactTime="16.34413" LeaveTime="16.596" Angle="50" MotionParams="0" InputType="0" IgnoreFocus="0" />
+    <Point Type="SinglePress" EnterTime="15.166" ExactTime="16.71412" LeaveTime="16.966" Angle="25" MotionParams="0" InputType="0" IgnoreFocus="0" />
+    <Point Type="SinglePress" EnterTime="15.537" ExactTime="17.08512" LeaveTime="17.337" Angle="0" MotionParams="1,20" InputType="0" IgnoreFocus="0" />
+    <Point Type="SinglePress" EnterTime="15.907" ExactTime="17.45513" LeaveTime="17.707" Angle="-25" MotionParams="0" InputType="0" IgnoreFocus="0" />
+    <Point Type="SinglePress" EnterTime="16.277" ExactTime="17.82512" LeaveTime="18.077" Angle="-50" MotionParams="0" InputType="0" IgnoreFocus="0" />
+    <Point Type="SinglePress" EnterTime="17.388" ExactTime="18.93612" LeaveTime="19.188" Angle="180" MotionParams="2,25" InputType="0" IgnoreFocus="0" />
+    <Point Type="SinglePress" EnterTime="18.5" ExactTime="20.04812" LeaveTime="20.3" Angle="0" MotionParams="2,25" InputType="0" IgnoreFocus="0" />
+    <Point Type="SinglePress" EnterTime="19.24" ExactTime="20.78812" LeaveTime="21.04" Angle="135" MotionParams="0" InputType="0" IgnoreFocus="0" />
+    <Point Type="SinglePress" EnterTime="19.611" ExactTime="21.15912" LeaveTime="21.411" Angle="105" MotionParams="0" InputType="0" IgnoreFocus="0" />
+    <Point Type="SinglePress" EnterTime="19.981" ExactTime="21.52913" LeaveTime="21.781" Angle="75" MotionParams="0" InputType="0" IgnoreFocus="0" />
+    <Point Type="SinglePress" EnterTime="20.351" ExactTime="21.89912" LeaveTime="22.151" Angle="45" MotionParams="0" InputType="0" IgnoreFocus="0" />
+    <Point Type="SinglePress" EnterTime="21.092" ExactTime="22.64013" LeaveTime="22.892" Angle="118.899" MotionParams="0" InputType="0" IgnoreFocus="0" />
+    <Point Type="SinglePress" EnterTime="21.462" ExactTime="23.01012" LeaveTime="23.262" Angle="17.884" MotionParams="0" InputType="0" IgnoreFocus="0" />
+    <Point Type="SinglePress" EnterTime="21.833" ExactTime="23.38112" LeaveTime="23.633" Angle="151.795" MotionParams="0" InputType="0" IgnoreFocus="0" />
+    <Point Type="SinglePress" EnterTime="22.203" ExactTime="23.75113" LeaveTime="24.003" Angle="-13.549" MotionParams="0" InputType="0" IgnoreFocus="0" />
+    <Point Type="SinglePress" EnterTime="22.574" ExactTime="24.12213" LeaveTime="24.374" Angle="-175.419" MotionParams="0" InputType="0" IgnoreFocus="0" />
+    <Point Type="SinglePress" EnterTime="22.944" ExactTime="24.49212" LeaveTime="24.744" Angle="-44.014" MotionParams="0" InputType="0" IgnoreFocus="0" />
+    <Point Type="SinglePress" EnterTime="23.314" ExactTime="24.86213" LeaveTime="25.114" Angle="-142.622" MotionParams="0" InputType="0" IgnoreFocus="0" />
+    <Point Type="SinglePress" EnterTime="24.425" ExactTime="25.97313" LeaveTime="26.225" Angle="118.899" MotionParams="0" InputType="0" IgnoreFocus="0" />
+    <Point Type="SinglePress" EnterTime="24.796" ExactTime="26.34413" LeaveTime="26.596" Angle="17.884" MotionParams="0" InputType="0" IgnoreFocus="0" />
+    <Point Type="SinglePress" EnterTime="25.166" ExactTime="26.71412" LeaveTime="26.966" Angle="151.795" MotionParams="0" InputType="0" IgnoreFocus="0" />
+    <Point Type="SinglePress" EnterTime="25.537" ExactTime="27.08512" LeaveTime="27.337" Angle="-13.549" MotionParams="0" InputType="0" IgnoreFocus="0" />
+    <Point Type="SinglePress" EnterTime="25.907" ExactTime="27.45513" LeaveTime="27.707" Angle="-175.419" MotionParams="0" InputType="0" IgnoreFocus="0" />
+    <Point Type="SinglePress" EnterTime="26.277" ExactTime="27.82512" LeaveTime="28.077" Angle="-44.014" MotionParams="0" InputType="0" IgnoreFocus="0" />
+    <Point Type="SinglePress" EnterTime="26.462" ExactTime="28.01012" LeaveTime="28.262" Angle="-44.014" MotionParams="0" InputType="0" IgnoreFocus="0" />
+    <Point Type="SinglePress" EnterTime="28.129" ExactTime="29.67713" LeaveTime="29.929" Angle="105" MotionParams="0" InputType="0" IgnoreFocus="0" />
+    <Point Type="SinglePress" EnterTime="28.314" ExactTime="29.86213" LeaveTime="30.114" Angle="75" MotionParams="0" InputType="0" IgnoreFocus="0" />
+    <Point Type="SinglePress" EnterTime="29.24" ExactTime="30.78812" LeaveTime="31.04" Angle="-105" MotionParams="0" InputType="0" IgnoreFocus="0" />
+    <Point Type="SinglePress" EnterTime="29.425" ExactTime="30.97313" LeaveTime="31.225" Angle="-75" MotionParams="0" InputType="0" IgnoreFocus="0" />
+    <Point Type="SinglePress" EnterTime="30.166" ExactTime="31.71412" LeaveTime="31.966" Angle="125" MotionParams="0" InputType="0" IgnoreFocus="0" />
+    <Point Type="SinglePress" EnterTime="30.351" ExactTime="31.89912" LeaveTime="32.151" Angle="150" MotionParams="0" InputType="0" IgnoreFocus="0" />
+    <Point Type="SinglePress" EnterTime="30.722" ExactTime="32.27013" LeaveTime="32.522" Angle="180" MotionParams="1,25" InputType="0" IgnoreFocus="0" />
+    <Point Type="SinglePress" EnterTime="31.092" ExactTime="32.64013" LeaveTime="32.892" Angle="-150" MotionParams="0" InputType="0" IgnoreFocus="0" />
+    <Point Type="SinglePress" EnterTime="31.277" ExactTime="32.82513" LeaveTime="33.077" Angle="-125" MotionParams="0" InputType="0" IgnoreFocus="0" />
+    <Point Type="SinglePress" EnterTime="32.203" ExactTime="33.75113" LeaveTime="34.003" Angle="15" MotionParams="0" InputType="0" IgnoreFocus="0" />
+    <Point Type="SinglePress" EnterTime="32.388" ExactTime="33.93613" LeaveTime="34.188" Angle="-15" MotionParams="0" InputType="0" IgnoreFocus="0" />
+    <Point Type="SinglePress" EnterTime="32.944" ExactTime="34.49213" LeaveTime="34.744" Angle="135" MotionParams="0" InputType="0" IgnoreFocus="0" />
+    <Point Type="SinglePress" EnterTime="33.314" ExactTime="34.86213" LeaveTime="35.114" Angle="165" MotionParams="0" InputType="0" IgnoreFocus="0" />
+    <Point Type="SinglePress" EnterTime="33.685" ExactTime="35.23312" LeaveTime="35.485" Angle="-165" MotionParams="0" InputType="0" IgnoreFocus="0" />
+    <Point Type="SinglePress" EnterTime="34.055" ExactTime="35.60313" LeaveTime="35.855" Angle="-135" MotionParams="0" InputType="0" IgnoreFocus="0" />
+    <Point Type="SinglePress" EnterTime="34.796" ExactTime="36.34412" LeaveTime="36.596" Angle="90" MotionParams="0" InputType="0" IgnoreFocus="0" />
+    <Point Type="SinglePress" EnterTime="34.796" ExactTime="36.71413" LeaveTime="36.966" Angle="90" MotionParams="1,30" InputType="0" IgnoreFocus="0" />
+    <Point Type="SinglePress" EnterTime="34.796" ExactTime="36.89912" LeaveTime="37.151" Angle="90" MotionParams="1,60" InputType="0" IgnoreFocus="0" />
+    <Point Type="SinglePress" EnterTime="35.907" ExactTime="37.45512" LeaveTime="37.707" Angle="118.899" MotionParams="0" InputType="0" IgnoreFocus="0" />
+    <Point Type="SinglePress" EnterTime="36.277" ExactTime="37.82513" LeaveTime="38.077" Angle="17.884" MotionParams="0" InputType="0" IgnoreFocus="0" />
+    <Point Type="SinglePress" EnterTime="36.648" ExactTime="38.19613" LeaveTime="38.448" Angle="151.795" MotionParams="0" InputType="0" IgnoreFocus="0" />
+    <Point Type="SinglePress" EnterTime="37.018" ExactTime="38.56612" LeaveTime="38.818" Angle="-13.549" MotionParams="0" InputType="0" IgnoreFocus="0" />
+    <Point Type="SinglePress" EnterTime="37.388" ExactTime="38.93613" LeaveTime="39.188" Angle="-175.419" MotionParams="0" InputType="0" IgnoreFocus="0" />
+    <Point Type="SinglePress" EnterTime="37.759" ExactTime="39.30713" LeaveTime="39.559" Angle="-43.996" MotionParams="0" InputType="0" IgnoreFocus="0" />
+    <Point Type="SinglePress" EnterTime="38.129" ExactTime="39.67712" LeaveTime="39.929" Angle="-142.622" MotionParams="0" InputType="0" IgnoreFocus="0" />
+    <Point Type="SinglePress" EnterTime="38.314" ExactTime="39.86213" LeaveTime="40.114" Angle="-74.08" MotionParams="0" InputType="0" IgnoreFocus="0" />
+    <Point Type="SinglePress" EnterTime="40.081" ExactTime="41.52913" LeaveTime="41.781" Angle="90" MotionParams="1,-20" InputType="0" IgnoreFocus="0" />
+    <Point Type="SinglePress" EnterTime="40.822" ExactTime="42.27013" LeaveTime="42.522" Angle="90" MotionParams="1,50" InputType="0" IgnoreFocus="0" />
+    <Point Type="SinglePress" EnterTime="41.562" ExactTime="43.01012" LeaveTime="43.262" Angle="-90" MotionParams="1,-20" InputType="0" IgnoreFocus="0" />
+    <Point Type="SinglePress" EnterTime="42.303" ExactTime="43.75113" LeaveTime="44.003" Angle="-90" MotionParams="1,50" InputType="0" IgnoreFocus="0" />
+    <Point Type="SinglePress" EnterTime="43.044" ExactTime="44.49213" LeaveTime="44.744" Angle="180" MotionParams="1,-20" InputType="0" IgnoreFocus="0" />
+    <Point Type="SinglePress" EnterTime="43.785" ExactTime="45.23312" LeaveTime="45.485" Angle="180" MotionParams="1,50" InputType="0" IgnoreFocus="0" />
+    <Point Type="SinglePress" EnterTime="44.525" ExactTime="45.97313" LeaveTime="46.225" Angle="0" MotionParams="1,-20" InputType="0" IgnoreFocus="0" />
+    <Point Type="SinglePress" EnterTime="45.266" ExactTime="46.71413" LeaveTime="46.966" Angle="0" MotionParams="1,50" InputType="0" IgnoreFocus="0" />
+    <Point Type="SinglePress" EnterTime="46.007" ExactTime="47.45512" LeaveTime="47.707" Angle="135" MotionParams="1,-20" InputType="0" IgnoreFocus="0" />
+    <Point Type="SinglePress" EnterTime="46.748" ExactTime="48.19613" LeaveTime="48.448" Angle="135" MotionParams="1,50" InputType="0" IgnoreFocus="0" />
+    <Point Type="SinglePress" EnterTime="47.488" ExactTime="48.93613" LeaveTime="49.188" Angle="-45" MotionParams="1,-20" InputType="0" IgnoreFocus="0" />
+    <Point Type="SinglePress" EnterTime="48.229" ExactTime="49.67712" LeaveTime="49.929" Angle="-45" MotionParams="1,50" InputType="0" IgnoreFocus="0" />
+    <Point Type="SinglePress" EnterTime="48.97" ExactTime="50.41813" LeaveTime="50.67" Angle="45" MotionParams="1,-20" InputType="0" IgnoreFocus="0" />
+    <Point Type="SinglePress" EnterTime="49.711" ExactTime="51.15913" LeaveTime="51.411" Angle="45" MotionParams="1,50" InputType="0" IgnoreFocus="0" />
+    <Point Type="SinglePress" EnterTime="50.451" ExactTime="51.89912" LeaveTime="52.151" Angle="45" MotionParams="1,50" InputType="0" IgnoreFocus="0" />
+    <Point Type="SinglePress" EnterTime="51.192" ExactTime="52.64013" LeaveTime="52.892" Angle="-110" MotionParams="0" InputType="0" IgnoreFocus="0" />
+    <Point Type="SinglePress" EnterTime="51.562" ExactTime="53.01012" LeaveTime="53.262" Angle="-90" MotionParams="1,25" InputType="0" IgnoreFocus="0" />
+    <Point Type="SinglePress" EnterTime="51.933" ExactTime="53.38113" LeaveTime="53.633" Angle="-70" MotionParams="0" InputType="0" IgnoreFocus="0" />
+    <Point Type="SinglePress" EnterTime="52.674" ExactTime="54.12212" LeaveTime="54.374" Angle="90" MotionParams="2,25" InputType="0" IgnoreFocus="0" />
+    <Point Type="SinglePress" EnterTime="53.414" ExactTime="54.86213" LeaveTime="55.114" Angle="180" MotionParams="2,25" InputType="0" IgnoreFocus="0" />
+    <Point Type="SinglePress" EnterTime="54.155" ExactTime="55.60313" LeaveTime="55.855" Angle="-90" MotionParams="2,25" InputType="0" IgnoreFocus="0" />
+    <Point Type="SinglePress" EnterTime="54.896" ExactTime="56.34412" LeaveTime="56.596" Angle="0" MotionParams="2,25" InputType="0" IgnoreFocus="0" />
+    <Point Type="SinglePress" EnterTime="55.637" ExactTime="57.08512" LeaveTime="57.337" Angle="90" MotionParams="2,25" InputType="0" IgnoreFocus="0" />
+    <Point Type="SinglePress" EnterTime="56.377" ExactTime="57.82513" LeaveTime="58.077" Angle="-90" MotionParams="2,25" InputType="0" IgnoreFocus="0" />
+    <Point Type="SinglePress" EnterTime="57.118" ExactTime="58.56612" LeaveTime="58.818" Angle="180" MotionParams="2,25" InputType="0" IgnoreFocus="0" />
+    <Point Type="SinglePress" EnterTime="57.859" ExactTime="59.30713" LeaveTime="59.559" Angle="0" MotionParams="2,25" InputType="0" IgnoreFocus="0" />
+    <Point Type="SinglePress" EnterTime="58.599" ExactTime="60.04713" LeaveTime="60.299" Angle="90" MotionParams="2,25" InputType="0" IgnoreFocus="0" />
+    <Point Type="SinglePress" EnterTime="59.34" ExactTime="60.78812" LeaveTime="61.04" Angle="-90" MotionParams="2,25" InputType="0" IgnoreFocus="0" />
+    <Point Type="SinglePress" EnterTime="60.081" ExactTime="61.52913" LeaveTime="61.781" Angle="0" MotionParams="2,25" InputType="0" IgnoreFocus="0" />
+    <Point Type="SinglePress" EnterTime="60.822" ExactTime="62.27013" LeaveTime="62.522" Angle="180" MotionParams="2,25" InputType="0" IgnoreFocus="0" />
+    <Point Type="SinglePress" EnterTime="61.762" ExactTime="63.01012" LeaveTime="63.262" Angle="135" MotionParams="4,101.15,239.75,139.35,253.3,122.75,256.6" InputType="0" IgnoreFocus="0" />
+    <Point Type="SinglePress" EnterTime="62.503" ExactTime="63.75113" LeaveTime="64.003" Angle="135" MotionParams="4,101.15,239.75,139.35,253.3,122.75,256.6" InputType="0" IgnoreFocus="0" />
+    <Point Type="SinglePress" EnterTime="63.244" ExactTime="64.49213" LeaveTime="64.744" Angle="45" MotionParams="4,378.85,239.75,340.65,253.3,357.25,256.6" InputType="0" IgnoreFocus="0" />
+    <Point Type="SinglePress" EnterTime="63.985" ExactTime="65.23312" LeaveTime="65.485" Angle="45" MotionParams="4,378.85,239.75,340.65,253.3,357.25,256.6" InputType="0" IgnoreFocus="0" />
+    <Point Type="SinglePress" EnterTime="64.725" ExactTime="65.97312" LeaveTime="66.225" Angle="-135" MotionParams="4,103.05,77.8,141.45,64.6,124.85,61.4" InputType="0" IgnoreFocus="0" />
+    <Point Type="SinglePress" EnterTime="65.466" ExactTime="66.71413" LeaveTime="66.966" Angle="-135" MotionParams="4,103.05,77.8,141.45,64.6,124.85,61.4" InputType="0" IgnoreFocus="0" />
+    <Point Type="SinglePress" EnterTime="66.207" ExactTime="67.45512" LeaveTime="67.707" Angle="-45" MotionParams="4,376.95,77.8,338.55,64.6,355.15,61.4" InputType="0" IgnoreFocus="0" />
+    <Point Type="SinglePress" EnterTime="66.948" ExactTime="68.19612" LeaveTime="68.448" Angle="-45" MotionParams="4,376.95,77.8,338.55,64.6,355.15,61.4" InputType="0" IgnoreFocus="0" />
+    <Point Type="SinglePress" EnterTime="67.688" ExactTime="68.93613" LeaveTime="69.188" Angle="135" MotionParams="4,101.15,239.75,139.35,253.3,122.75,256.6" InputType="0" IgnoreFocus="0" />
+    <Point Type="SinglePress" EnterTime="68.429" ExactTime="69.67712" LeaveTime="69.929" Angle="45" MotionParams="4,378.85,239.75,340.65,253.3,357.25,256.6" InputType="0" IgnoreFocus="0" />
+    <Point Type="SinglePress" EnterTime="69.17" ExactTime="70.41812" LeaveTime="70.67" Angle="-135" MotionParams="4,103.05,77.8,141.45,64.6,124.85,61.4" InputType="0" IgnoreFocus="0" />
+    <Point Type="SinglePress" EnterTime="69.911" ExactTime="71.15913" LeaveTime="71.411" Angle="-45" MotionParams="4,376.95,77.8,338.55,64.6,355.15,61.4" InputType="0" IgnoreFocus="0" />
+    <Point Type="SinglePress" EnterTime="70.651" ExactTime="71.89912" LeaveTime="72.151" Angle="135" MotionParams="4,101.15,239.75,139.35,253.3,122.75,256.6" InputType="0" IgnoreFocus="0" />
+    <Point Type="SinglePress" EnterTime="71.392" ExactTime="72.64012" LeaveTime="72.892" Angle="45" MotionParams="4,378.85,239.75,340.65,253.3,357.25,256.6" InputType="0" IgnoreFocus="0" />
+    <Point Type="SinglePress" EnterTime="72.133" ExactTime="73.38113" LeaveTime="73.633" Angle="-135" MotionParams="4,103.05,77.8,141.45,64.6,124.85,61.4" InputType="0" IgnoreFocus="0" />
+    <Point Type="SinglePress" EnterTime="72.874" ExactTime="74.12212" LeaveTime="74.374" Angle="-45" MotionParams="4,376.95,77.8,338.55,64.6,355.15,61.4" InputType="0" IgnoreFocus="0" />
+    <Point Type="SinglePress" EnterTime="73.614" ExactTime="74.86212" LeaveTime="75.114" Angle="-90" MotionParams="0" InputType="0" IgnoreFocus="0" />
+    <Point Type="SinglePress" EnterTime="73.614" ExactTime="75.60313" LeaveTime="75.855" Angle="-90" MotionParams="1,30" InputType="0" IgnoreFocus="0" />
+    <Point Type="SinglePress" EnterTime="73.614" ExactTime="76.34412" LeaveTime="76.596" Angle="-90" MotionParams="1,60" InputType="0" IgnoreFocus="0" />
+    <Point Type="SinglePress" EnterTime="75.537" ExactTime="77.08513" LeaveTime="77.337" Angle="40" MotionParams="4,287.45,194.55,323.9,206.7,309.2,194.8" InputType="0" IgnoreFocus="0" />
+    <Point Type="SinglePress" EnterTime="75.537" ExactTime="77.08513" LeaveTime="77.337" Angle="140" MotionParams="4,192.55,194.55,156.1,206.7,170.8,194.8" InputType="0" IgnoreFocus="0" />
+    <Point Type="SinglePress" EnterTime="76.648" ExactTime="78.19612" LeaveTime="78.448" Angle="-90" MotionParams="1,30" InputType="0" IgnoreFocus="0" />
+    <Point Type="SinglePress" EnterTime="77.388" ExactTime="78.93613" LeaveTime="79.188" Angle="135" MotionParams="4,101.15,239.75,139.35,253.3,122.75,256.6" InputType="0" IgnoreFocus="0" />
+    <Point Type="SinglePress" EnterTime="77.759" ExactTime="79.30712" LeaveTime="79.559" Angle="45" MotionParams="4,378.85,239.75,340.65,253.3,357.25,256.6" InputType="0" IgnoreFocus="0" />
+    <Point Type="SinglePress" EnterTime="78.129" ExactTime="79.67712" LeaveTime="79.929" Angle="-135" MotionParams="4,103.05,77.8,141.45,64.6,124.85,61.4" InputType="0" IgnoreFocus="0" />
+    <Point Type="SinglePress" EnterTime="78.5" ExactTime="80.04813" LeaveTime="80.3" Angle="-44.80005" MotionParams="4,377.2363,78.27837,338.8824,64.94442,355.4935,61.80235" InputType="0" IgnoreFocus="0" />
+    <Point Type="SinglePress" EnterTime="78.87" ExactTime="80.41812" LeaveTime="80.67" Angle="-88.19998" MotionParams="1,30" InputType="0" IgnoreFocus="0" />
+    <Point Type="SinglePress" EnterTime="79.611" ExactTime="81.15913" LeaveTime="81.411" Angle="90" MotionParams="1,30" InputType="0" IgnoreFocus="0" />
+    <Point Type="SinglePress" EnterTime="80.351" ExactTime="81.89912" LeaveTime="82.151" Angle="140" MotionParams="4,192.55,194.55,156.1,206.7,170.8,194.8" InputType="0" IgnoreFocus="0" />
+    <Point Type="SinglePress" EnterTime="80.722" ExactTime="82.27013" LeaveTime="82.522" Angle="40" MotionParams="4,287.45,194.55,323.9,206.7,309.2,194.8" InputType="0" IgnoreFocus="0" />
+    <Point Type="SinglePress" EnterTime="81.092" ExactTime="82.64012" LeaveTime="82.892" Angle="-140" MotionParams="4,193.45,126.4,156.75,114.3,171.7,126.15" InputType="0" IgnoreFocus="0" />
+    <Point Type="SinglePress" EnterTime="81.462" ExactTime="83.01012" LeaveTime="83.262" Angle="-40" MotionParams="4,286.55,126.4,323.25,114.3,308.3,126.15" InputType="0" IgnoreFocus="0" />
+    <Point Type="SinglePress" EnterTime="82.018" ExactTime="83.56612" LeaveTime="83.818" Angle="90" MotionParams="1,30" InputType="0" IgnoreFocus="0" />
+    <Point Type="SinglePress" EnterTime="82.574" ExactTime="84.12212" LeaveTime="84.374" Angle="-140" MotionParams="4,193.45,126.4,156.75,114.3,171.7,126.15" InputType="0" IgnoreFocus="0" />
+    <Point Type="SinglePress" EnterTime="82.944" ExactTime="84.49213" LeaveTime="84.744" Angle="-40" MotionParams="4,286.55,126.4,323.25,114.3,308.3,126.15" InputType="0" IgnoreFocus="0" />
+    <Point Type="SinglePress" EnterTime="83.5" ExactTime="85.04813" LeaveTime="85.3" Angle="-90" MotionParams="1,30" InputType="0" IgnoreFocus="0" />
+    <Point Type="SinglePress" EnterTime="84.055" ExactTime="85.60313" LeaveTime="85.855" Angle="140" MotionParams="4,192.55,194.55,156.1,206.7,170.8,194.8" InputType="0" IgnoreFocus="0" />
+    <Point Type="SinglePress" EnterTime="84.425" ExactTime="85.97312" LeaveTime="86.225" Angle="40" MotionParams="4,287.45,194.55,323.9,206.7,309.2,194.8" InputType="0" IgnoreFocus="0" />
+    <Point Type="SinglePress" EnterTime="85.537" ExactTime="87.08513" LeaveTime="87.337" Angle="90" MotionParams="1,30" InputType="0" IgnoreFocus="0" />
+    <Point Type="SinglePress" EnterTime="86.277" ExactTime="87.82513" LeaveTime="88.077" Angle="135" MotionParams="1,15" InputType="0" IgnoreFocus="0" />
+    <Point Type="SinglePress" EnterTime="86.648" ExactTime="88.19612" LeaveTime="88.448" Angle="165" MotionParams="1,-15" InputType="0" IgnoreFocus="0" />
+    <Point Type="SinglePress" EnterTime="87.018" ExactTime="88.56612" LeaveTime="88.818" Angle="-165" MotionParams="1,15" InputType="0" IgnoreFocus="0" />
+    <Point Type="SinglePress" EnterTime="87.388" ExactTime="88.93613" LeaveTime="89.188" Angle="-135" MotionParams="1,-15" InputType="0" IgnoreFocus="0" />
+    <Point Type="SinglePress" EnterTime="88.5" ExactTime="90.04813" LeaveTime="90.3" Angle="-90" MotionParams="1,30" InputType="0" IgnoreFocus="0" />
+    <Point Type="SinglePress" EnterTime="89.24" ExactTime="90.78812" LeaveTime="91.04" Angle="45" MotionParams="1,15" InputType="0" IgnoreFocus="0" />
+    <Point Type="SinglePress" EnterTime="89.611" ExactTime="91.15913" LeaveTime="91.411" Angle="15" MotionParams="1,-15" InputType="0" IgnoreFocus="0" />
+    <Point Type="SinglePress" EnterTime="89.981" ExactTime="91.52912" LeaveTime="91.781" Angle="-15" MotionParams="1,15" InputType="0" IgnoreFocus="0" />
+    <Point Type="SinglePress" EnterTime="90.351" ExactTime="91.89912" LeaveTime="92.151" Angle="-45" MotionParams="1,-15" InputType="0" IgnoreFocus="0" />
+    <Point Type="SinglePress" EnterTime="91.462" ExactTime="93.01012" LeaveTime="93.262" Angle="135" MotionParams="0" InputType="0" IgnoreFocus="0" />
+    <Point Type="SinglePress" EnterTime="91.833" ExactTime="93.38113" LeaveTime="93.633" Angle="45" MotionParams="0" InputType="0" IgnoreFocus="0" />
+    <Point Type="SinglePress" EnterTime="92.203" ExactTime="93.75112" LeaveTime="94.003" Angle="165" MotionParams="0" InputType="0" IgnoreFocus="0" />
+    <Point Type="SinglePress" EnterTime="92.574" ExactTime="94.12212" LeaveTime="94.374" Angle="15" MotionParams="0" InputType="0" IgnoreFocus="0" />
+    <Point Type="SinglePress" EnterTime="92.944" ExactTime="94.49213" LeaveTime="94.744" Angle="-165" MotionParams="0" InputType="0" IgnoreFocus="0" />
+    <Point Type="SinglePress" EnterTime="93.314" ExactTime="94.86212" LeaveTime="95.114" Angle="-15" MotionParams="0" InputType="0" IgnoreFocus="0" />
+    <Point Type="SinglePress" EnterTime="93.685" ExactTime="95.23312" LeaveTime="95.485" Angle="-88.79999" MotionParams="0" InputType="0" IgnoreFocus="0" />
+    <Point Type="SinglePress" EnterTime="94.796" ExactTime="96.34412" LeaveTime="96.596" Angle="90" MotionParams="0" InputType="0" IgnoreFocus="0" />
+    <Point Type="SinglePress" EnterTime="94.796" ExactTime="96.89912" LeaveTime="97.151" Angle="90" MotionParams="1,30" InputType="0" IgnoreFocus="0" />
+    <Point Type="SinglePress" EnterTime="94.796" ExactTime="97.45512" LeaveTime="97.707" Angle="90" MotionParams="1,60" InputType="0" IgnoreFocus="0" />
+    <Point Type="SinglePress" EnterTime="96.648" ExactTime="98.19612" LeaveTime="98.448" Angle="135" MotionParams="0" InputType="0" IgnoreFocus="0" />
+    <Point Type="SinglePress" EnterTime="97.018" ExactTime="98.56612" LeaveTime="98.818" Angle="45" MotionParams="0" InputType="0" IgnoreFocus="0" />
+    <Point Type="SinglePress" EnterTime="97.388" ExactTime="98.93613" LeaveTime="99.188" Angle="165" MotionParams="0" InputType="0" IgnoreFocus="0" />
+    <Point Type="SinglePress" EnterTime="97.759" ExactTime="99.30712" LeaveTime="99.559" Angle="15" MotionParams="0" InputType="0" IgnoreFocus="0" />
+    <Point Type="SinglePress" EnterTime="98.129" ExactTime="99.67712" LeaveTime="99.929" Angle="-165" MotionParams="0" InputType="0" IgnoreFocus="0" />
+    <Point Type="SinglePress" EnterTime="98.5" ExactTime="100.0481" LeaveTime="100.3" Angle="-15" MotionParams="0" InputType="0" IgnoreFocus="0" />
+    <Point Type="SinglePress" EnterTime="98.87" ExactTime="100.4181" LeaveTime="100.67" Angle="-270.0002" MotionParams="0" InputType="0" IgnoreFocus="0" />
+    <Point Type="Hold" EnterTime="99.24" ExactTime="100.7881" LeaveTime="104.5" Angle="-90" MotionParams="0" InputType="0" IgnoreFocus="0" Effects="Chunfen_End_Perfect;Chunfen_End_Nice;FailEffectCommon" />
+  </Points>
+  <NetworkPoints InputDuration="0.385">
+    <Point Type="SinglePress" EnterTime="4.055" ExactTime="5.603125" LeaveTime="5.988125" Angle="-156" MotionParams="0" InputType="2" IgnoreFocus="0" />
+    <Point Type="SinglePress" EnterTime="4.24" ExactTime="5.788125" LeaveTime="6.173125" Angle="-176" MotionParams="0" InputType="2" IgnoreFocus="0" />
+    <Point Type="SinglePress" EnterTime="4.425" ExactTime="5.973125" LeaveTime="6.358125" Angle="-196" MotionParams="0" InputType="2" IgnoreFocus="0" />
+    <Point Type="SinglePress" EnterTime="5.537" ExactTime="7.085125" LeaveTime="7.470125" Angle="90" MotionParams="1,30" InputType="3" IgnoreFocus="0" />
+    <Point Type="SinglePress" EnterTime="6.948" ExactTime="8.196125" LeaveTime="8.581125" Angle="342.8003" MotionParams="0" InputType="2" IgnoreFocus="0" />
+    <Point Type="SinglePress" EnterTime="7.018" ExactTime="8.566125" LeaveTime="8.951125" Angle="362.8003" MotionParams="1,19.99991" InputType="2" IgnoreFocus="0" />
+    <Point Type="SinglePress" EnterTime="7.388" ExactTime="8.936125" LeaveTime="9.321125" Angle="22.80002" MotionParams="0" InputType="2" IgnoreFocus="0" />
+    <Point Type="SinglePress" EnterTime="8.499" ExactTime="10.04712" LeaveTime="10.43212" Angle="-90" MotionParams="1,30" InputType="3" IgnoreFocus="0" />
+    <Point Type="SinglePress" EnterTime="9.981" ExactTime="11.52913" LeaveTime="11.91413" Angle="15" MotionParams="0" InputType="1" IgnoreFocus="0" />
+    <Point Type="SinglePress" EnterTime="10.351" ExactTime="11.89913" LeaveTime="12.28413" Angle="-15" MotionParams="0" InputType="1" IgnoreFocus="0" />
+    <Point Type="SinglePress" EnterTime="11.462" ExactTime="13.01013" LeaveTime="13.39513" Angle="0" MotionParams="1,-20" InputType="1" IgnoreFocus="0" />
+    <Point Type="SinglePress" EnterTime="12.203" ExactTime="13.75113" LeaveTime="14.13613" Angle="135" MotionParams="0" InputType="2" IgnoreFocus="0" />
+    <Point Type="SinglePress" EnterTime="12.574" ExactTime="14.12212" LeaveTime="14.50712" Angle="165" MotionParams="0" InputType="2" IgnoreFocus="0" />
+    <Point Type="SinglePress" EnterTime="12.944" ExactTime="14.49212" LeaveTime="14.87712" Angle="-165" MotionParams="0" InputType="2" IgnoreFocus="0" />
+    <Point Type="SinglePress" EnterTime="13.314" ExactTime="14.86213" LeaveTime="15.24713" Angle="-135" MotionParams="0" InputType="2" IgnoreFocus="0" />
+    <Point Type="SinglePress" EnterTime="14.796" ExactTime="16.34413" LeaveTime="16.72913" Angle="50" MotionParams="0" InputType="1" IgnoreFocus="0" />
+    <Point Type="SinglePress" EnterTime="15.166" ExactTime="16.71412" LeaveTime="17.09912" Angle="25" MotionParams="0" InputType="1" IgnoreFocus="0" />
+    <Point Type="SinglePress" EnterTime="15.537" ExactTime="17.08512" LeaveTime="17.47012" Angle="0" MotionParams="1,20" InputType="1" IgnoreFocus="0" />
+    <Point Type="SinglePress" EnterTime="15.907" ExactTime="17.45513" LeaveTime="17.84013" Angle="-25" MotionParams="0" InputType="1" IgnoreFocus="0" />
+    <Point Type="SinglePress" EnterTime="16.277" ExactTime="17.82512" LeaveTime="18.21012" Angle="-50" MotionParams="0" InputType="1" IgnoreFocus="0" />
+    <Point Type="SinglePress" EnterTime="17.388" ExactTime="18.93612" LeaveTime="19.32112" Angle="180" MotionParams="2,25" InputType="2" IgnoreFocus="0" />
+    <Point Type="SinglePress" EnterTime="18.5" ExactTime="20.04812" LeaveTime="20.43312" Angle="0" MotionParams="2,25" InputType="2" IgnoreFocus="0" />
+    <Point Type="SinglePress" EnterTime="19.24" ExactTime="20.78812" LeaveTime="21.17312" Angle="135" MotionParams="0" InputType="2" IgnoreFocus="0" />
+    <Point Type="SinglePress" EnterTime="19.611" ExactTime="21.15912" LeaveTime="21.54412" Angle="105" MotionParams="0" InputType="2" IgnoreFocus="0" />
+    <Point Type="SinglePress" EnterTime="19.981" ExactTime="21.52913" LeaveTime="21.91413" Angle="75" MotionParams="0" InputType="2" IgnoreFocus="0" />
+    <Point Type="SinglePress" EnterTime="20.351" ExactTime="21.89912" LeaveTime="22.28412" Angle="45" MotionParams="0" InputType="2" IgnoreFocus="0" />
+    <Point Type="SinglePress" EnterTime="21.092" ExactTime="22.64013" LeaveTime="23.02513" Angle="118.899" MotionParams="0" InputType="1" IgnoreFocus="0" />
+    <Point Type="SinglePress" EnterTime="21.462" ExactTime="23.01012" LeaveTime="23.39512" Angle="17.884" MotionParams="0" InputType="1" IgnoreFocus="0" />
+    <Point Type="SinglePress" EnterTime="21.833" ExactTime="23.38112" LeaveTime="23.76612" Angle="151.795" MotionParams="0" InputType="1" IgnoreFocus="0" />
+    <Point Type="SinglePress" EnterTime="22.203" ExactTime="23.75113" LeaveTime="24.13613" Angle="-13.549" MotionParams="0" InputType="1" IgnoreFocus="0" />
+    <Point Type="SinglePress" EnterTime="22.574" ExactTime="24.12213" LeaveTime="24.50713" Angle="-175.419" MotionParams="0" InputType="1" IgnoreFocus="0" />
+    <Point Type="SinglePress" EnterTime="22.944" ExactTime="24.49212" LeaveTime="24.87712" Angle="-44.014" MotionParams="0" InputType="1" IgnoreFocus="0" />
+    <Point Type="SinglePress" EnterTime="23.314" ExactTime="24.86213" LeaveTime="25.24713" Angle="-106.422" MotionParams="0" InputType="1" IgnoreFocus="0" />
+    <Point Type="SinglePress" EnterTime="24.425" ExactTime="25.97313" LeaveTime="26.35813" Angle="118.899" MotionParams="0" InputType="2" IgnoreFocus="0" />
+    <Point Type="SinglePress" EnterTime="24.796" ExactTime="26.34413" LeaveTime="26.72913" Angle="17.884" MotionParams="0" InputType="2" IgnoreFocus="0" />
+    <Point Type="SinglePress" EnterTime="25.166" ExactTime="26.71412" LeaveTime="27.09912" Angle="151.795" MotionParams="0" InputType="2" IgnoreFocus="0" />
+    <Point Type="SinglePress" EnterTime="25.537" ExactTime="27.08512" LeaveTime="27.47012" Angle="-13.549" MotionParams="0" InputType="2" IgnoreFocus="0" />
+    <Point Type="SinglePress" EnterTime="25.907" ExactTime="27.45513" LeaveTime="27.84013" Angle="-175.419" MotionParams="0" InputType="2" IgnoreFocus="0" />
+    <Point Type="SinglePress" EnterTime="26.277" ExactTime="27.82512" LeaveTime="28.21012" Angle="-44.014" MotionParams="0" InputType="3" IgnoreFocus="0" />
+    <Point Type="SinglePress" EnterTime="26.462" ExactTime="28.01012" LeaveTime="28.39512" Angle="-44.01404" MotionParams="0" InputType="3" IgnoreFocus="0" />
+    <Point Type="SinglePress" EnterTime="28.129" ExactTime="29.67713" LeaveTime="30.06213" Angle="68.20001" MotionParams="0" InputType="2" IgnoreFocus="0" />
+    <Point Type="SinglePress" EnterTime="28.314" ExactTime="29.86213" LeaveTime="30.24713" Angle="38.2" MotionParams="0" InputType="2" IgnoreFocus="0" />
+    <Point Type="SinglePress" EnterTime="29.24" ExactTime="30.78812" LeaveTime="31.17312" Angle="-69" MotionParams="0" InputType="2" IgnoreFocus="0" />
+    <Point Type="SinglePress" EnterTime="29.425" ExactTime="30.97313" LeaveTime="31.35813" Angle="-39" MotionParams="0" InputType="2" IgnoreFocus="0" />
+    <Point Type="SinglePress" EnterTime="30.166" ExactTime="31.71412" LeaveTime="32.09912" Angle="125" MotionParams="0" InputType="2" IgnoreFocus="0" />
+    <Point Type="SinglePress" EnterTime="30.351" ExactTime="31.89912" LeaveTime="32.28412" Angle="150" MotionParams="0" InputType="2" IgnoreFocus="0" />
+    <Point Type="SinglePress" EnterTime="30.722" ExactTime="32.27013" LeaveTime="32.65513" Angle="180" MotionParams="1,25" InputType="2" IgnoreFocus="0" />
+    <Point Type="SinglePress" EnterTime="31.092" ExactTime="32.64013" LeaveTime="33.02513" Angle="-150" MotionParams="0" InputType="2" IgnoreFocus="0" />
+    <Point Type="SinglePress" EnterTime="31.277" ExactTime="32.82513" LeaveTime="33.21013" Angle="-125" MotionParams="0" InputType="2" IgnoreFocus="0" />
+    <Point Type="SinglePress" EnterTime="32.203" ExactTime="33.75113" LeaveTime="34.13613" Angle="-13" MotionParams="0" InputType="2" IgnoreFocus="0" />
+    <Point Type="SinglePress" EnterTime="32.388" ExactTime="33.93613" LeaveTime="34.32113" Angle="-43" MotionParams="0" InputType="2" IgnoreFocus="0" />
+    <Point Type="SinglePress" EnterTime="32.944" ExactTime="34.49213" LeaveTime="34.87713" Angle="135" MotionParams="0" InputType="2" IgnoreFocus="0" />
+    <Point Type="SinglePress" EnterTime="33.314" ExactTime="34.86213" LeaveTime="35.24713" Angle="165" MotionParams="0" InputType="2" IgnoreFocus="0" />
+    <Point Type="SinglePress" EnterTime="33.685" ExactTime="35.23312" LeaveTime="35.61812" Angle="-165" MotionParams="0" InputType="2" IgnoreFocus="0" />
+    <Point Type="SinglePress" EnterTime="34.055" ExactTime="35.60313" LeaveTime="35.98813" Angle="-135" MotionParams="0" InputType="2" IgnoreFocus="0" />
+    <Point Type="SinglePress" EnterTime="34.796" ExactTime="36.34412" LeaveTime="36.72912" Angle="90" MotionParams="0" InputType="1" IgnoreFocus="0" />
+    <Point Type="SinglePress" EnterTime="34.796" ExactTime="36.71413" LeaveTime="37.09913" Angle="90" MotionParams="1,30" InputType="1" IgnoreFocus="0" />
+    <Point Type="SinglePress" EnterTime="34.796" ExactTime="36.89912" LeaveTime="37.28412" Angle="90" MotionParams="1,60" InputType="1" IgnoreFocus="0" />
+    <Point Type="SinglePress" EnterTime="35.907" ExactTime="37.45512" LeaveTime="37.84012" Angle="118.899" MotionParams="0" InputType="2" IgnoreFocus="0" />
+    <Point Type="SinglePress" EnterTime="36.277" ExactTime="37.82513" LeaveTime="38.21013" Angle="17.884" MotionParams="0" InputType="2" IgnoreFocus="0" />
+    <Point Type="SinglePress" EnterTime="36.648" ExactTime="38.19613" LeaveTime="38.58113" Angle="151.795" MotionParams="0" InputType="1" IgnoreFocus="0" />
+    <Point Type="SinglePress" EnterTime="37.018" ExactTime="38.56612" LeaveTime="38.95112" Angle="-13.549" MotionParams="0" InputType="1" IgnoreFocus="0" />
+    <Point Type="SinglePress" EnterTime="37.388" ExactTime="38.93613" LeaveTime="39.32113" Angle="-175.419" MotionParams="0" InputType="2" IgnoreFocus="0" />
+    <Point Type="SinglePress" EnterTime="37.759" ExactTime="39.30713" LeaveTime="39.69213" Angle="-43.996" MotionParams="0" InputType="2" IgnoreFocus="0" />
+    <Point Type="SinglePress" EnterTime="38.129" ExactTime="39.67712" LeaveTime="40.06212" Angle="-142.622" MotionParams="0" InputType="1" IgnoreFocus="0" />
+    <Point Type="SinglePress" EnterTime="38.314" ExactTime="39.86213" LeaveTime="40.24713" Angle="-74.08" MotionParams="0" InputType="1" IgnoreFocus="0" />
+    <Point Type="SinglePress" EnterTime="40.081" ExactTime="41.52913" LeaveTime="41.91413" Angle="90" MotionParams="1,-20" InputType="1" IgnoreFocus="0" />
+    <Point Type="SinglePress" EnterTime="40.822" ExactTime="42.27013" LeaveTime="42.65513" Angle="90" MotionParams="1,50" InputType="2" IgnoreFocus="0" />
+    <Point Type="SinglePress" EnterTime="41.562" ExactTime="43.01012" LeaveTime="43.39512" Angle="-90" MotionParams="1,-20" InputType="1" IgnoreFocus="0" />
+    <Point Type="SinglePress" EnterTime="42.303" ExactTime="43.75113" LeaveTime="44.13613" Angle="-90" MotionParams="1,50" InputType="2" IgnoreFocus="0" />
+    <Point Type="SinglePress" EnterTime="43.044" ExactTime="44.49213" LeaveTime="44.87713" Angle="180" MotionParams="1,-20" InputType="1" IgnoreFocus="0" />
+    <Point Type="SinglePress" EnterTime="43.785" ExactTime="45.23312" LeaveTime="45.61812" Angle="180" MotionParams="1,50" InputType="2" IgnoreFocus="0" />
+    <Point Type="SinglePress" EnterTime="44.525" ExactTime="45.97313" LeaveTime="46.35813" Angle="0" MotionParams="1,-20" InputType="1" IgnoreFocus="0" />
+    <Point Type="SinglePress" EnterTime="45.266" ExactTime="46.71413" LeaveTime="47.09913" Angle="0" MotionParams="1,50" InputType="2" IgnoreFocus="0" />
+    <Point Type="SinglePress" EnterTime="46.007" ExactTime="47.45512" LeaveTime="47.84012" Angle="135" MotionParams="1,-20" InputType="1" IgnoreFocus="0" />
+    <Point Type="SinglePress" EnterTime="46.748" ExactTime="48.19613" LeaveTime="48.58113" Angle="135" MotionParams="1,50" InputType="2" IgnoreFocus="0" />
+    <Point Type="SinglePress" EnterTime="47.488" ExactTime="48.93613" LeaveTime="49.32113" Angle="-45" MotionParams="1,-20" InputType="1" IgnoreFocus="0" />
+    <Point Type="SinglePress" EnterTime="48.229" ExactTime="49.67712" LeaveTime="50.06212" Angle="-45" MotionParams="1,50" InputType="2" IgnoreFocus="0" />
+    <Point Type="SinglePress" EnterTime="48.97" ExactTime="50.41813" LeaveTime="50.80313" Angle="45" MotionParams="1,-20" InputType="1" IgnoreFocus="0" />
+    <Point Type="SinglePress" EnterTime="49.711" ExactTime="51.15913" LeaveTime="51.54413" Angle="45" MotionParams="1,50" InputType="2" IgnoreFocus="0" />
+    <Point Type="SinglePress" EnterTime="50.451" ExactTime="51.89912" LeaveTime="52.28412" Angle="45" MotionParams="1,50" InputType="1" IgnoreFocus="0" />
+    <Point Type="SinglePress" EnterTime="51.192" ExactTime="52.64013" LeaveTime="53.02513" Angle="-110" MotionParams="0" InputType="4" IgnoreFocus="0" />
+    <Point Type="SinglePress" EnterTime="51.562" ExactTime="53.01012" LeaveTime="53.39512" Angle="-90" MotionParams="1,25" InputType="4" IgnoreFocus="0" />
+    <Point Type="SinglePress" EnterTime="51.933" ExactTime="53.38113" LeaveTime="53.76613" Angle="-70" MotionParams="0" InputType="4" IgnoreFocus="0" />
+    <Point Type="SinglePress" EnterTime="52.674" ExactTime="54.12212" LeaveTime="54.50712" Angle="90" MotionParams="2,25" InputType="3" IgnoreFocus="0" />
+    <Point Type="SinglePress" EnterTime="53.414" ExactTime="54.86213" LeaveTime="55.24713" Angle="180" MotionParams="2,25" InputType="3" IgnoreFocus="0" />
+    <Point Type="SinglePress" EnterTime="54.155" ExactTime="55.60313" LeaveTime="55.98813" Angle="-90" MotionParams="2,25" InputType="3" IgnoreFocus="0" />
+    <Point Type="SinglePress" EnterTime="54.896" ExactTime="56.34412" LeaveTime="56.72912" Angle="0" MotionParams="2,25" InputType="3" IgnoreFocus="0" />
+    <Point Type="SinglePress" EnterTime="55.637" ExactTime="57.08512" LeaveTime="57.47012" Angle="90" MotionParams="2,25" InputType="3" IgnoreFocus="0" />
+    <Point Type="SinglePress" EnterTime="56.377" ExactTime="57.82513" LeaveTime="58.21013" Angle="-90" MotionParams="2,25" InputType="3" IgnoreFocus="0" />
+    <Point Type="SinglePress" EnterTime="57.118" ExactTime="58.56612" LeaveTime="58.95112" Angle="180" MotionParams="2,25" InputType="3" IgnoreFocus="0" />
+    <Point Type="SinglePress" EnterTime="57.859" ExactTime="59.30713" LeaveTime="59.69213" Angle="0" MotionParams="2,25" InputType="3" IgnoreFocus="0" />
+    <Point Type="SinglePress" EnterTime="58.599" ExactTime="60.04713" LeaveTime="60.43213" Angle="90" MotionParams="2,25" InputType="3" IgnoreFocus="0" />
+    <Point Type="SinglePress" EnterTime="59.34" ExactTime="60.78812" LeaveTime="61.17312" Angle="-90" MotionParams="2,25" InputType="3" IgnoreFocus="0" />
+    <Point Type="SinglePress" EnterTime="60.081" ExactTime="61.52913" LeaveTime="61.91413" Angle="0" MotionParams="2,25" InputType="3" IgnoreFocus="0" />
+    <Point Type="SinglePress" EnterTime="60.822" ExactTime="62.27013" LeaveTime="62.65513" Angle="180" MotionParams="2,25" InputType="3" IgnoreFocus="0" />
+    <Point Type="SinglePress" EnterTime="61.762" ExactTime="63.01012" LeaveTime="63.39512" Angle="135" MotionParams="4,101.15,239.75,139.35,253.3,122.75,256.6" InputType="3" IgnoreFocus="0" />
+    <Point Type="SinglePress" EnterTime="62.503" ExactTime="63.75113" LeaveTime="64.13613" Angle="135" MotionParams="4,101.15,239.75,139.35,253.3,122.75,256.6" InputType="3" IgnoreFocus="0" />
+    <Point Type="SinglePress" EnterTime="63.244" ExactTime="64.49213" LeaveTime="64.87713" Angle="45" MotionParams="4,378.85,239.75,340.65,253.3,357.25,256.6" InputType="3" IgnoreFocus="0" />
+    <Point Type="SinglePress" EnterTime="63.985" ExactTime="65.23312" LeaveTime="65.61813" Angle="45" MotionParams="4,378.85,239.75,340.65,253.3,357.25,256.6" InputType="3" IgnoreFocus="0" />
+    <Point Type="SinglePress" EnterTime="64.725" ExactTime="65.97312" LeaveTime="66.35812" Angle="-135" MotionParams="4,103.05,77.8,141.45,64.6,124.85,61.4" InputType="3" IgnoreFocus="0" />
+    <Point Type="SinglePress" EnterTime="65.466" ExactTime="66.71413" LeaveTime="67.09913" Angle="-135" MotionParams="4,103.05,77.8,141.45,64.6,124.85,61.4" InputType="3" IgnoreFocus="0" />
+    <Point Type="SinglePress" EnterTime="66.207" ExactTime="67.45512" LeaveTime="67.84012" Angle="-45" MotionParams="4,376.95,77.8,338.55,64.6,355.15,61.4" InputType="3" IgnoreFocus="0" />
+    <Point Type="SinglePress" EnterTime="66.948" ExactTime="68.19612" LeaveTime="68.58112" Angle="-45" MotionParams="4,376.95,77.8,338.55,64.6,355.15,61.4" InputType="3" IgnoreFocus="0" />
+    <Point Type="SinglePress" EnterTime="67.688" ExactTime="68.93613" LeaveTime="69.32113" Angle="135" MotionParams="4,101.15,239.75,139.35,253.3,122.75,256.6" InputType="3" IgnoreFocus="0" />
+    <Point Type="SinglePress" EnterTime="68.429" ExactTime="69.67712" LeaveTime="70.06212" Angle="45" MotionParams="4,378.85,239.75,340.65,253.3,357.25,256.6" InputType="3" IgnoreFocus="0" />
+    <Point Type="SinglePress" EnterTime="69.17" ExactTime="70.41812" LeaveTime="70.80312" Angle="-135" MotionParams="4,103.05,77.8,141.45,64.6,124.85,61.4" InputType="3" IgnoreFocus="0" />
+    <Point Type="SinglePress" EnterTime="69.911" ExactTime="71.15913" LeaveTime="71.54413" Angle="-45" MotionParams="4,376.95,77.8,338.55,64.6,355.15,61.4" InputType="3" IgnoreFocus="0" />
+    <Point Type="SinglePress" EnterTime="70.651" ExactTime="71.89912" LeaveTime="72.28412" Angle="135" MotionParams="4,101.15,239.75,139.35,253.3,122.75,256.6" InputType="3" IgnoreFocus="0" />
+    <Point Type="SinglePress" EnterTime="71.392" ExactTime="72.64012" LeaveTime="73.02512" Angle="45" MotionParams="4,378.85,239.75,340.65,253.3,357.25,256.6" InputType="3" IgnoreFocus="0" />
+    <Point Type="SinglePress" EnterTime="72.133" ExactTime="73.38113" LeaveTime="73.76613" Angle="-135" MotionParams="4,103.05,77.8,141.45,64.6,124.85,61.4" InputType="3" IgnoreFocus="0" />
+    <Point Type="SinglePress" EnterTime="72.874" ExactTime="74.12212" LeaveTime="74.50713" Angle="-45" MotionParams="4,376.95,77.8,338.55,64.6,355.15,61.4" InputType="3" IgnoreFocus="0" />
+    <Point Type="SinglePress" EnterTime="73.614" ExactTime="74.86212" LeaveTime="75.24712" Angle="-90" MotionParams="0" InputType="3" IgnoreFocus="0" />
+    <Point Type="SinglePress" EnterTime="73.614" ExactTime="75.60313" LeaveTime="75.98813" Angle="-90" MotionParams="1,30" InputType="3" IgnoreFocus="0" />
+    <Point Type="SinglePress" EnterTime="73.614" ExactTime="76.34412" LeaveTime="76.72912" Angle="-90" MotionParams="1,60" InputType="3" IgnoreFocus="0" />
+    <Point Type="SinglePress" EnterTime="75.537" ExactTime="77.08513" LeaveTime="77.47013" Angle="40" MotionParams="4,287.45,194.55,323.9,206.7,309.2,194.8" InputType="1" IgnoreFocus="0" />
+    <Point Type="SinglePress" EnterTime="75.537" ExactTime="77.08513" LeaveTime="77.47013" Angle="140" MotionParams="4,192.55,194.55,156.1,206.7,170.8,194.8" InputType="2" IgnoreFocus="0" />
+    <Point Type="SinglePress" EnterTime="76.648" ExactTime="78.19612" LeaveTime="78.58112" Angle="-90" MotionParams="1,30" InputType="1" IgnoreFocus="0" />
+    <Point Type="SinglePress" EnterTime="77.388" ExactTime="78.93613" LeaveTime="79.32113" Angle="135" MotionParams="4,101.15,239.75,139.35,253.3,122.75,256.6" InputType="2" IgnoreFocus="0" />
+    <Point Type="SinglePress" EnterTime="77.759" ExactTime="79.30712" LeaveTime="79.69212" Angle="45" MotionParams="4,378.85,239.75,340.65,253.3,357.25,256.6" InputType="2" IgnoreFocus="0" />
+    <Point Type="SinglePress" EnterTime="78.129" ExactTime="79.67712" LeaveTime="80.06212" Angle="-135" MotionParams="4,103.05,77.8,141.45,64.6,124.85,61.4" InputType="2" IgnoreFocus="0" />
+    <Point Type="SinglePress" EnterTime="78.5" ExactTime="80.04813" LeaveTime="80.43313" Angle="-44.80005" MotionParams="4,377.2363,78.27837,338.8824,64.94442,355.4935,61.80235" InputType="2" IgnoreFocus="0" />
+    <Point Type="SinglePress" EnterTime="78.87" ExactTime="80.41812" LeaveTime="80.80312" Angle="-88.19998" MotionParams="1,30" InputType="2" IgnoreFocus="0" />
+    <Point Type="SinglePress" EnterTime="79.611" ExactTime="81.15913" LeaveTime="81.54413" Angle="90" MotionParams="1,30" InputType="2" IgnoreFocus="0" />
+    <Point Type="SinglePress" EnterTime="80.351" ExactTime="81.89912" LeaveTime="82.28412" Angle="140" MotionParams="4,192.55,194.55,156.1,206.7,170.8,194.8" InputType="1" IgnoreFocus="0" />
+    <Point Type="SinglePress" EnterTime="80.722" ExactTime="82.27013" LeaveTime="82.65513" Angle="40" MotionParams="4,287.45,194.55,323.9,206.7,309.2,194.8" InputType="1" IgnoreFocus="0" />
+    <Point Type="SinglePress" EnterTime="81.092" ExactTime="82.64012" LeaveTime="83.02512" Angle="-140" MotionParams="4,193.45,126.4,156.75,114.3,171.7,126.15" InputType="1" IgnoreFocus="0" />
+    <Point Type="SinglePress" EnterTime="81.462" ExactTime="83.01012" LeaveTime="83.39512" Angle="-40" MotionParams="4,286.55,126.4,323.25,114.3,308.3,126.15" InputType="1" IgnoreFocus="0" />
+    <Point Type="SinglePress" EnterTime="82.018" ExactTime="83.56612" LeaveTime="83.95112" Angle="90" MotionParams="1,30" InputType="1" IgnoreFocus="0" />
+    <Point Type="SinglePress" EnterTime="82.574" ExactTime="84.12212" LeaveTime="84.50713" Angle="-140" MotionParams="4,193.45,126.4,156.75,114.3,171.7,126.15" InputType="1" IgnoreFocus="0" />
+    <Point Type="SinglePress" EnterTime="82.944" ExactTime="84.49213" LeaveTime="84.87713" Angle="-40" MotionParams="4,286.55,126.4,323.25,114.3,308.3,126.15" InputType="1" IgnoreFocus="0" />
+    <Point Type="SinglePress" EnterTime="83.5" ExactTime="85.04813" LeaveTime="85.43313" Angle="-90" MotionParams="1,30" InputType="1" IgnoreFocus="0" />
+    <Point Type="SinglePress" EnterTime="84.055" ExactTime="85.60313" LeaveTime="85.98813" Angle="140" MotionParams="4,192.55,194.55,156.1,206.7,170.8,194.8" InputType="1" IgnoreFocus="0" />
+    <Point Type="SinglePress" EnterTime="84.425" ExactTime="85.97312" LeaveTime="86.35812" Angle="40" MotionParams="4,287.45,194.55,323.9,206.7,309.2,194.8" InputType="1" IgnoreFocus="0" />
+    <Point Type="SinglePress" EnterTime="85.537" ExactTime="87.08513" LeaveTime="87.47013" Angle="90" MotionParams="1,30" InputType="2" IgnoreFocus="0" />
+    <Point Type="SinglePress" EnterTime="86.277" ExactTime="87.82513" LeaveTime="88.21013" Angle="135" MotionParams="1,15" InputType="2" IgnoreFocus="0" />
+    <Point Type="SinglePress" EnterTime="86.648" ExactTime="88.19612" LeaveTime="88.58112" Angle="165" MotionParams="1,-15" InputType="2" IgnoreFocus="0" />
+    <Point Type="SinglePress" EnterTime="87.018" ExactTime="88.56612" LeaveTime="88.95112" Angle="-165" MotionParams="1,15" InputType="2" IgnoreFocus="0" />
+    <Point Type="SinglePress" EnterTime="87.388" ExactTime="88.93613" LeaveTime="89.32113" Angle="-135" MotionParams="1,-15" InputType="2" IgnoreFocus="0" />
+    <Point Type="SinglePress" EnterTime="88.5" ExactTime="90.04813" LeaveTime="90.43313" Angle="-90" MotionParams="1,30" InputType="2" IgnoreFocus="0" />
+    <Point Type="SinglePress" EnterTime="89.24" ExactTime="90.78812" LeaveTime="91.17312" Angle="45" MotionParams="1,15" InputType="1" IgnoreFocus="0" />
+    <Point Type="SinglePress" EnterTime="89.611" ExactTime="91.15913" LeaveTime="91.54413" Angle="15" MotionParams="1,-15" InputType="1" IgnoreFocus="0" />
+    <Point Type="SinglePress" EnterTime="89.981" ExactTime="91.52912" LeaveTime="91.91412" Angle="-15" MotionParams="1,15" InputType="1" IgnoreFocus="0" />
+    <Point Type="SinglePress" EnterTime="90.351" ExactTime="91.89912" LeaveTime="92.28412" Angle="-45" MotionParams="1,-15" InputType="1" IgnoreFocus="0" />
+    <Point Type="SinglePress" EnterTime="91.462" ExactTime="93.01012" LeaveTime="93.39512" Angle="135" MotionParams="0" InputType="1" IgnoreFocus="0" />
+    <Point Type="SinglePress" EnterTime="91.833" ExactTime="93.38113" LeaveTime="93.76613" Angle="45" MotionParams="0" InputType="1" IgnoreFocus="0" />
+    <Point Type="SinglePress" EnterTime="92.203" ExactTime="93.75112" LeaveTime="94.13612" Angle="165" MotionParams="0" InputType="2" IgnoreFocus="0" />
+    <Point Type="SinglePress" EnterTime="92.574" ExactTime="94.12212" LeaveTime="94.50713" Angle="15" MotionParams="0" InputType="2" IgnoreFocus="0" />
+    <Point Type="SinglePress" EnterTime="92.944" ExactTime="94.49213" LeaveTime="94.87713" Angle="-165" MotionParams="0" InputType="2" IgnoreFocus="0" />
+    <Point Type="SinglePress" EnterTime="93.314" ExactTime="94.86212" LeaveTime="95.24712" Angle="-15" MotionParams="0" InputType="2" IgnoreFocus="0" />
+    <Point Type="SinglePress" EnterTime="93.685" ExactTime="95.23312" LeaveTime="95.61813" Angle="-88.79999" MotionParams="0" InputType="2" IgnoreFocus="0" />
+    <Point Type="SinglePress" EnterTime="94.796" ExactTime="96.34412" LeaveTime="96.72912" Angle="90" MotionParams="0" InputType="1" IgnoreFocus="0" />
+    <Point Type="SinglePress" EnterTime="94.796" ExactTime="96.89912" LeaveTime="97.28412" Angle="90" MotionParams="1,30" InputType="1" IgnoreFocus="0" />
+    <Point Type="SinglePress" EnterTime="94.796" ExactTime="97.45512" LeaveTime="97.84012" Angle="90" MotionParams="1,60" InputType="1" IgnoreFocus="0" />
+    <Point Type="SinglePress" EnterTime="96.648" ExactTime="98.19612" LeaveTime="98.58112" Angle="135" MotionParams="0" InputType="2" IgnoreFocus="0" />
+    <Point Type="SinglePress" EnterTime="97.018" ExactTime="98.56612" LeaveTime="98.95112" Angle="45" MotionParams="0" InputType="2" IgnoreFocus="0" />
+    <Point Type="SinglePress" EnterTime="97.388" ExactTime="98.93613" LeaveTime="99.32113" Angle="165" MotionParams="0" InputType="1" IgnoreFocus="0" />
+    <Point Type="SinglePress" EnterTime="97.759" ExactTime="99.30712" LeaveTime="99.69212" Angle="15" MotionParams="0" InputType="1" IgnoreFocus="0" />
+    <Point Type="SinglePress" EnterTime="98.129" ExactTime="99.67712" LeaveTime="100.0621" Angle="-165" MotionParams="0" InputType="2" IgnoreFocus="0" />
+    <Point Type="SinglePress" EnterTime="98.5" ExactTime="100.0481" LeaveTime="100.4331" Angle="-15" MotionParams="0" InputType="2" IgnoreFocus="0" />
+    <Point Type="SinglePress" EnterTime="98.87" ExactTime="100.4181" LeaveTime="100.8031" Angle="-270.0002" MotionParams="0" InputType="2" IgnoreFocus="0" />
+    <Point Type="Hold" EnterTime="99.24" ExactTime="100.7881" LeaveTime="104.5" Angle="-90" MotionParams="0" InputType="3" IgnoreFocus="0" Effects="Chunfen_End_Perfect;Chunfen_End_Nice;FailEffectCommon" />
+    <Point Type="SinglePress" EnterTime="4.055" ExactTime="5.603125" LeaveTime="5.988125" Angle="20" MotionParams="0" InputType="1" IgnoreFocus="0" />
+    <Point Type="SinglePress" EnterTime="4.24" ExactTime="5.788125" LeaveTime="6.173125" Angle="0" MotionParams="0" InputType="1" IgnoreFocus="0" />
+    <Point Type="SinglePress" EnterTime="4.425" ExactTime="5.973125" LeaveTime="6.358125" Angle="-20" MotionParams="0" InputType="1" IgnoreFocus="0" />
+    <Point Type="SinglePress" EnterTime="6.948" ExactTime="8.196125" LeaveTime="8.581125" Angle="160" MotionParams="0" InputType="1" IgnoreFocus="0" />
+    <Point Type="SinglePress" EnterTime="7.018" ExactTime="8.566125" LeaveTime="8.951125" Angle="180" MotionParams="1,20" InputType="1" IgnoreFocus="0" />
+    <Point Type="SinglePress" EnterTime="7.388" ExactTime="8.936125" LeaveTime="9.321125" Angle="-160" MotionParams="0" InputType="1" IgnoreFocus="0" />
+    <Point Type="SinglePress" EnterTime="28.129" ExactTime="29.67713" LeaveTime="30.06213" Angle="145" MotionParams="0" InputType="1" IgnoreFocus="0" />
+    <Point Type="SinglePress" EnterTime="28.314" ExactTime="29.86213" LeaveTime="30.24713" Angle="115" MotionParams="0" InputType="1" IgnoreFocus="0" />
+    <Point Type="SinglePress" EnterTime="29.24" ExactTime="30.78812" LeaveTime="31.17312" Angle="-133" MotionParams="0" InputType="1" IgnoreFocus="0" />
+    <Point Type="SinglePress" EnterTime="29.425" ExactTime="30.97313" LeaveTime="31.35813" Angle="-103" MotionParams="0" InputType="1" IgnoreFocus="0" />
+    <Point Type="SinglePress" EnterTime="32.203" ExactTime="33.75113" LeaveTime="34.13613" Angle="55" MotionParams="0" InputType="1" IgnoreFocus="0" />
+    <Point Type="SinglePress" EnterTime="32.388" ExactTime="33.93613" LeaveTime="34.32113" Angle="25" MotionParams="0" InputType="1" IgnoreFocus="0" />
+  </NetworkPoints>
+</Level>

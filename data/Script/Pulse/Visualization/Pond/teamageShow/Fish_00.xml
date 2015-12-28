@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<PLPondFish>
+    <Sprite Path="Sprite/Pulse/Fish/Fish_teamageShow_artist_title.png" Type="3" MixAmp="0.001" MixFreq="0.02" MixPhase="5" SpeedFactor="0.08" NodeCount="8" Scale="1.0"/>
+	<Pos Value="0,0"/>
+	<Damping Value="0.3"/>
+	<Speed Value="0"/>
+	<Threshold Value="64"/>
+	<Boundary X="100" Y="80" Width="256" Height="256"/>
+</PLPondFish>

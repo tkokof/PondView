@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<MainMenuPointHold>
+    <Sprite Path="Sprite/Pulse/Point/SinglePress_dashu_Big.png"/>
+	<Circle Path="Sprite/Pulse/Point/pointPrompt_xiazhi.png"/>
+	<Pan Path="Sprite/Pulse/Point/HoldPan_dashu.png"/>
+	<!--<Tip Path="Sprite/Pulse/Test/finger_ink.png" ScaleX="0.25" ScaleY="0.25" PosY="50"/>-->
+	<!--<Tip Path="Sprite/Pulse/Test/HoldPointTip.png" ScaleX="0.8" ScaleY="0.8" PosX="100" PosY="150"/>-->
+	<PointColor R="255" G="255" B="255"/>
+	<GamePanRadius Value="108"/>
+	<DefaultTime EnterTime="0" ExactTime="2" LeaveTime="4"/>
+</MainMenuPointHold>

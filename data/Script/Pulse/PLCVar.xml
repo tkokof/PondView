@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<PLCVar>
+    <PointPerfectDeviationFactor Value="0.5"/>
+	<!--<PointNiceDeviation Value="0.353"/>-->
+	<PointSizeFactor Value="1.0"/>
+	<PointTargetFactor Value="0.9"/> <!-- when tip type is 0, target factor is around 0.8 -->
+	<PointSinglePressTipType Value="4"/> <!-- 0:out->in 1:in->out 2:on-line 3:osu-like 4: mix-like 5: test-->
+	<PointHoldTipType Value="0"/> <!-- 0:circle tip 1: ring tip -->
+	<PointCirclePreSizeFactor Value="3"/>
+	<CameraTweakHoriz Value="0"/>
+	<CameraTweakVert Value="0"/>
+	<PathCurveSize Value="32"/>
+	<PathMotionCurveSize Value="1"/>
+	<DebugPointTime Value="0"/>
+	<PointPreInputTime Value="0.5"/>
+	<CVars>
+	    <CVar Name="PointSPMixTipColorBeginPercent" Value="0.5"/>
+		<CVar Name="PointSPMixTipSizeBeginPercent" Value="0.5"/>
+		<CVar Name="PointSPMixTipRotateAngle" Value="0"/>
+		<CVar Name="PointSPMixTipPostInputTimePercent" Value="0.5"/>
+		<CVar Name="PLPondFishMinDistanceFactor" Value="1.0"/>
+		<CVar Name="PLPondFishAdjustFactor" Value="0.8"/>
+		<CVar Name="PointCPTapSizeFactor" Value="2.5"/>
+		<CVar Name="MainMenuPointFailCountThreshold" Value="3" Desc="this is desc of this cvar"/>
+		<CVar Name="MainMenuPointTipType" Value="0" Desc="0: finger tip; 1: text tip"/>
+		<!--
+		<CVar Name="TestCVar1" Value="1"/>
+		<CVar Name="TestCVar2" Value="true"/>
+		-->
+		<CVar Name="MusicSelectBackground" Value="Sprite/Pulse/Background/tongyong.png"/>
+		<!-- pulse pond visual simple -->
+		<CVar Name="PLVisualPondSimple" Value="0"/>
+		<CVar Name="PLGameSceneFPS" Value="60"/>
+		<!-- node in range factor --><!-- todo: make this better -->
+		<CVar Name="PLNodeOutRangeFactor" Value="0.3"/>
+		<CVar Name="PLHoldPointMoveRangeFactor" Value="18"/>
+        <CVar Name="PLHoldPointInputRangeFactor" Value="1.5"/>
+		<!-- network play stuff-->
+		<CVar Name="MaxNetworkTimeDiff" Value="0.5"/>
+		<CVar Name="NetworkTimeSyncInterval" Value="2.5"/>
+		<CVar Name="NetworkDiscoveryPort" Value="60002"/>
+		<CVar Name="NetworkPeerPort" Value="60003"/>
+	</CVars>
+</PLCVar>

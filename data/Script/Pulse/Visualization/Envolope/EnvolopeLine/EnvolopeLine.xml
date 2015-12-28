@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<PLEnvolopeLine>
+    <LineColor R="255" G="255" B="255" A="255"/>
+	<LineSize Value="4"/>
+	<CurveSize Value="4"/>
+	<ThresholdDrawLength Value="6"/>
+	<LinePoints>
+	    <Point Polar="80,180"/>
+		<Point Polar="80,135"/>
+		<Point Polar="80,90"/>
+		<Point Polar="80,45"/>
+		<Point Polar="80,0"/>
+		<Point Polar="80,-45"/>
+		<Point Polar="80,-90"/>
+		<Point Polar="80,-135"/>
+	</LinePoints>
+	<Motions>
+	    <Motion Name="Impulse"/> <!-- Circle, Impulse, Interlace -->
+	</Motions>
+</PLEnvolopeLine>

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<PLEnvolopeLine>
+    <LineColor R="255" G="255" B="128" A="255"/>
+	<LineSize Value="6"/>
+	<CurveSize Value="4"/>
+	<ThresholdDrawLength Value="6"/>
+	<LinePoints>
+	    <Point Pos="121,77"/>
+		<Point Pos="93,44"/>
+		<Point Pos="152,43"/>
+	</LinePoints>
+	<Motions>
+	    <!--<Motion Name="Impulse"/>--> <!-- Circle, Impulse, Interlace -->
+	</Motions>
+</PLEnvolopeLine>

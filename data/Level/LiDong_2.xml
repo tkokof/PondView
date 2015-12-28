@@ -1,0 +1,368 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- edited with XMLSpy v2013 (http://www.altova.com) by  () -->
+<!-- 被2011 rel. 2 sp1 (Hugo) 使用XMLSpy vChina编辑的 (http://www.altova.com) by -->
+<Level Audio="LiDong.ogg" Offset="-1">
+  <Tempos>
+  </Tempos>
+  <GameElements>
+    <PLPointSinglePress Config="Script/Pulse/Point/PLPointSinglePress_lidong.xml" />
+    <PLPointComboPress Config="Script/Pulse/Point/PLPointComboPress_qingming.xml" />
+    <PLPointHold Config="Script/Pulse/Point/PLPointHold_qingming.xml" />
+    <PLBackground Config="Script/Pulse/PLBackground_lidong.xml" />
+  </GameElements>
+  <Visualizations>
+    <!--<Visualization Name="Envolope" Config="Script/Pulse/Visualization/Envolope/PLVisualizationEnvolope.xml"/>-->
+    <!--
+		<Visualization Name="Bubble2" Config="Script/Pulse/Visualization/Bubble2/PLVisualizationBubble2.xml"/>
+		-->
+    <Visualization Name="Pond" Config="Script/Pulse/Visualization/Pond/PLVisualizationPond_lidong.xml" />
+  </Visualizations>
+  <Commands>
+    <Command Time="0" Name="PLSetVisualPond" Params="SetWaveCenter:0,0;SetWave:0.008,1;SetLight:0" />
+    <Command Time="14.8" Name="PLSetVisualPond" Params="AddRipple:240,290,1" />
+    <!-- 前奏，无点，前四条鱼出现 -->
+    <Command Time="2.937" Name="PLSetVisualPond" Params="FishIndex:0;SetDestRand:240,160,10,0;SetSpeed:40" />
+    <Command Time="4.975" Name="PLSetVisualPond" Params="FishIndex:1;SetDestRand:240,160,10,0;SetSpeed:40" />
+    <Command Time="8.392" Name="PLSetVisualPond" Params="FishIndex:2;SetDestRand:240,160,10,0;SetSpeed:40" />
+    <Command Time="10.790" Name="PLSetVisualPond" Params="FishIndex:3;SetDestRand:240,160,10,0;SetSpeed:40" />
+    <!-- 点出现，前四条鱼随点运动 -->
+    <Command Time="14.378" Name="PLSetVisualPond" Params="FishIndex:0;SetDest:240,270,0;SetSpeed:60" />
+    <Command Time="14.378" Name="PLSetVisualPond" Params="FishIndex:1;SetDest:240,270,0;SetSpeed:60" />
+    <Command Time="14.378" Name="PLSetVisualPond" Params="FishIndex:2;SetDest:240,270,0;SetSpeed:60" />
+    <Command Time="14.378" Name="PLSetVisualPond" Params="FishIndex:3;SetDest:240,270,0;SetSpeed:60" />
+    <Command Time="18.583" Name="PLSetVisualPond" Params="FishIndex:0;SetDest:210,270,0;SetSpeed:60" />
+    <Command Time="18.583" Name="PLSetVisualPond" Params="FishIndex:1;SetDest:210,270,0;SetSpeed:60" />
+    <Command Time="18.583" Name="PLSetVisualPond" Params="FishIndex:2;SetDest:210,270,0;SetSpeed:60" />
+    <Command Time="18.583" Name="PLSetVisualPond" Params="FishIndex:3;SetDest:210,270,0;SetSpeed:60" />
+    <Command Time="20.531" Name="PLSetVisualPond" Params="FishIndex:0;SetDest:270,300,0;SetSpeed:60" />
+    <Command Time="20.531" Name="PLSetVisualPond" Params="FishIndex:1;SetDest:270,300,0;SetSpeed:60" />
+    <Command Time="20.531" Name="PLSetVisualPond" Params="FishIndex:2;SetDest:270,300,0;SetSpeed:60" />
+    <Command Time="20.531" Name="PLSetVisualPond" Params="FishIndex:3;SetDest:270,300,0;SetSpeed:60" />
+    <Command Time="25.177" Name="PLSetVisualPond" Params="FishIndex:0;SetDest:160,240,0;SetSpeed:60" />
+    <Command Time="25.177" Name="PLSetVisualPond" Params="FishIndex:1;SetDest:160,240,0;SetSpeed:60" />
+    <Command Time="25.177" Name="PLSetVisualPond" Params="FishIndex:2;SetDest:160,240,0;SetSpeed:60" />
+    <Command Time="25.177" Name="PLSetVisualPond" Params="FishIndex:3;SetDest:160,240,0;SetSpeed:60" />
+    <Command Time="26.376" Name="PLSetVisualPond" Params="FishIndex:0;SetDest:300,290,0;SetSpeed:60" />
+    <Command Time="26.376" Name="PLSetVisualPond" Params="FishIndex:1;SetDest:300,290,0;SetSpeed:60" />
+    <Command Time="26.376" Name="PLSetVisualPond" Params="FishIndex:2;SetDest:300,290,0;SetSpeed:60" />
+    <Command Time="26.376" Name="PLSetVisualPond" Params="FishIndex:3;SetDest:300,290,1;SetSpeed:60" />
+    <Command Time="30.572" Name="PLSetVisualPond" Params="FishIndex:0;SetDest:240,300,1;SetSpeed:60" />
+    <Command Time="30.572" Name="PLSetVisualPond" Params="FishIndex:1;SetDest:240,300,1;SetSpeed:60" />
+    <Command Time="30.572" Name="PLSetVisualPond" Params="FishIndex:2;SetDest:240,300,1;SetSpeed:60" />
+    <Command Time="30.572" Name="PLSetVisualPond" Params="FishIndex:3;SetDest:240,300,1;SetSpeed:60" />
+    <!-- 另外两条鱼出现，随点运动 -->
+    <Command Time="32.370" Name="PLSetVisualPond" Params="FishIndex:4;SetDestRand:240,160,10,0;SetSpeed:40" />
+    <Command Time="33.569" Name="PLSetVisualPond" Params="FishIndex:5;SetDestRand:240,160,10,0;SetSpeed:40" />
+    <Command Time="37.166" Name="PLSetVisualPond" Params="FishIndex:4;SetDest:300,170,0;SetSpeed:60" />
+    <Command Time="37.166" Name="PLSetVisualPond" Params="FishIndex:5;SetDest:300,170,0;SetSpeed:60" />
+    <Command Time="38.365" Name="PLSetVisualPond" Params="FishIndex:4;SetDest:180,170,0;SetSpeed:60" />
+    <Command Time="38.365" Name="PLSetVisualPond" Params="FishIndex:5;SetDest:180,170,0;SetSpeed:60" />
+    <Command Time="39.564" Name="PLSetVisualPond" Params="FishIndex:4;SetDest:210,300,1;SetSpeed:60" />
+    <Command Time="39.564" Name="PLSetVisualPond" Params="FishIndex:5;SetDest:210,300,1;SetSpeed:60" />
+    <!-- 所有鱼一起随点运动 -->
+    <Command Time="43.161" Name="PLSetVisualPond" Params="FishIndex:-1;SetDest:310,110,0" />
+    <Command Time="44.360" Name="PLSetVisualPond" Params="FishIndex:-1;SetDest:260,70,0" />
+    <Command Time="45.558" Name="PLSetVisualPond" Params="FishIndex:-1;SetDest:220,70,0" />
+    <Command Time="47.956" Name="PLSetVisualPond" Params="FishIndex:-1;SetDest:295,215,0" />
+    <Command Time="49.155" Name="PLSetVisualPond" Params="FishIndex:-1;SetDest:300,170,0" />
+    <Command Time="50.354" Name="PLSetVisualPond" Params="FishIndex:-1;SetDest:310,110,0" />
+    <Command Time="51.553" Name="PLSetVisualPond" Params="FishIndex:-1;SetDest:370,105,1" />
+    <!-- 不完全随点运动，随音乐运动 -->
+    <Command Time="53.951" Name="PLSetVisualPond" Params="FishIndex:0;SetDestRand:240,160,10,0" />
+    <Command Time="45.440" Name="PLSetVisualPond" Params="FishIndex:0;SetDestRand:240,160,15,0;SetSpeed:40" />
+    <Command Time="47.643" Name="PLSetVisualPond" Params="FishIndex:0;SetDest:80,160,1;SetSpeed:60" />
+    <Command Time="51.911" Name="PLSetVisualPond" Params="FishIndex:1;SetDestRand:240,160,15,0;SetSpeed:40" />
+    <Command Time="55.215" Name="PLSetVisualPond" Params="FishIndex:1;SetDest:80,190,1;SetSpeed:60" />
+    <Command Time="56.317" Name="PLSetVisualPond" Params="FishIndex:2;SetDestRand:240,160,15,0;SetSpeed:40" />
+    <Command Time="59.621" Name="PLSetVisualPond" Params="FishIndex:2;SetDest:80,220,1;SetSpeed:60" />
+    <Command Time="60.585" Name="PLSetVisualPond" Params="FishIndex:3;SetDestRand:240,160,15,0;SetSpeed:40" />
+    <Command Time="64.027" Name="PLSetVisualPond" Params="FishIndex:3;SetDest:450,160,1;SetSpeed:60" />
+    <Command Time="65.128" Name="PLSetVisualPond" Params="FishIndex:4;SetDestRand:240,160,15,0;SetSpeed:40" />
+    <Command Time="68.295" Name="PLSetVisualPond" Params="FishIndex:4;SetDest:450,190,1;SetSpeed:60" />
+    <!-- 小高潮 -->
+    <Command Time="70.834" Name="PLSetVisualPond" Params="FishIndex:-1;SetDestRand:240,160,20,0" />
+    <Command Time="72.834" Name="PLSetVisualPond" Params="FishIndex:-1;SetDestRand:280,160,10,0" />
+    <Command Time="74.033" Name="PLSetVisualPond" Params="FishIndex:0;SetDest:400,190,1;SetSpeed:80" />
+    <Command Time="74.333" Name="PLSetVisualPond" Params="FishIndex:1;SetDest:400,175,1;SetSpeed:80" />
+    <Command Time="74.633" Name="PLSetVisualPond" Params="FishIndex:2;SetDest:400,160,1;SetSpeed:80" />
+    <Command Time="74.933" Name="PLSetVisualPond" Params="FishIndex:3;SetDest:400,145,1;SetSpeed:80" />
+    <Command Time="75.233" Name="PLSetVisualPond" Params="FishIndex:4;SetDest:400,130,1;SetSpeed:80" />
+    <Command Time="75.233" Name="PLSetVisualPond" Params="FishIndex:5;SetDest:400,130,1;SetSpeed:80" />
+    <Command Time="77.370" Name="PLSetVisualPond" Params="FishIndex:-1;SetDestRand:240,160,20,0;SetSpeed:60" />
+    <Command Time="78.290" Name="PLSetVisualPond" Params="FishIndex:-1;SetDestRand:200,160,10,0" />
+    <Command Time="79.878" Name="PLSetVisualPond" Params="FishIndex:0;SetDest:100,190,1;SetSpeed:80" />
+    <Command Time="80.178" Name="PLSetVisualPond" Params="FishIndex:1;SetDest:100,175,1;SetSpeed:80" />
+    <Command Time="80.478" Name="PLSetVisualPond" Params="FishIndex:2;SetDest:100,160,1;SetSpeed:80" />
+    <Command Time="80.778" Name="PLSetVisualPond" Params="FishIndex:3;SetDest:100,145,1;SetSpeed:80" />
+    <Command Time="81.078" Name="PLSetVisualPond" Params="FishIndex:4;SetDest:100,130,1;SetSpeed:80" />
+    <Command Time="81.078" Name="PLSetVisualPond" Params="FishIndex:5;SetDest:100,130,1;SetSpeed:80" />
+    <!-- 尾声 -->
+    <Command Time="83.924" Name="PLSetVisualPond" Params="FishIndex:-1;SetDestRand:240,160,20,0;SetSpeed:60" />
+    <Command Time="85.924" Name="PLSetVisualPond" Params="FishIndex:0;SetDestRand:240,80,10,0;SetSpeed:60" />
+    <Command Time="85.924" Name="PLSetVisualPond" Params="FishIndex:1;SetDestRand:240,80,10,0;SetSpeed:60" />
+    <Command Time="85.924" Name="PLSetVisualPond" Params="FishIndex:2;SetDestRand:240,80,10,0;SetSpeed:60" />
+    <Command Time="85.924" Name="PLSetVisualPond" Params="FishIndex:3;SetDestRand:240,240,10,0;SetSpeed:60" />
+    <Command Time="85.924" Name="PLSetVisualPond" Params="FishIndex:4;SetDestRand:240,240,10,0;SetSpeed:60" />
+    <Command Time="85.924" Name="PLSetVisualPond" Params="FishIndex:5;SetDestRand:240,240,10,0;SetSpeed:60" />
+    <Command Time="87.924" Name="PLSetVisualPond" Params="FishIndex:-1;SetDestRand:160,80,20,0" />
+    <Command Time="89.924" Name="PLSetVisualPond" Params="FishIndex:-1;SetDestRand:240,80,20,0" />
+    <Command Time="91.924" Name="PLSetVisualPond" Params="FishIndex:-1;SetDestRand:240,160,20,0" />
+    <Command Time="93.924" Name="PLSetVisualPond" Params="FishIndex:-1;SetDestRand:160,80,20,0" />
+    <Command Time="95.924" Name="PLSetVisualPond" Params="FishIndex:0;SetDest:110,180,1" />
+    <Command Time="97.924" Name="PLSetVisualPond" Params="FishIndex:1;SetDest:110,140,1" />
+    <Command Time="98.924" Name="PLSetVisualPond" Params="FishIndex:2;SetDest:390,180,1" />
+    <Command Time="100.924" Name="PLSetVisualPond" Params="FishIndex:3;SetDest:390,140,1" />
+    <Command Time="101.924" Name="PLSetVisualPond" Params="FishIndex:4;SetDest:240,300,1" />
+    <Command Time="102.924" Name="PLSetVisualPond" Params="FishIndex:5;SetDest:240,300,1" />
+    <Command Time="103" Name="PLSetVisualPond" Params="SetWave:0.00,1;SetLight:0" />
+    <Command Time="74.52612" Name="PLSetVisualPond" Params="AddRipple:325,230,0.8" />
+    <!--<Command Time="74.82413" Name="PLSetVisualPond" Params="AddRipple:340,200,0.2,5"/>-->
+    <Command Time="75.12212" Name="PLSetVisualPond" Params="AddRipple:350,160,0.8" />
+    <!--<Command Time="75.42013" Name="PLSetVisualPond" Params="AddRipple:340,120,0.2,5"/>-->
+    <Command Time="75.72913" Name="PLSetVisualPond" Params="AddRipple:325,90,0.8" />
+    <Command Time="80.483" Name="PLSetVisualPond" Params="AddRipple:157,230,0.8" />
+    <Command Time="81" Name="PLSetVisualPond" Params="AddRipple:128,160,0.8" />
+    <Command Time="81.675" Name="PLSetVisualPond" Params="AddRipple:160,90,0.8" />
+    <Command Time="103" Name="PLSetVisualPond" Params="AddRipple:240,102,1.5" />
+  </Commands>
+  <NetworkCommands>
+    <Command Time="0" Name="PLSetVisualPond" Params="SetWaveCenter:0,0;SetWave:0.008,1;SetLight:0" />
+    <Command Time="14.8" Name="PLSetVisualPond" Params="AddRipple:240,290,1" />
+    <Command Time="14.8" Name="PLSetVisualPond" Params="AddRipple:240,30,1" />
+    <!-- 前奏，无点，前四条鱼出现 -->
+    <Command Time="2.937" Name="PLSetVisualPond" Params="FishIndex:0;SetDestRand:240,160,10,0;SetSpeed:40" />
+    <Command Time="4.975" Name="PLSetVisualPond" Params="FishIndex:1;SetDestRand:240,160,10,0;SetSpeed:40" />
+    <Command Time="8.392" Name="PLSetVisualPond" Params="FishIndex:2;SetDestRand:240,160,10,0;SetSpeed:40" />
+    <Command Time="10.790" Name="PLSetVisualPond" Params="FishIndex:3;SetDestRand:240,160,10,0;SetSpeed:40" />
+    <!-- 点出现，前四条鱼随点运动 -->
+    <Command Time="14.378" Name="PLSetVisualPond" Params="FishIndex:0;SetDest:240,270,0;SetSpeed:60" />
+    <Command Time="14.378" Name="PLSetVisualPond" Params="FishIndex:1;SetDest:240,270,0;SetSpeed:60" />
+    <Command Time="14.378" Name="PLSetVisualPond" Params="FishIndex:2;SetDest:240,270,0;SetSpeed:60" />
+    <Command Time="14.378" Name="PLSetVisualPond" Params="FishIndex:3;SetDest:240,270,0;SetSpeed:60" />
+    <Command Time="18.583" Name="PLSetVisualPond" Params="FishIndex:0;SetDest:210,270,0;SetSpeed:60" />
+    <Command Time="18.583" Name="PLSetVisualPond" Params="FishIndex:1;SetDest:210,270,0;SetSpeed:60" />
+    <Command Time="18.583" Name="PLSetVisualPond" Params="FishIndex:2;SetDest:210,270,0;SetSpeed:60" />
+    <Command Time="18.583" Name="PLSetVisualPond" Params="FishIndex:3;SetDest:210,270,0;SetSpeed:60" />
+    <Command Time="20.531" Name="PLSetVisualPond" Params="FishIndex:0;SetDest:270,300,0;SetSpeed:60" />
+    <Command Time="20.531" Name="PLSetVisualPond" Params="FishIndex:1;SetDest:270,300,0;SetSpeed:60" />
+    <Command Time="20.531" Name="PLSetVisualPond" Params="FishIndex:2;SetDest:270,300,0;SetSpeed:60" />
+    <Command Time="20.531" Name="PLSetVisualPond" Params="FishIndex:3;SetDest:270,300,0;SetSpeed:60" />
+    <Command Time="25.177" Name="PLSetVisualPond" Params="FishIndex:0;SetDest:160,240,0;SetSpeed:60" />
+    <Command Time="25.177" Name="PLSetVisualPond" Params="FishIndex:1;SetDest:160,240,0;SetSpeed:60" />
+    <Command Time="25.177" Name="PLSetVisualPond" Params="FishIndex:2;SetDest:160,240,0;SetSpeed:60" />
+    <Command Time="25.177" Name="PLSetVisualPond" Params="FishIndex:3;SetDest:160,240,0;SetSpeed:60" />
+    <Command Time="26.376" Name="PLSetVisualPond" Params="FishIndex:0;SetDest:300,290,0;SetSpeed:60" />
+    <Command Time="26.376" Name="PLSetVisualPond" Params="FishIndex:1;SetDest:300,290,0;SetSpeed:60" />
+    <Command Time="26.376" Name="PLSetVisualPond" Params="FishIndex:2;SetDest:300,290,0;SetSpeed:60" />
+    <Command Time="26.376" Name="PLSetVisualPond" Params="FishIndex:3;SetDest:300,290,1;SetSpeed:60" />
+    <Command Time="30.572" Name="PLSetVisualPond" Params="FishIndex:0;SetDest:240,300,1;SetSpeed:60" />
+    <Command Time="30.572" Name="PLSetVisualPond" Params="FishIndex:1;SetDest:240,300,1;SetSpeed:60" />
+    <Command Time="30.572" Name="PLSetVisualPond" Params="FishIndex:2;SetDest:240,300,1;SetSpeed:60" />
+    <Command Time="30.572" Name="PLSetVisualPond" Params="FishIndex:3;SetDest:240,300,1;SetSpeed:60" />
+    <!-- 另外两条鱼出现，随点运动 -->
+    <Command Time="32.370" Name="PLSetVisualPond" Params="FishIndex:4;SetDestRand:240,160,10,0;SetSpeed:40" />
+    <Command Time="33.569" Name="PLSetVisualPond" Params="FishIndex:5;SetDestRand:240,160,10,0;SetSpeed:40" />
+    <Command Time="37.166" Name="PLSetVisualPond" Params="FishIndex:4;SetDest:300,170,0;SetSpeed:60" />
+    <Command Time="37.166" Name="PLSetVisualPond" Params="FishIndex:5;SetDest:300,170,0;SetSpeed:60" />
+    <Command Time="38.365" Name="PLSetVisualPond" Params="FishIndex:4;SetDest:180,170,0;SetSpeed:60" />
+    <Command Time="38.365" Name="PLSetVisualPond" Params="FishIndex:5;SetDest:180,170,0;SetSpeed:60" />
+    <Command Time="39.564" Name="PLSetVisualPond" Params="FishIndex:4;SetDest:210,300,1;SetSpeed:60" />
+    <Command Time="39.564" Name="PLSetVisualPond" Params="FishIndex:5;SetDest:210,300,1;SetSpeed:60" />
+    <!-- 所有鱼一起随点运动 -->
+    <Command Time="43.161" Name="PLSetVisualPond" Params="FishIndex:-1;SetDest:310,110,0" />
+    <Command Time="44.360" Name="PLSetVisualPond" Params="FishIndex:-1;SetDest:260,70,0" />
+    <Command Time="45.558" Name="PLSetVisualPond" Params="FishIndex:-1;SetDest:220,70,0" />
+    <Command Time="47.956" Name="PLSetVisualPond" Params="FishIndex:-1;SetDest:295,215,0" />
+    <Command Time="49.155" Name="PLSetVisualPond" Params="FishIndex:-1;SetDest:300,170,0" />
+    <Command Time="50.354" Name="PLSetVisualPond" Params="FishIndex:-1;SetDest:310,110,0" />
+    <Command Time="51.553" Name="PLSetVisualPond" Params="FishIndex:-1;SetDest:370,105,1" />
+    <!-- 不完全随点运动，随音乐运动 -->
+    <Command Time="53.951" Name="PLSetVisualPond" Params="FishIndex:0;SetDestRand:240,160,10,0" />
+    <Command Time="45.440" Name="PLSetVisualPond" Params="FishIndex:0;SetDestRand:240,160,15,0;SetSpeed:40" />
+    <Command Time="47.643" Name="PLSetVisualPond" Params="FishIndex:0;SetDest:80,160,1;SetSpeed:60" />
+    <Command Time="51.911" Name="PLSetVisualPond" Params="FishIndex:1;SetDestRand:240,160,15,0;SetSpeed:40" />
+    <Command Time="55.215" Name="PLSetVisualPond" Params="FishIndex:1;SetDest:80,190,1;SetSpeed:60" />
+    <Command Time="56.317" Name="PLSetVisualPond" Params="FishIndex:2;SetDestRand:240,160,15,0;SetSpeed:40" />
+    <Command Time="59.621" Name="PLSetVisualPond" Params="FishIndex:2;SetDest:80,220,1;SetSpeed:60" />
+    <Command Time="60.585" Name="PLSetVisualPond" Params="FishIndex:3;SetDestRand:240,160,15,0;SetSpeed:40" />
+    <Command Time="64.027" Name="PLSetVisualPond" Params="FishIndex:3;SetDest:450,160,1;SetSpeed:60" />
+    <Command Time="65.128" Name="PLSetVisualPond" Params="FishIndex:4;SetDestRand:240,160,15,0;SetSpeed:40" />
+    <Command Time="68.295" Name="PLSetVisualPond" Params="FishIndex:4;SetDest:450,190,1;SetSpeed:60" />
+    <!-- 小高潮 -->
+    <Command Time="70.834" Name="PLSetVisualPond" Params="FishIndex:-1;SetDestRand:240,160,20,0" />
+    <Command Time="72.834" Name="PLSetVisualPond" Params="FishIndex:-1;SetDestRand:280,160,10,0" />
+    <Command Time="74.033" Name="PLSetVisualPond" Params="FishIndex:0;SetDest:400,190,1;SetSpeed:80" />
+    <Command Time="74.333" Name="PLSetVisualPond" Params="FishIndex:1;SetDest:400,175,1;SetSpeed:80" />
+    <Command Time="74.633" Name="PLSetVisualPond" Params="FishIndex:2;SetDest:400,160,1;SetSpeed:80" />
+    <Command Time="74.933" Name="PLSetVisualPond" Params="FishIndex:3;SetDest:400,145,1;SetSpeed:80" />
+    <Command Time="75.233" Name="PLSetVisualPond" Params="FishIndex:4;SetDest:400,130,1;SetSpeed:80" />
+    <Command Time="75.233" Name="PLSetVisualPond" Params="FishIndex:5;SetDest:400,130,1;SetSpeed:80" />
+    <Command Time="77.370" Name="PLSetVisualPond" Params="FishIndex:-1;SetDestRand:240,160,20,0;SetSpeed:60" />
+    <Command Time="78.290" Name="PLSetVisualPond" Params="FishIndex:-1;SetDestRand:200,160,10,0" />
+    <Command Time="79.878" Name="PLSetVisualPond" Params="FishIndex:0;SetDest:100,190,1;SetSpeed:80" />
+    <Command Time="80.178" Name="PLSetVisualPond" Params="FishIndex:1;SetDest:100,175,1;SetSpeed:80" />
+    <Command Time="80.478" Name="PLSetVisualPond" Params="FishIndex:2;SetDest:100,160,1;SetSpeed:80" />
+    <Command Time="80.778" Name="PLSetVisualPond" Params="FishIndex:3;SetDest:100,145,1;SetSpeed:80" />
+    <Command Time="81.078" Name="PLSetVisualPond" Params="FishIndex:4;SetDest:100,130,1;SetSpeed:80" />
+    <Command Time="81.078" Name="PLSetVisualPond" Params="FishIndex:5;SetDest:100,130,1;SetSpeed:80" />
+    <!-- 尾声 -->
+    <Command Time="83.924" Name="PLSetVisualPond" Params="FishIndex:-1;SetDestRand:240,160,20,0;SetSpeed:60" />
+    <Command Time="85.924" Name="PLSetVisualPond" Params="FishIndex:0;SetDestRand:240,80,10,0;SetSpeed:60" />
+    <Command Time="85.924" Name="PLSetVisualPond" Params="FishIndex:1;SetDestRand:240,80,10,0;SetSpeed:60" />
+    <Command Time="85.924" Name="PLSetVisualPond" Params="FishIndex:2;SetDestRand:240,80,10,0;SetSpeed:60" />
+    <Command Time="85.924" Name="PLSetVisualPond" Params="FishIndex:3;SetDestRand:240,240,10,0;SetSpeed:60" />
+    <Command Time="85.924" Name="PLSetVisualPond" Params="FishIndex:4;SetDestRand:240,240,10,0;SetSpeed:60" />
+    <Command Time="85.924" Name="PLSetVisualPond" Params="FishIndex:5;SetDestRand:240,240,10,0;SetSpeed:60" />
+    <Command Time="87.924" Name="PLSetVisualPond" Params="FishIndex:-1;SetDestRand:160,80,20,0" />
+    <Command Time="89.924" Name="PLSetVisualPond" Params="FishIndex:-1;SetDestRand:240,80,20,0" />
+    <Command Time="91.924" Name="PLSetVisualPond" Params="FishIndex:-1;SetDestRand:240,160,20,0" />
+    <Command Time="93.924" Name="PLSetVisualPond" Params="FishIndex:-1;SetDestRand:160,80,20,0" />
+    <Command Time="95.924" Name="PLSetVisualPond" Params="FishIndex:0;SetDest:110,180,1" />
+    <Command Time="97.924" Name="PLSetVisualPond" Params="FishIndex:1;SetDest:110,140,1" />
+    <Command Time="98.924" Name="PLSetVisualPond" Params="FishIndex:2;SetDest:390,180,1" />
+    <Command Time="100.924" Name="PLSetVisualPond" Params="FishIndex:3;SetDest:390,140,1" />
+    <Command Time="101.924" Name="PLSetVisualPond" Params="FishIndex:4;SetDest:240,300,1" />
+    <Command Time="102.924" Name="PLSetVisualPond" Params="FishIndex:5;SetDest:240,300,1" />
+    <Command Time="103" Name="PLSetVisualPond" Params="SetWave:0.00,1;SetLight:0" />
+    <Command Time="74.52612" Name="PLSetVisualPond" Params="AddRipple:325,230,0.8" />
+    <!--<Command Time="74.82413" Name="PLSetVisualPond" Params="AddRipple:340,200,0.2,5"/>-->
+    <Command Time="75.12212" Name="PLSetVisualPond" Params="AddRipple:350,160,0.8" />
+    <!--<Command Time="75.42013" Name="PLSetVisualPond" Params="AddRipple:340,120,0.2,5"/>-->
+    <Command Time="75.72913" Name="PLSetVisualPond" Params="AddRipple:325,90,0.8" />
+    <Command Time="80.483" Name="PLSetVisualPond" Params="AddRipple:157,230,0.8" />
+    <Command Time="81" Name="PLSetVisualPond" Params="AddRipple:128,160,0.8" />
+    <Command Time="81.675" Name="PLSetVisualPond" Params="AddRipple:160,90,0.8" />
+    <Command Time="103" Name="PLSetVisualPond" Params="AddRipple:240,102,1.5" />
+  </NetworkCommands>
+  <Points InputDuration="0.591">
+    <Point Type="SinglePress" EnterTime="13.039" ExactTime="14.94312" LeaveTime="15.195" Angle="-267.8092" MotionParams="0" InputType="3" IgnoreFocus="0" />
+    <Point Type="SinglePress" EnterTime="17.21" ExactTime="19.11412" LeaveTime="19.366" Angle="427.258" MotionParams="1,36.77316" InputType="4" IgnoreFocus="0" />
+    <Point Type="SinglePress" EnterTime="18.998" ExactTime="20.90212" LeaveTime="21.154" Angle="-244.2671" MotionParams="1,36.33114" InputType="2" IgnoreFocus="0" />
+    <Point Type="SinglePress" EnterTime="23.764" ExactTime="25.66813" LeaveTime="25.92" Angle="180" MotionParams="2,-20" InputType="2" IgnoreFocus="0" />
+    <Point Type="SinglePress" EnterTime="24.956" ExactTime="26.86012" LeaveTime="27.112" Angle="0" MotionParams="2,-20" InputType="1" IgnoreFocus="0" />
+    <Point Type="SinglePress" EnterTime="27.339" ExactTime="29.24313" LeaveTime="29.495" Angle="-90" MotionParams="1,20" InputType="1" IgnoreFocus="0" />
+    <Point Type="SinglePress" EnterTime="29.127" ExactTime="31.03112" LeaveTime="31.283" Angle="90" MotionParams="1,20" InputType="2" IgnoreFocus="0" />
+    <Point Type="SinglePress" EnterTime="30.914" ExactTime="32.81813" LeaveTime="33.07" Angle="0" MotionParams="2,-20" InputType="2" IgnoreFocus="0" />
+    <Point Type="SinglePress" EnterTime="32.106" ExactTime="34.01012" LeaveTime="34.262" Angle="180" MotionParams="2,-20" InputType="1" IgnoreFocus="0" />
+    <Point Type="SinglePress" EnterTime="33.297" ExactTime="35.20113" LeaveTime="35.453" Angle="-90" MotionParams="1,-20" InputType="1" IgnoreFocus="0" />
+    <Point Type="SinglePress" EnterTime="35.681" ExactTime="37.58512" LeaveTime="37.837" Angle="135" MotionParams="1,-25" InputType="2" IgnoreFocus="0" />
+    <Point Type="SinglePress" EnterTime="36.872" ExactTime="38.77613" LeaveTime="39.028" Angle="0" MotionParams="1,-25" InputType="2" IgnoreFocus="0" />
+    <Point Type="SinglePress" EnterTime="38.064" ExactTime="39.96812" LeaveTime="40.22" Angle="-135" MotionParams="1,-25" InputType="1" IgnoreFocus="0" />
+    <Point Type="SinglePress" EnterTime="40.447" ExactTime="42.35112" LeaveTime="42.603" Angle="135" MotionParams="2,-20" InputType="1" IgnoreFocus="0" />
+    <Point Type="SinglePress" EnterTime="41.639" ExactTime="43.54313" LeaveTime="43.795" Angle="-45" MotionParams="2,-20" InputType="2" IgnoreFocus="0" />
+    <Point Type="SinglePress" EnterTime="42.831" ExactTime="44.73513" LeaveTime="44.987" Angle="45" MotionParams="2,20" InputType="2" IgnoreFocus="0" />
+    <Point Type="SinglePress" EnterTime="44.022" ExactTime="45.92612" LeaveTime="46.178" Angle="-135" MotionParams="2,20" InputType="1" IgnoreFocus="0" />
+    <Point Type="SinglePress" EnterTime="46.4" ExactTime="48.30413" LeaveTime="48.556" Angle="135" MotionParams="2,-29.46671" InputType="1" IgnoreFocus="0" />
+    <Point Type="SinglePress" EnterTime="47.599" ExactTime="49.50312" LeaveTime="49.755" Angle="-45" MotionParams="2,-29.46552" InputType="2" IgnoreFocus="0" />
+    <Point Type="SinglePress" EnterTime="48.798" ExactTime="50.70213" LeaveTime="50.954" Angle="135" MotionParams="2,31.80235" InputType="2" IgnoreFocus="0" />
+    <Point Type="SinglePress" EnterTime="49.997" ExactTime="51.90113" LeaveTime="52.153" Angle="-45" MotionParams="2,29.75786" InputType="1" IgnoreFocus="0" />
+    <Point Type="SinglePress" EnterTime="52.395" ExactTime="54.29913" LeaveTime="54.551" Angle="-135" MotionParams="4,123.3333,114.8611,144.65,98.35,133,106.3" InputType="1" IgnoreFocus="0" />
+    <Point Type="SinglePress" EnterTime="53.556" ExactTime="55.46012" LeaveTime="55.712" Angle="45" MotionParams="4,355.9722,207.2222,333.45,221.9,345.2,214" InputType="2" IgnoreFocus="0" />
+    <Point Type="SinglePress" EnterTime="54.747" ExactTime="56.65113" LeaveTime="56.903" Angle="-135" MotionParams="4,125.4167,112.7778,144.65,98.35,133,106.3" InputType="2" IgnoreFocus="0" />
+    <Point Type="SinglePress" EnterTime="55.939" ExactTime="57.84312" LeaveTime="58.095" Angle="45" MotionParams="4,362.2222,202.3611,333.45,221.9,345.2,214" InputType="1" IgnoreFocus="0" />
+    <Point Type="SinglePress" EnterTime="58.322" ExactTime="60.22612" LeaveTime="60.478" Angle="135" MotionParams="4,125.4167,204.4444,146.55,221.9,134.8,214" InputType="1" IgnoreFocus="0" />
+    <Point Type="SinglePress" EnterTime="59.514" ExactTime="61.41813" LeaveTime="61.67" Angle="-45" MotionParams="4,358.0555,114.8611,335.35,98.35,347,106.3" InputType="2" IgnoreFocus="0" />
+    <Point Type="SinglePress" EnterTime="60.706" ExactTime="62.61013" LeaveTime="62.862" Angle="45" MotionParams="4,358.75,204.4444,333.45,221.9,345.2,214" InputType="2" IgnoreFocus="0" />
+    <Point Type="SinglePress" EnterTime="61.897" ExactTime="63.80112" LeaveTime="64.053" Angle="-135" MotionParams="4,120.5555,116.25,144.65,98.35,133,106.3" InputType="1" IgnoreFocus="0" />
+    <Point Type="SinglePress" EnterTime="64.281" ExactTime="66.18513" LeaveTime="66.437" Angle="180" MotionParams="2,-30" InputType="1" IgnoreFocus="0" />
+    <Point Type="SinglePress" EnterTime="65.472" ExactTime="67.37612" LeaveTime="67.628" Angle="0" MotionParams="2,-30" InputType="2" IgnoreFocus="0" />
+    <Point Type="SinglePress" EnterTime="66.664" ExactTime="68.56812" LeaveTime="68.82" Angle="-90" MotionParams="1,30" InputType="2" IgnoreFocus="0" />
+    <Point Type="SinglePress" EnterTime="67.856" ExactTime="69.76012" LeaveTime="70.012" Angle="90" MotionParams="1,30" InputType="1" IgnoreFocus="0" />
+    <Point Type="SinglePress" EnterTime="70.229" ExactTime="72.13313" LeaveTime="72.385" Angle="135" MotionParams="2,-35" InputType="1" IgnoreFocus="0" />
+    <Point Type="SinglePress" EnterTime="71.428" ExactTime="73.33212" LeaveTime="73.584" Angle="-135" MotionParams="2,35" InputType="2" IgnoreFocus="0" />
+    <Point Type="SinglePress" EnterTime="72.622" ExactTime="74.52612" LeaveTime="74.778" Angle="40" MotionParams="1,20" InputType="2" IgnoreFocus="0" />
+    <Point Type="SinglePress" EnterTime="72.92" ExactTime="74.82413" LeaveTime="75.076" Angle="20" MotionParams="1,-20" InputType="1" IgnoreFocus="0" />
+    <Point Type="SinglePress" EnterTime="73.218" ExactTime="75.12212" LeaveTime="75.374" Angle="0" MotionParams="1,20" InputType="1" IgnoreFocus="0" />
+    <Point Type="SinglePress" EnterTime="73.516" ExactTime="75.42013" LeaveTime="75.672" Angle="-20" MotionParams="1,-20" InputType="2" IgnoreFocus="0" />
+    <Point Type="SinglePress" EnterTime="73.825" ExactTime="75.72913" LeaveTime="75.981" Angle="-40" MotionParams="1,20" InputType="2" IgnoreFocus="0" />
+    <Point Type="SinglePress" EnterTime="76.197" ExactTime="78.10113" LeaveTime="78.353" Angle="45" MotionParams="2,-35" InputType="1" IgnoreFocus="0" />
+    <Point Type="SinglePress" EnterTime="77.389" ExactTime="79.29312" LeaveTime="79.545" Angle="-45" MotionParams="2,35" InputType="1" IgnoreFocus="0" />
+    <Point Type="SinglePress" EnterTime="78.58" ExactTime="80.48412" LeaveTime="80.736" Angle="140" MotionParams="1,20" InputType="2" IgnoreFocus="0" />
+    <Point Type="SinglePress" EnterTime="78.878" ExactTime="80.78213" LeaveTime="81.034" Angle="160" MotionParams="1,-20" InputType="2" IgnoreFocus="0" />
+    <Point Type="SinglePress" EnterTime="79.176" ExactTime="81.08012" LeaveTime="81.332" Angle="180" MotionParams="1,20" InputType="1" IgnoreFocus="0" />
+    <Point Type="SinglePress" EnterTime="79.474" ExactTime="81.37813" LeaveTime="81.63" Angle="-160" MotionParams="1,-20" InputType="1" IgnoreFocus="0" />
+    <Point Type="SinglePress" EnterTime="79.772" ExactTime="81.67612" LeaveTime="81.928" Angle="-140" MotionParams="1,20" InputType="2" IgnoreFocus="0" />
+    <Point Type="SinglePress" EnterTime="81.655" ExactTime="84.05913" LeaveTime="84.311" Angle="138.4" MotionParams="2,35.00013" InputType="2" IgnoreFocus="0" />
+    <Point Type="SinglePress" EnterTime="82.847" ExactTime="85.25112" LeaveTime="85.503" Angle="-137" MotionParams="2,-35.0001" InputType="1" IgnoreFocus="0" />
+    <Point Type="SinglePress" EnterTime="84.039" ExactTime="86.44312" LeaveTime="86.695" Angle="-131.324" MotionParams="4,92.7,82.55,140.15,65.1,116.8,70.8" InputType="1" IgnoreFocus="0" />
+    <Point Type="SinglePress" EnterTime="85.23" ExactTime="87.63412" LeaveTime="87.886" Angle="48.827" MotionParams="4,387.85,238.6,340.65,256.05,364.15,250.5" InputType="2" IgnoreFocus="0" />
+    <Point Type="SinglePress" EnterTime="86.422" ExactTime="88.82613" LeaveTime="89.078" Angle="-152.477" MotionParams="4,74.6,140.75,112.65,107.35,92.95,121.05" InputType="2" IgnoreFocus="0" />
+    <Point Type="SinglePress" EnterTime="87.614" ExactTime="90.01813" LeaveTime="90.27" Angle="27.991" MotionParams="4,406.05,180.65,368.2,213.95,388.2,200.15" InputType="1" IgnoreFocus="0" />
+    <Point Type="SinglePress" EnterTime="88.805" ExactTime="91.20912" LeaveTime="91.461" Angle="-173.669" MotionParams="4,78.5,201.6,102.05,156.75,88.6,176.55" InputType="1" IgnoreFocus="0" />
+    <Point Type="SinglePress" EnterTime="89.997" ExactTime="92.40112" LeaveTime="92.653" Angle="7.168" MotionParams="4,402.2,120.05,378.8,164.65,392.55,144.6" InputType="2" IgnoreFocus="0" />
+    <Point Type="SinglePress" EnterTime="91.189" ExactTime="93.59312" LeaveTime="93.845" Angle="165.218" MotionParams="4,103.9,256.95,109.9,206.6,104.4,229.9" InputType="2" IgnoreFocus="0" />
+    <Point Type="SinglePress" EnterTime="92.38" ExactTime="94.78413" LeaveTime="95.036" Angle="-13.757" MotionParams="4,377,64.8,371.1,114.8,376.8,91.1" InputType="1" IgnoreFocus="0" />
+    <Point Type="SinglePress" EnterTime="93.572" ExactTime="95.97613" LeaveTime="96.228" Angle="-118.757" MotionParams="4,112.5856,52.30765,162.4089,45.0658,138.0412,45.69382" InputType="1" IgnoreFocus="0" />
+    <Point Type="SinglePress" EnterTime="94.756" ExactTime="97.16013" LeaveTime="97.412" Angle="-160.357" MotionParams="4,73.21996,164.0616,105.6697,125.5671,87.86452,142.2151" InputType="2" IgnoreFocus="0" />
+    <Point Type="SinglePress" EnterTime="95.955" ExactTime="98.35912" LeaveTime="98.611" Angle="-207.5569" MotionParams="4,129.6628,285.1312,123.466,235.1671,123.5835,259.5426" InputType="2" IgnoreFocus="0" />
+    <Point Type="SinglePress" EnterTime="97.304" ExactTime="99.70812" LeaveTime="99.96" Angle="-286.3569" MotionParams="4,341.3167,292.5405,291.1006,288.9147,315.0348,293.5341" InputType="1" IgnoreFocus="0" />
+    <Point Type="SinglePress" EnterTime="98.653" ExactTime="101.0571" LeaveTime="101.309" Angle="-326.157" MotionParams="4,402.6806,196.975,361.7794,226.3331,383.1244,214.5615" InputType="2" IgnoreFocus="0" />
+    <Point Type="SinglePress" EnterTime="101.073" ExactTime="102.9771" LeaveTime="103.229" Angle="-90" MotionParams="1,40.72935" InputType="3" IgnoreFocus="0" Effects="Lidong_End_Perfect;Lidong_End_Nice;FailEffectCommon" />
+  </Points>
+  <NetworkPoints InputDuration="0.591">
+    <Point Type="SinglePress" EnterTime="13.039" ExactTime="14.94312" LeaveTime="15.53412" Angle="-87.8092" MotionParams="0" InputType="1" IgnoreFocus="0" />
+    <Point Type="SinglePress" EnterTime="17.21" ExactTime="19.11412" LeaveTime="19.70512" Angle="427.258" MotionParams="1,36.77316" InputType="1" IgnoreFocus="0" />
+    <Point Type="SinglePress" EnterTime="18.998" ExactTime="20.90212" LeaveTime="21.49312" Angle="-244.2671" MotionParams="1,36.33114" InputType="2" IgnoreFocus="0" />
+    <Point Type="SinglePress" EnterTime="23.764" ExactTime="25.66813" LeaveTime="26.25913" Angle="180" MotionParams="2,-20" InputType="2" IgnoreFocus="0" />
+    <Point Type="SinglePress" EnterTime="24.956" ExactTime="26.86012" LeaveTime="27.45112" Angle="0" MotionParams="2,-20" InputType="1" IgnoreFocus="0" />
+    <Point Type="SinglePress" EnterTime="27.339" ExactTime="29.24313" LeaveTime="29.83413" Angle="-90" MotionParams="1,20" InputType="1" IgnoreFocus="0" />
+    <Point Type="SinglePress" EnterTime="29.127" ExactTime="31.03112" LeaveTime="31.62212" Angle="90" MotionParams="1,20" InputType="2" IgnoreFocus="0" />
+    <Point Type="SinglePress" EnterTime="30.914" ExactTime="32.81813" LeaveTime="33.40913" Angle="0" MotionParams="2,-20" InputType="2" IgnoreFocus="0" />
+    <Point Type="SinglePress" EnterTime="32.106" ExactTime="34.01012" LeaveTime="34.60112" Angle="180" MotionParams="2,-20" InputType="1" IgnoreFocus="0" />
+    <Point Type="SinglePress" EnterTime="33.297" ExactTime="35.20113" LeaveTime="35.79213" Angle="-90" MotionParams="1,-20" InputType="1" IgnoreFocus="0" />
+    <Point Type="SinglePress" EnterTime="35.681" ExactTime="37.58512" LeaveTime="38.17612" Angle="135" MotionParams="1,-25" InputType="2" IgnoreFocus="0" />
+    <Point Type="SinglePress" EnterTime="36.872" ExactTime="38.77613" LeaveTime="39.36713" Angle="0" MotionParams="1,-25" InputType="2" IgnoreFocus="0" />
+    <Point Type="SinglePress" EnterTime="38.064" ExactTime="39.96812" LeaveTime="40.55912" Angle="-135" MotionParams="1,-25" InputType="1" IgnoreFocus="0" />
+    <Point Type="SinglePress" EnterTime="40.447" ExactTime="42.35112" LeaveTime="42.94212" Angle="135" MotionParams="2,-20" InputType="1" IgnoreFocus="0" />
+    <Point Type="SinglePress" EnterTime="41.639" ExactTime="43.54313" LeaveTime="44.13413" Angle="-45" MotionParams="2,-20" InputType="2" IgnoreFocus="0" />
+    <Point Type="SinglePress" EnterTime="42.831" ExactTime="44.73513" LeaveTime="45.32613" Angle="45" MotionParams="2,20" InputType="2" IgnoreFocus="0" />
+    <Point Type="SinglePress" EnterTime="44.022" ExactTime="45.92612" LeaveTime="46.51712" Angle="-135" MotionParams="2,20" InputType="1" IgnoreFocus="0" />
+    <Point Type="SinglePress" EnterTime="46.4" ExactTime="48.30413" LeaveTime="48.89513" Angle="135" MotionParams="2,-29.46671" InputType="1" IgnoreFocus="0" />
+    <Point Type="SinglePress" EnterTime="47.599" ExactTime="49.50312" LeaveTime="50.09412" Angle="-45" MotionParams="2,-29.46552" InputType="2" IgnoreFocus="0" />
+    <Point Type="SinglePress" EnterTime="48.798" ExactTime="50.70213" LeaveTime="51.29313" Angle="135" MotionParams="2,31.80235" InputType="2" IgnoreFocus="0" />
+    <Point Type="SinglePress" EnterTime="49.997" ExactTime="51.90113" LeaveTime="52.49213" Angle="-45" MotionParams="2,29.75786" InputType="1" IgnoreFocus="0" />
+    <Point Type="SinglePress" EnterTime="52.395" ExactTime="54.29913" LeaveTime="54.89013" Angle="-135" MotionParams="4,123.3333,114.8611,144.65,98.35,133,106.3" InputType="1" IgnoreFocus="0" />
+    <Point Type="SinglePress" EnterTime="53.556" ExactTime="55.46012" LeaveTime="56.05112" Angle="45" MotionParams="4,355.9722,207.2222,333.45,221.9,345.2,214" InputType="2" IgnoreFocus="0" />
+    <Point Type="SinglePress" EnterTime="54.747" ExactTime="56.65113" LeaveTime="57.24213" Angle="-135" MotionParams="4,125.4167,112.7778,144.65,98.35,133,106.3" InputType="2" IgnoreFocus="0" />
+    <Point Type="SinglePress" EnterTime="55.939" ExactTime="57.84312" LeaveTime="58.43412" Angle="45" MotionParams="4,362.2222,202.3611,333.45,221.9,345.2,214" InputType="1" IgnoreFocus="0" />
+    <Point Type="SinglePress" EnterTime="58.322" ExactTime="60.22612" LeaveTime="60.81712" Angle="135" MotionParams="4,125.4167,204.4444,146.55,221.9,134.8,214" InputType="1" IgnoreFocus="0" />
+    <Point Type="SinglePress" EnterTime="59.514" ExactTime="61.41813" LeaveTime="62.00913" Angle="-45" MotionParams="4,358.0555,114.8611,335.35,98.35,347,106.3" InputType="2" IgnoreFocus="0" />
+    <Point Type="SinglePress" EnterTime="60.706" ExactTime="62.61013" LeaveTime="63.20113" Angle="45" MotionParams="4,358.75,204.4444,333.45,221.9,345.2,214" InputType="1" IgnoreFocus="0" />
+    <Point Type="SinglePress" EnterTime="61.897" ExactTime="63.80112" LeaveTime="64.39212" Angle="-135" MotionParams="4,120.5555,116.25,144.65,98.35,133,106.3" InputType="2" IgnoreFocus="0" />
+    <Point Type="SinglePress" EnterTime="64.281" ExactTime="66.18513" LeaveTime="66.77613" Angle="180" MotionParams="2,-30" InputType="1" IgnoreFocus="0" />
+    <Point Type="SinglePress" EnterTime="65.472" ExactTime="67.37612" LeaveTime="67.96712" Angle="0" MotionParams="2,-30" InputType="2" IgnoreFocus="0" />
+    <Point Type="SinglePress" EnterTime="66.664" ExactTime="68.56812" LeaveTime="69.15913" Angle="-90" MotionParams="1,30" InputType="2" IgnoreFocus="0" />
+    <Point Type="SinglePress" EnterTime="67.856" ExactTime="69.76012" LeaveTime="70.35112" Angle="90" MotionParams="1,30" InputType="1" IgnoreFocus="0" />
+    <Point Type="SinglePress" EnterTime="70.229" ExactTime="72.13313" LeaveTime="72.72414" Angle="135" MotionParams="2,-35" InputType="1" IgnoreFocus="0" />
+    <Point Type="SinglePress" EnterTime="71.428" ExactTime="73.33212" LeaveTime="73.92313" Angle="-135" MotionParams="2,35" InputType="2" IgnoreFocus="0" />
+    <Point Type="SinglePress" EnterTime="72.622" ExactTime="74.52612" LeaveTime="75.11713" Angle="40" MotionParams="1,20" InputType="2" IgnoreFocus="0" />
+    <Point Type="SinglePress" EnterTime="72.92" ExactTime="74.82413" LeaveTime="75.41513" Angle="20" MotionParams="1,-20" InputType="2" IgnoreFocus="0" />
+    <Point Type="SinglePress" EnterTime="73.218" ExactTime="75.12212" LeaveTime="75.71313" Angle="0" MotionParams="1,20" InputType="2" IgnoreFocus="0" />
+    <Point Type="SinglePress" EnterTime="73.516" ExactTime="75.42013" LeaveTime="76.01113" Angle="-20" MotionParams="1,-20" InputType="2" IgnoreFocus="0" />
+    <Point Type="SinglePress" EnterTime="73.825" ExactTime="75.72913" LeaveTime="76.32014" Angle="-40" MotionParams="1,20" InputType="2" IgnoreFocus="0" />
+    <Point Type="SinglePress" EnterTime="76.197" ExactTime="78.10113" LeaveTime="78.69213" Angle="45" MotionParams="2,-35" InputType="1" IgnoreFocus="0" />
+    <Point Type="SinglePress" EnterTime="77.389" ExactTime="79.29312" LeaveTime="79.88412" Angle="-45" MotionParams="2,35" InputType="2" IgnoreFocus="0" />
+    <Point Type="SinglePress" EnterTime="78.58" ExactTime="80.48412" LeaveTime="81.07513" Angle="140" MotionParams="1,20" InputType="1" IgnoreFocus="0" />
+    <Point Type="SinglePress" EnterTime="78.878" ExactTime="80.78213" LeaveTime="81.37313" Angle="160" MotionParams="1,-20" InputType="1" IgnoreFocus="0" />
+    <Point Type="SinglePress" EnterTime="79.176" ExactTime="81.08012" LeaveTime="81.67112" Angle="180" MotionParams="1,20" InputType="1" IgnoreFocus="0" />
+    <Point Type="SinglePress" EnterTime="79.474" ExactTime="81.37813" LeaveTime="81.96913" Angle="-160" MotionParams="1,-20" InputType="1" IgnoreFocus="0" />
+    <Point Type="SinglePress" EnterTime="79.772" ExactTime="81.67612" LeaveTime="82.26712" Angle="-140" MotionParams="1,20" InputType="1" IgnoreFocus="0" />
+    <Point Type="SinglePress" EnterTime="81.655" ExactTime="84.05913" LeaveTime="84.65013" Angle="138.4" MotionParams="2,35.00013" InputType="2" IgnoreFocus="0" />
+    <Point Type="SinglePress" EnterTime="82.847" ExactTime="85.25112" LeaveTime="85.84212" Angle="-137" MotionParams="2,-35.0001" InputType="1" IgnoreFocus="0" />
+    <Point Type="SinglePress" EnterTime="84.039" ExactTime="86.44312" LeaveTime="87.03413" Angle="-131.324" MotionParams="4,92.7,82.55,140.15,65.1,116.8,70.8" InputType="1" IgnoreFocus="0" />
+    <Point Type="SinglePress" EnterTime="85.23" ExactTime="87.63412" LeaveTime="88.22512" Angle="48.827" MotionParams="4,387.85,238.6,340.65,256.05,364.15,250.5" InputType="2" IgnoreFocus="0" />
+    <Point Type="SinglePress" EnterTime="86.422" ExactTime="88.82613" LeaveTime="89.41714" Angle="-152.477" MotionParams="4,74.6,140.75,112.65,107.35,92.95,121.05" InputType="2" IgnoreFocus="0" />
+    <Point Type="SinglePress" EnterTime="87.614" ExactTime="90.01813" LeaveTime="90.60913" Angle="27.991" MotionParams="4,406.05,180.65,368.2,213.95,388.2,200.15" InputType="1" IgnoreFocus="0" />
+    <Point Type="SinglePress" EnterTime="88.805" ExactTime="91.20912" LeaveTime="91.80013" Angle="-173.669" MotionParams="4,78.5,201.6,102.05,156.75,88.6,176.55" InputType="1" IgnoreFocus="0" />
+    <Point Type="SinglePress" EnterTime="89.997" ExactTime="92.40112" LeaveTime="92.99213" Angle="7.168" MotionParams="4,402.2,120.05,378.8,164.65,392.55,144.6" InputType="2" IgnoreFocus="0" />
+    <Point Type="SinglePress" EnterTime="91.189" ExactTime="93.59312" LeaveTime="94.18412" Angle="165.218" MotionParams="4,103.9,256.95,109.9,206.6,104.4,229.9" InputType="2" IgnoreFocus="0" />
+    <Point Type="SinglePress" EnterTime="92.38" ExactTime="94.78413" LeaveTime="95.37513" Angle="-13.757" MotionParams="4,377,64.8,371.1,114.8,376.8,91.1" InputType="1" IgnoreFocus="0" />
+    <Point Type="SinglePress" EnterTime="93.572" ExactTime="95.97613" LeaveTime="96.56713" Angle="-118.757" MotionParams="4,112.5856,52.30765,162.4089,45.0658,138.0412,45.69382" InputType="1" IgnoreFocus="0" />
+    <Point Type="SinglePress" EnterTime="94.756" ExactTime="97.16013" LeaveTime="97.75114" Angle="-160.357" MotionParams="4,73.21996,164.0616,105.6697,125.5671,87.86452,142.2151" InputType="2" IgnoreFocus="0" />
+    <Point Type="SinglePress" EnterTime="95.955" ExactTime="98.35912" LeaveTime="98.95013" Angle="-207.5569" MotionParams="4,129.6628,285.1312,123.466,235.1671,123.5835,259.5426" InputType="1" IgnoreFocus="0" />
+    <Point Type="SinglePress" EnterTime="97.304" ExactTime="99.70812" LeaveTime="100.2991" Angle="-286.3569" MotionParams="4,341.3167,292.5405,291.1006,288.9147,315.0348,293.5341" InputType="2" IgnoreFocus="0" />
+    <Point Type="SinglePress" EnterTime="98.653" ExactTime="101.0571" LeaveTime="101.6481" Angle="-326.157" MotionParams="4,402.6806,196.975,361.7794,226.3331,383.1244,214.5615" InputType="1" IgnoreFocus="0" />
+    <Point Type="SinglePress" EnterTime="101.073" ExactTime="102.9771" LeaveTime="103.5681" Angle="-90" MotionParams="1,40.72935" InputType="3" IgnoreFocus="0" Effects="Lidong_End_Perfect;Lidong_End_Nice;FailEffectCommon" />
+    <Point Type="SinglePress" EnterTime="13.039" ExactTime="14.94312" LeaveTime="15.53412" Angle="-267.8092" MotionParams="0" InputType="2" IgnoreFocus="0" />
+  </NetworkPoints>
+</Level>

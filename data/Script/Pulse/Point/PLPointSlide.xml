@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<PLPointSlide>
+    <Sprite Path="Sprite/Pulse/Point/SinglePress.png"/>
+	<Arrow Path="Sprite/Pulse/Point/Arrow.png"/>
+	<Circle Path="Sprite/Pulse/Point/Circle.png"/>
+	<PointColor R="0" G="255" B="128"/>
+</PLPointSlide>

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<PLPointSinglePress>
+    <Sprite Frame="SinglePress_qiufen_Big.png"/>
+	<Circle Frame="pointPrompt.png"/>
+	<OriginalColor R="117" G="117" B="117"/>
+	<OriginalColorCircle R="255" G="255" B="255"/>
+	<TargetColor R="255" G="255" B="255"/>
+	<TargetColorCircle R="247" G="125" B="16"/>
+	<TargetSize Value="2.0"/>
+	<SpeedValue Value="128"/>
+	<Effects>
+	    <Perfect GroupName="WanMeiEffect_qiufen"/>
+		<Nice GroupName="LiangHaoEffect_qiufen"/>
+		<Fail GroupName="FailEffect_qiufen"/>
+	</Effects>
+</PLPointSinglePress>

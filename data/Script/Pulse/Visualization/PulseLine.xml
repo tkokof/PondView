@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<PLPulseLine>
+    <PulseFactor Value="1"/>
+	<LineColor R="0" G="255" B="0"/>
+	<LineSize Value="4"/>
+	<Pulse>
+	    <Point X="15" Y="-25"/>
+		<Point X="25" Y="50"/>
+		<Point X="50" Y="-75"/>
+		<Point X="75" Y="100"/>
+		<Point X="100" Y="0"/>
+	</Pulse>
+</PLPulseLine>

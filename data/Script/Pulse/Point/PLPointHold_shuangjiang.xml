@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<PLPointHold>
+    <Sprite Frame="HoldPoint_shuangjiang.png"/>
+	<Pan Frame="HoldPan_shuangjiang.png"/>
+	<Circle Frame="pointPrompt.png"/>
+	<!--<PointColor R="255" G="64" B="18"/>-->
+	<PointColor R="255" G="255" B="255"/>
+	<Effects>
+	    <Perfect GroupName="WanMeiEffect_shuangjiang"/>
+		<Nice GroupName="LiangHaoEffect_shuangjiang"/>
+		<Fail GroupName="FailEffect_shuangjiang"/>
+	</Effects>
+</PLPointHold>

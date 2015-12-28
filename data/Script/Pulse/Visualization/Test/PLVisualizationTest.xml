@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<PLVisualizationTest>
+    <SunSprite Path="Sprite/Pulse/Visualization/Test/taiyang.png" Pos="300,180" Scale="0.3"/>
+	<MountainSprite Path="Sprite/Pulse/Visualization/Test/shan.png" Pos="240,80" Speed="100,0" Scale="0.85"/>
+    <MaskSprite Path="Sprite/Pulse/GamePan/GamePanMask.png"/>
+</PLVisualizationTest>

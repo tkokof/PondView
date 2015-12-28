@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<PLEffect Type="1">
+    <Render>
+		<SpriteSheet Path="Sprite/Pulse/Effect/Explosion/texiao_huaban.png"/>
+		<PropertyList Path="Sprite/Pulse/Effect/Explosion/texiao_huaban.plist"/>
+		<Frames>
+		    <Frame Name="huaban.png"/>
+			<!--Frame Name="hudie2_2.png"/>
+			<Frame Name="flower_3.png"/>
+			<Frame Name="ye_1.png"/>
+			<Frame Name="ye_2.png"/>
+			<Frame Name="ye_3.png"/-->
+		</Frames>
+	</Render>
+	<Effect>
+	    <WholeDuration Value="1.5"/>
+		<StayDuration Value="0.7"/>
+		<IntervalDegree Value="60"/>
+		<IntervalDegreeDeviation Value="90"/>
+		<MinSpreadDistance Value="0"/>
+		<MaxSpreadDistance Value="128"/>
+		<RandomRotation Value="0"/>
+		<AlignRotation Value="1"/>
+		<MinRotateAngle Value="80"/>
+		<MaxRotateAngle Value="100"/>
+		<RandomColor Value="0"/>
+		<MinScaleFactor Value="0.3"/>
+		<MaxScaleFactor Value="0.5"/>
+		<CurveFactor Value="0.2"/>
+	</Effect>
+</PLEffect>

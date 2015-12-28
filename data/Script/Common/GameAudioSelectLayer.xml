@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<GameAudioSelectLayer>
+    <Board>
+	    <Sprite Path="Sprite/InkPainting/Menu/TextBox_small.png"/>
+		<Display Space="5">
+		    <BeginPos X="256" Y="64"/>
+			<Size Width="256" Height="300"/>
+			<Font Name="Font/liguofu.ttf" Size="25"/>
+		</Display>
+	</Board>
+</GameAudioSelectLayer>

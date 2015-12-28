@@ -1,0 +1,153 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GameNetResult>
+  <NetResultData BoundPercent="0.2">
+    <NetResult>
+      <Client>
+        <Config Mode="1" Content="音" Font="Font/calligraphy_1.fnt" Width="-1" Position="51,233" Rotation="0" Scale="1.25,1.25" Color="0,0,0,0" Order="2" />
+        <Config Mode="1" Content="知" Font="Font/calligraphy_1.fnt" Width="-1" Position="49.5,273.5" Rotation="0" Scale="1.25,1.25" Color="0,0,0,0" Order="2" />
+      </Client>
+      <Server>
+        <Config Mode="1" Content="觅" Font="Font/calligraphy_1.fnt" Width="-1" Position="419,38.5" Rotation="0" Scale="1.25,1.25" Color="0,0,0,0" Order="2" />
+        <Config Mode="1" Content="难" Font="Font/calligraphy_1.fnt" Width="-1" Position="418,79.5" Rotation="0" Scale="1.25,1.25" Color="0,0,0,0" Order="2" />
+      </Server>
+    </NetResult>
+  </NetResultData>
+  <NetResultData BoundPercent="0.5">
+    <NetResult>
+      <Client>
+        <Config Mode="1" Content="相逢" Font="Font/calligraphy_1.fnt" Width="-1" Position="411.5,162" Rotation="0" Scale="1.25,1.25" Color="0,0,0,0" Order="2" />
+      </Client>
+      <Server>
+        <Config Mode="1" Content="萍水" Font="Font/calligraphy_1.fnt" Width="-1" Position="64,168" Rotation="0" Scale="1.25,1.25" Color="0,0,0,0" Order="2" />
+      </Server>
+    </NetResult>
+    <NetResult>
+      <Client>
+        <Config Mode="1" Content="君子之交" Font="Font/calligraphy_1.fnt" Width="-1" Position="237.5,294.5" Rotation="0" Scale="1.25,1.25" Color="0,0,0,0" Order="2" />
+      </Client>
+      <Server>
+        <Config Mode="1" Content="淡如水" Font="Font/calligraphy_1.fnt" Width="-1" Position="242,22.5" Rotation="0" Scale="1.25,1.25" Color="0,0,0,0" Order="2" />
+      </Server>
+    </NetResult>
+    <NetResult>
+      <Client>
+        <Config Mode="1" Content="也许平平" Font="Font/calligraphy_1.fnt" Width="-1" Position="125.5,224" Rotation="0" Scale="1.25,1.25" Color="0,0,0,0" Order="2" />
+      </Client>
+      <Server>
+        <Config Mode="1" Content="淡淡才是真" Font="Font/calligraphy_1.fnt" Width="-1" Position="352.5,91.5" Rotation="0" Scale="1.25,1.25" Color="0,0,0,0" Order="2" />
+      </Server>
+    </NetResult>
+  </NetResultData>
+  <NetResultData BoundPercent="0.75">
+    <NetResult>
+      <Client>
+        <Config Mode="1" Content="牵挂..." Font="Font/calligraphy_1.fnt" Width="-1" Position="354.5,42" Rotation="0" Scale="1.25,1.25" Color="0,0,0,0" Order="2" />
+      </Client>
+      <Server>
+        <Config Mode="1" Content="羁绊..." Font="Font/calligraphy_1.fnt" Width="-1" Position="148,289" Rotation="0" Scale="1.25,1.25" Color="0,0,0,0" Order="2" />
+      </Server>
+    </NetResult>
+    <NetResult>
+      <Client>
+        <Config Mode="1" Content="闺蜜?" Font="Font/calligraphy_1.fnt" Width="-1" Position="116.5,39" Rotation="0" Scale="1.25,1.25" Color="0,0,0,0" Order="2" />
+      </Client>
+      <Server>
+        <Config Mode="1" Content="基友?" Font="Font/calligraphy_1.fnt" Width="-1" Position="335.5,283" Rotation="0" Scale="1.25,1.25" Color="0,0,0,0" Order="2" />
+      </Server>
+    </NetResult>
+    <NetResult>
+      <Client>
+        <Config Mode="1" Content="爱情,你们相信吗?" Font="Font/calligraphy_1.fnt" Width="-1" Position="238,292.5" Rotation="0" Scale="1.25,1.25" Color="0,0,0,0" Order="2" />
+      </Client>
+      <Server>
+        <Config Mode="1" Content="爱情,你们相信吗?" Font="Font/calligraphy_1.fnt" Width="-1" Position="238,292.5" Rotation="0" Scale="1.25,1.25" Color="0,0,0,0" Order="2" />
+      </Server>
+    </NetResult>
+    <NetResult>
+      <Client>
+        <Config Mode="1" Content="你是我的小伙伴 :)" Font="Font/calligraphy_2.fnt" Width="-1" Position="238.5,269.5" Rotation="0" Scale="1.25,1.25" Color="0,0,0,0" Order="2" />
+      </Client>
+      <Server>
+        <Config Mode="1" Content="你是我的小伙伴 :)" Font="Font/calligraphy_2.fnt" Width="-1" Position="247,48" Rotation="0" Scale="1.25,1.25" Color="0,0,0,0" Order="2" />
+      </Server>
+    </NetResult>
+  </NetResultData>
+  <NetResultData BoundPercent="0.9">
+    <NetResult>
+      <Client>
+        <Config Mode="1" Content="水" Font="Font/calligraphy_1.fnt" Width="-1" Position="426,27" Rotation="0" Scale="1.25,1.25" Color="0,0,0,0" Order="2" />
+        <Config Mode="1" Content="流" Font="Font/calligraphy_1.fnt" Width="-1" Position="380,27" Rotation="0" Scale="1.25,1.25" Color="0,0,0,0" Order="2" />
+      </Client>
+      <Server>
+        <Config Mode="1" Content="山" Font="Font/calligraphy_1.fnt" Width="-1" Position="45,233.5" Rotation="0" Scale="1.25,1.25" Color="0,0,0,0" Order="2" />
+        <Config Mode="1" Content="高" Font="Font/calligraphy_1.fnt" Width="-1" Position="44,281.5" Rotation="0" Scale="1.25,1.25" Color="0,0,0,0" Order="2" />
+      </Server>
+    </NetResult>
+    <NetResult>
+      <Client>
+        <Config Mode="1" Content="?颜" Font="Font/calligraphy_2.fnt" Width="-1" Position="73,241.5" Rotation="0" Scale="1.25,1.25" Color="0,0,0,0" Order="2" />
+      </Client>
+      <Server>
+        <Config Mode="1" Content="知己" Font="Font/calligraphy_2.fnt" Width="-1" Position="80,64.5" Rotation="0" Scale="1.25,1.25" Color="0,0,0,0" Order="2" />
+      </Server>
+    </NetResult>
+    <NetResult>
+      <Client>
+        <Config Mode="1" Content="有" Font="Font/calligraphy_2.fnt" Width="-1" Position="402,160.5" Rotation="0" Scale="1.25,1.25" Color="0,0,0,0" Order="2" />
+        <Config Mode="1" Content="心" Font="Font/calligraphy_2.fnt" Width="-1" Position="65,161.5" Rotation="0" Scale="1.25,1.25" Color="0,0,0,0" Order="2" />
+      </Client>
+      <Server>
+        <Config Mode="1" Content="犀" Font="Font/calligraphy_2.fnt" Width="-1" Position="401.5,161" Rotation="0" Scale="1.25,1.25" Color="0,0,0,0" Order="2" />
+        <Config Mode="1" Content="灵" Font="Font/calligraphy_2.fnt" Width="-1" Position="61.5,164" Rotation="0" Scale="1.25,1.25" Color="0,0,0,0" Order="2" />
+      </Server>
+    </NetResult>
+  </NetResultData>
+  <NetResultData BoundPercent="1">
+    <NetResult>
+      <Client>
+        <Config Mode="1" Content="无" Font="Font/calligraphy_1.fnt" Width="-1" Position="55.5,32.5" Rotation="0" Scale="1.25,1.25" Color="0,0,0,0" Order="2" />
+        <Config Mode="1" Content="衣" Font="Font/calligraphy_1.fnt" Width="-1" Position="57.5,284.5" Rotation="0" Scale="1.25,1.25" Color="0,0,0,0" Order="2" />
+        <Config Mode="1" Content="天" Font="Font/calligraphy_1.fnt" Width="-1" Position="413.5,283" Rotation="0" Scale="1.25,1.25" Color="0,0,0,0" Order="2" />
+        <Config Mode="1" Content="缝" Font="Font/calligraphy_1.fnt" Width="-1" Position="421.5,31.5" Rotation="0" Scale="1.25,1.25" Color="0,0,0,0" Order="2" />
+      </Client>
+      <Server>
+        <Config Mode="1" Content="缝" Font="Font/calligraphy_1.fnt" Width="-1" Position="56,37" Rotation="0" Scale="1.25,1.25" Color="0,0,0,0" Order="2" />
+        <Config Mode="1" Content="天" Font="Font/calligraphy_1.fnt" Width="-1" Position="55.5,284" Rotation="0" Scale="1.25,1.25" Color="0,0,0,0" Order="2" />
+        <Config Mode="1" Content="衣" Font="Font/calligraphy_1.fnt" Width="-1" Position="416,282" Rotation="0" Scale="1.25,1.25" Color="0,0,0,0" Order="2" />
+        <Config Mode="1" Content="无" Font="Font/calligraphy_1.fnt" Width="-1" Position="417.5,32.5" Rotation="0" Scale="1.25,1.25" Color="0,0,0,0" Order="2" />
+      </Server>
+    </NetResult>
+    <NetResult>
+      <Client>
+        <Config Mode="1" Content="琴" Font="Font/calligraphy_1.fnt" Width="-1" Position="56,284.5" Rotation="0" Scale="1.25,1.25" Color="0,0,0,0" Order="2" />
+        <Config Mode="1" Content="瑟" Font="Font/calligraphy_1.fnt" Width="-1" Position="57.5,242" Rotation="0" Scale="1.25,1.25" Color="0,0,0,0" Order="2" />
+        <Config Mode="1" Content="之" Font="Font/calligraphy_1.fnt" Width="-1" Position="58.5,198.5" Rotation="0" Scale="1.25,1.25" Color="0,0,0,0" Order="2" />
+        <Config Mode="1" Content="合" Font="Font/calligraphy_1.fnt" Width="-1" Position="58.5,155.5" Rotation="0" Scale="1.25,1.25" Color="0,0,0,0" Order="2" />
+      </Client>
+      <Server>
+        <Config Mode="1" Content="合" Font="Font/calligraphy_1.fnt" Width="-1" Position="418.5,140" Rotation="0" Scale="1.25,1.25" Color="0,0,0,0" Order="2" />
+        <Config Mode="1" Content="琴" Font="Font/calligraphy_1.fnt" Width="-1" Position="413.5,277.5" Rotation="0" Scale="1.25,1.25" Color="0,0,0,0" Order="2" />
+        <Config Mode="1" Content="瑟" Font="Font/calligraphy_1.fnt" Width="-1" Position="415,232.5" Rotation="0" Scale="1.25,1.25" Color="0,0,0,0" Order="2" />
+        <Config Mode="1" Content="之" Font="Font/calligraphy_1.fnt" Width="-1" Position="417,187.5" Rotation="0" Scale="1.25,1.25" Color="0,0,0,0" Order="2" />
+      </Server>
+    </NetResult>
+    <NetResult>
+      <Client>
+        <Config Mode="1" Content="在" Font="Font/calligraphy_1.fnt" Width="-1" Position="114,65" Rotation="0" Scale="1.5,1.5" Color="0,0,0,0" Order="2" />
+      </Client>
+      <Server>
+        <Config Mode="1" Content="一起" Font="Font/calligraphy_1.fnt" Width="-1" Position="375.5,257.5" Rotation="0" Scale="1.5,1.5" Color="0,0,0,0" Order="2" />
+      </Server>
+    </NetResult>
+    <NetResult>
+      <Client>
+        <Config Mode="1" Content="我们仍然相信爱情" Font="Font/calligraphy_1.fnt" Width="-1" Position="234.5,291" Rotation="0" Scale="1.25,1.25" Color="0,0,0,0" Order="2" />
+        <Config Mode="1" Content="~" Font="Font/calligraphy_1.fnt" Width="-1" Position="400,280" Rotation="0" Scale="1.25,1.25" Color="0,0,0,0" Order="2" />
+      </Client>
+      <Server>
+        <Config Mode="1" Content="我们仍然相信爱情" Font="Font/calligraphy_1.fnt" Width="-1" Position="234.5,291" Rotation="0" Scale="1.25,1.25" Color="0,0,0,0" Order="2" />
+        <Config Mode="1" Content="~" Font="Font/calligraphy_1.fnt" Width="-1" Position="400,280" Rotation="0" Scale="1.25,1.25" Color="0,0,0,0" Order="2" />
+      </Server>
+    </NetResult>
+  </NetResultData>
+</GameNetResult>

@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<PLEffect Type="1">
+    <Render>
+	    <SpriteSheet Path="Sprite/Pulse/Effect/Explosion/PulseEffectSprites.png"/>
+		<PropertyList Path="Sprite/Pulse/Effect/Explosion/PulseEffectSprites.plist"/>
+		<Frames>
+		    <Frame Name="text_you.png"/>
+		</Frames>
+	</Render>
+	<Effect>
+        <WholeDuration Value="1.3"/>
+		<StayDuration Value="0.6"/>
+		<IntervalDegree Value="180"/>
+		<IntervalDegreeDeviation Value="180"/>
+		<MinSpreadDistance Value="25"/>
+		<MaxSpreadDistance Value="25"/>
+		<RandomRotation Value="0"/>
+		<AlignRotation Value="1"/>
+		<MinRotateAngle Value="0"/>
+		<MaxRotateAngle Value="0"/>
+		<RandomColor Value="0"/>
+		<MinScaleFactor Value="0.5"/>
+		<MaxScaleFactor Value="0.5"/>
+		<CurveFactor Value="0"/>
+	</Effect>
+</PLEffect>

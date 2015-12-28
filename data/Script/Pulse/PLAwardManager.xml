@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<PLAwardManager>
+	<FailViceAudioVolume Value="0"/>
+	<FailViceAudioTime Value="1.0"/>
+	<!-- new gray control-->
+	<GrayTransitionTime Value="1.0"/>
+	<GrayTargetCount Value="5"/>
+	<GrayColorGradation Value="20"/>
+</PLAwardManager>

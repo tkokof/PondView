@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<MusicItem Pos="0,0">
+    <SpriteFrame Path="Sprite/MusicSelect/MusicSelect.plist"/>
+	<Touch Size="200,200"/>
+	<!--<Level Name="LevelTest_LiXia_PL.xml"/>-->
+	<Level Name="LiXia_2.xml"/>
+	<LabelCN Frame="lixia.png" PosX="0" PosY="0"/>
+	<LockSprite Frame="lock.png" ScaleX="1.0" ScaleY="1.0" PosX="0" PosY="-25"/>
+	<ProgressHigh Frame="progressShow.png" Type="1" PosY="54" PosX="-21.8" Rotation="90"/>
+	<ProgressThis Frame="progressEvaluate.png" Type="1" PosY="54" PosX="-21.8" Rotation="90"/>
+	<ProgressLabel Font="Font/InkFont.fnt" Pos="0,-18" Scale="0.5" Color="0,0,0">
+	    <Content Prefix="" Suffix="%"/>
+	</ProgressLabel>
+	<NetworkStatusDisplay>
+	    <Font Path="Font/calligraphy.fnt" Pos="0,-52" Scale="1" Color="0,0,0"/>
+		<PreTip Path="Sprite/MusicSelect/net_player_tip.png" Pos="0,-45" Scale="0.2" Rotation="0"/>
+		<NextTip Path="Sprite/MusicSelect/net_player_tip.png" Pos="0,-75" Scale="0.2" Rotation="180"/>
+	    <Content Search="寻觅中..." Wait="等候中..."/>
+		<MaxDisplayCharacterCount Value="5"/>
+	</NetworkStatusDisplay>
+	<Transition Time="1.0"/>
+</MusicItem>

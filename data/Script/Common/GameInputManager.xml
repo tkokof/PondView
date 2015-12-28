@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<GameInputManager>
+    <SlideDeviation Value="10"/>
+	<LongPressDuration Value="0.125"/>
+	<MultiPressDuration Value="0.16"/>
+</GameInputManager>

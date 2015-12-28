@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<MusicItemsConfig>
+    <Items>
+	    <Item Id="1" Config="Script/MusicSelect/LiDong.xml"/>
+	    <Item Id="5" Config="Script/MusicSelect/ChunFen.xml"/>
+		<Item Id="7" Config="Script/MusicSelect/LiXia.xml"/>
+	</Items>
+</MusicItemsConfig>

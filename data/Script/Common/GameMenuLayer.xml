@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<GameMenuLayer>
+    <Analysis>
+	    <Normal Path="Sprite/Common/Menu/quit_2.png" />
+	    <Selected Path="Sprite/Common/Menu/quit_2.png" />
+	    <Coord x = "0.74" y = "0.49" relative="1"/>
+	</Analysis>
+	<Play>
+	    <Normal Path="Sprite/Common/Menu/restart_2.png" />
+	    <Selected Path="Sprite/Common/Menu/restart_2.png" />
+	    <Coord x = "0.26" y = "0.49" relative="1"/>
+	</Play>
+	<Suspend>
+	    <Normal Path="Sprite/Common/Menu/Suspend.png" />
+	    <Selected Path="Sprite/Common/Menu/Suspend.png" />
+	    <Coord X = "0.945" Y = "0.08" Relative="1"/>
+	</Suspend>
+	<Suspend2>
+	    <Normal Path="Sprite/Common/Menu/continue_1.png"/>
+	    <Selected Path="Sprite/Common/Menu/continue_1.png"/>
+	    <Coord X = "0.5" Y = "0.5" Relative="1"/>
+	</Suspend2>
+	<Gradient>
+	    <Begin Color="255,255,255,128"/>
+		<End Color="128,128,128,128"/>
+	</Gradient>
+	<Loading>
+	    <Normal scale="0.5" Path="Sprite/Common/Menu/ProgressCircle.png" />
+		<Coord x="0.5" y="0.5" relative="1"/>
+		<Speed Value="64"/>
+	</Loading>
+	<TimerBar>
+	    <Track Sprite="Sprite/Common/Menu/timePrompt.png" Color="115,177,191"/>
+		<Knob Sprite="Sprite/Common/Menu/timeArrow.png" Visible="0" Offset="0,10" Color="37,84,90"/>
+		<Progress Sprite="Sprite/Common/Menu/timePrompt.png" Color="37,84,90"/>
+		<Coord X="0.5" Y="0.009" Relative="1"/>
+	</TimerBar>
+	<TimeLabel Visible="0">
+	    <Font Path="Font/InkFont.fnt"/>
+		<Coord X="0.85" Y="0.92" Relative="1"/>
+	</TimeLabel>
+</GameMenuLayer>

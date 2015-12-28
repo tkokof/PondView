@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<PLVisualizationMountainMist>
+    <LineCount Value="4"/>
+	<LinePointCount Value="12"/>
+	<XSpacing Value="2.5"/>
+	<YSpacing Value="50"/>
+	<XAccle Value="1.01"/>
+	<YAccle Value="1.01"/>
+	<XRand Value="0.025"/>
+	<YRand Value="0.05"/>
+	<BeginPos X="100" Y="160"/>
+</PLVisualizationMountainMist>

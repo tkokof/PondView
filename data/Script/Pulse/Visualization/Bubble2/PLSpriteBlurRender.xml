@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<PLSpriteBlurRender>
+    <BGSprite Path="Sprite/Pulse/Visualization/Bubble2/bg_01.png"/>
+	<BatchFile Path="Sprite/Pulse/Visualization/Bubble2/BubbleBlur.plist">
+	    <Frame Name="blue_dots_blur_d1.png"/>
+		<Frame Name="blue_dots_blur_d2.png"/>
+		<Frame Name="blue_dots_blur_d4.png"/>
+		<Frame Name="blue_dots_blur_d8.png"/>
+	</BatchFile>
+	<BatchSprite Path="Sprite/Pulse/Visualization/Bubble2/BubbleBlur.png"/>
+    <MaskSprite Path="Sprite/Pulse/GamePan/GamePanMask.png"/>
+</PLSpriteBlurRender>

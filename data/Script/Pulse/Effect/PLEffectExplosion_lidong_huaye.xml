@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<PLEffect Type="1">
+    <Render>
+		<SpriteSheet Path="Sprite/Pulse/Effect/Explosion/PulseEffectSprites.png"/>
+		<PropertyList Path="Sprite/Pulse/Effect/Explosion/PulseEffectSprites.plist"/>
+		<Frames>
+		    <Frame Name="lidong_Perfect_Huaban.png"/>
+			<Frame Name="lidong_Perfect_Shuye.png"/>
+		</Frames>
+	</Render>
+	<Effect>
+	    <WholeDuration Value="2"/>
+		<StayDuration Value="0.1"/>
+		<IntervalDegree Value="60"/>
+		<IntervalDegreeDeviation Value="90"/>
+		<MinSpreadDistance Value="0"/>
+		<MaxSpreadDistance Value="128"/>
+		<RandomRotation Value="0"/>
+		<AlignRotation Value="1"/>
+		<MinRotateAngle Value="80"/>
+		<MaxRotateAngle Value="100"/>
+		<RandomColor Value="0"/>
+		<MinScaleFactor Value="0.6"/>
+		<MaxScaleFactor Value="1.0"/>
+		<CurveFactor Value="0"/>
+		<RandomFrame Value="0"/>
+	</Effect>
+</PLEffect>

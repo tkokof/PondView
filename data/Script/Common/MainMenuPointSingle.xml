@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<MainMenuPointSingle>
+    <Sprite Path="Sprite/MainMenu/SPPointSprite.png"/>
+	<Circle Path="Sprite/MainMenu/SPPointCircle.png"/>
+	<!--<Tip Path="Sprite/Pulse/Test/finger_ink.png" ScaleX="0.25" ScaleY="0.25" PosY="50"/>-->
+	<!--<Tip Path="Sprite/Pulse/Test/SinglePointTip.png" ScaleX="0.3" ScaleY="0.3" PosX="200" PosY="150"/>-->
+	<OriginalColor R="180" G="180" B="180"/>
+	<TargetColor R="255" G="255" B="255"/>
+	<GamePanRadius Value="108"/>
+	<DefaultTime EnterTime="0" ExactTime="3" LeaveTime="3.5"/>
+</MainMenuPointSingle>

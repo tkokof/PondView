@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<StaticScene TransitionTime="2.0">
+    <Fade>
+	    <Stage Time="0.6" Value="76.5"/>
+		<Stage Time="0.3" Value="255"/>
+		<Stage Time="1.0" Value="255"/>
+		<Stage Time="0.4" Value="0"/>
+	</Fade>
+	<Sprites>
+	    <!--Sprite Path="Sprite/LogoAndInfo/bg_gradient_1.png" PosX="240" PosY="160"/-->
+	    <Sprite Path="Sprite/LogoAndInfo/info_1.png" PosX="240" PosY="160"/>
+	</Sprites>
+</StaticScene>

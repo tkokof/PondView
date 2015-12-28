@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<PLMountainMistLine>
+    <LineColor R="0" G="0" B="0" A="255"/>
+	<LineSize Value="4"/>
+	<CurveResolution Value="16"/>
+</PLMountainMistLine>

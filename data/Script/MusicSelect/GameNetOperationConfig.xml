@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<Config>
+    <WaitButton Scale="0.75">
+	    <Normal Path="Sprite/MusicSelect/game_net_wait_button.png"/>
+		<Selected Path="Sprite/MusicSelect/game_net_wait_button_highlight.png"/>
+	</WaitButton>
+	<OperationParams StartFactor="0.2" EndFactor="0" TimeThreshold="1" DistThreshold="12"/>
+</Config>

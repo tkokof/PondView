@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<PLEffect Type="1">
+    <Render>
+	  <!--   <SpriteSheet Path="Sprite/GrooveCoaster/Effect/Explosion/ExplosionSimple.png"/>
+		<PropertyList Path="Sprite/GrooveCoaster/Effect/Explosion/ExplosionSimple.plist"/>
+		<Frames>
+		    <Frame Name="Circle.png"/>
+			<Frame Name="Ellipse.png"/>
+			<Frame Name="Rect.png"/>
+			<Frame Name="Square.png"/>
+		</Frames> -->
+		<SpriteSheet Path="Sprite/Pulse/Effect/Explosion/yuandian.png"/>
+		<PropertyList Path="Sprite/Pulse/Effect/Explosion/yuandian.plist"/>
+		<Frames>
+		    <Frame Name="yuandian_1.png"/>
+			<Frame Name="yuandian_2.png"/>
+			<Frame Name="yuandian_3.png"/>
+		</Frames>	
+	</Render>
+	<Effect>
+	    <WholeDuration Value="1.5"/>
+		<StayDuration Value="0.75"/>
+		<IntervalDegree Value="90"/>
+		<MinSpreadDistance Value="96"/>
+		<MaxSpreadDistance Value="128"/>
+		<RotateAngle Value="0"/>
+		<RandomColor Value="0"/>
+		<ScaleFactor Value="0.5"/>
+	</Effect>
+</PLEffect>
