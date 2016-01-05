@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<PLVisualizationPond>
+    <FishConfig>
+	    <Fish Config="Script/PondView/Fish/Fish0.xml"/>
+	    <Fish Config="Script/PondView/Fish/Fish1.xml"/>
+		<Fish Config="Script/PondView/Fish/Fish2.xml"/>
+		<Fish Config="Script/PondView/Fish/Fish3.xml"/>
+		<Fish Config="Script/PondView/Fish/Fish4.xml"/>
+		<Fish Config="Script/PondView/Fish/Fish5.xml"/>
+	</FishConfig>
+    <DrawElements>
+	<!--     <DrawElement Sprite="Sprite/Pulse/GamePan/Lotus_01.png" Pos="180,100" Scale="0.6" Opacity="255" Order="-1"/>
+		<DrawElement Sprite="Sprite/Pulse/GamePan/Lotus_02.png" Pos="275,210" Scale="0.4" Opacity="255" Order="-1"/> -->
+		<!--<DrawElement />-->
+	</DrawElements>
+	<PLPondRender Config="Script/PondView/Pond/PLPondRender.xml"/>
+</PLVisualizationPond>
