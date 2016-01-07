@@ -66,18 +66,33 @@ end
 local function test_create()
     math.randomseed(os.time())
     
-    local sprite = "Sprite/PondView/Elements/stone_1.png"
+    local sprite = "Sprite/PondView/Element/Stone/stone_1.png"
     local width, height = GameScript.GetWinSize()
     
-    local stone_count = 3
+    local nodeIds = {}
+    
+    local stone_count = 6
     for i = 1, stone_count do
         local x, y = get_random_pos(width, height)
         local rot = math.random(-10, 10)
         local scale = math.random() * 0.4 + 0.8
         local order = -1
         
-        GameScript.AddDrawElement(sprite, x, y, rot, scale, order)
+        local nodeId = GameScript.AddDrawElement(sprite, x, y, rot, scale, order)
+        --Print(tostring(GameScript.GetDrawElementProperty(nodeId, "Alpha")))
+        GameScript.SetDrawElementProperty(nodeId, "Alpha", math.random() * 0.4 + 0.2)
+        table.insert(nodeIds, nodeId)
     end
+    
+    --[[
+    local function remove_nodes()
+        for i = 1, #nodeIds do
+            GameScript.RemoveDrawElement(nodeIds[i])
+        end
+    end
+    
+    Timer.CreateOnce(2, remove_nodes)
+    --]]
 end
 
 local function create_ripple()
@@ -103,10 +118,12 @@ local function main()
 end
 
 function Reload()
+    GameScript.ResetScene()
+    
     for i = 1, #script_files_to_load do
         package.loaded[script_files_to_load[i]] = nil
     end
-    LoadScript()
+    GameScript.LoadScript()
 end
 
 main()
