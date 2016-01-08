@@ -6,6 +6,7 @@ local script_files_to_load =
     "script/Updater",
     "script/Timer",
     "script/Toucher",
+    "script/DrawElementUtil",
 }
 
 -- load files
@@ -13,32 +14,15 @@ for i = 1, #script_files_to_load do
     require(script_files_to_load[i])
 end
 
-local function test_timer()
-    --[[
-    local function test_1()
-        local timer = Timer.CreateInterval(2, SwitchBG)
-        Timer.CreateOnce(10, function() Timer.KillTimer(timer) end)
+function Reload()
+    GameScript.ResetScene()
+    
+    for i = 1, #script_files_to_load do
+        package.loaded[script_files_to_load[i]] = nil
     end
-
-    Timer.CreateOnce(2, SwitchBG)
-    Timer.CreateOnce(4, test_1)
+    GameScript.LoadScript()
     
-    Timer.CreateInterval(1, function() Print("HolyShit") end)
-    --]]
-    
-    --Timer.CreateOnce(0.5, function() SetWave(0.005, 1) end)
-    Timer.CreateOnce(0.5, function() SetWaveCenter(0, 0) end)
-    Timer.CreateOnce(0.5, function() SetWave(0.005, 2) end)
---    Timer.CreateOnce(6, function() SetWave(0.0125, 2) end)
---    Timer.CreateOnce(8, function() SetWave(0.01, 2) end)
-
-    Timer.CreateOnce(0.5, function() SetPond("FishIndex:-1;SetDestRand:160,293,10,0;SetSpeed:70") end)
-    Timer.CreateOnce(2, function() SetPond("SetLight:0") end)
-    
-    Timer.CreateOnce(2, function() AddRipple(300, 300, 0.8) end)
-    Timer.CreateOnce(4, function() AddRipple(220, 650, 0.8) end)
-    Timer.CreateOnce(6, function() AddRipple(650, 340, 0.8) end)
-    Timer.CreateOnce(8, function() AddRipple(430, 200, 0.8) end)
+    OnInit()
 end
 
 local function get_random_pos(width, height)
@@ -63,7 +47,7 @@ local function get_random_pos(width, height)
     return x, y
 end
 
-local function test_create()
+local function create_stones(stone_count, scale_speed, rotate_speed)
     math.randomseed(os.time())
     
     local sprite = "Sprite/PondView/Element/Stone/stone_1.png"
@@ -71,7 +55,7 @@ local function test_create()
     
     local nodeIds = {}
     
-    local stone_count = 6
+    stone_count = stone_count or 6
     for i = 1, stone_count do
         local x, y = get_random_pos(width, height)
         local rot = math.random(-10, 10)
@@ -79,20 +63,43 @@ local function test_create()
         local order = -1
         
         local nodeId = GameScript.AddDrawElement(sprite, x, y, rot, scale, order)
-        --Print(tostring(GameScript.GetDrawElementProperty(nodeId, "Alpha")))
-        GameScript.SetDrawElementProperty(nodeId, "Alpha", math.random() * 0.4 + 0.2)
+        
+        DrawElementUtil.SetAlpha(nodeId, math.random() * 0.4 + 0.2)
         table.insert(nodeIds, nodeId)
     end
     
-    --[[
-    local function remove_nodes()
+    scale_speed = scale_speed or 0.05
+    local scale_min = 0.8
+    local scale_max = 1.2
+    
+    local function scale_nodes()
         for i = 1, #nodeIds do
-            GameScript.RemoveDrawElement(nodeIds[i])
+            local cur_scale = DrawElementUtil.GetScale(nodeIds[i])
+            if (cur_scale >= scale_max and scale_speed > 0) or
+               (cur_scale <= scale_min and scale_speed < 0) then
+                scale_speed = -scale_speed
+            end
+            
+            local scale_delta = scale_speed * GameScript.GetFrameTime()
+            DrawElementUtil.SetScale(nodeIds[i], scale_delta + cur_scale)
         end
     end
     
-    Timer.CreateOnce(2, remove_nodes)
-    --]]
+    rotate_speed = rotate_speed or 1
+    
+    local function rotate_nodes()
+        for i = 1, #nodeIds do
+            local cur_rotate = DrawElementUtil.GetRotation(nodeIds[i])
+            
+            local rotate_delta = rotate_speed * GameScript.GetFrameTime()
+            DrawElementUtil.SetRotation(nodeIds[i], rotate_delta + cur_rotate)
+        end
+    end
+    
+    Timer.CreateOnce(2,
+                     function() Timer.CreateInterval(0, scale_nodes) end)
+    Timer.CreateOnce(2,
+                     function() Timer.CreateInterval(0, rotate_nodes) end)
 end
 
 local function create_ripple()
@@ -106,24 +113,16 @@ local function create_ripple()
     end
 end
 
-local function main()
-    Timer.CreateOnce(0.1, function() SetWaveCenter(0, 0) end)
-    Timer.CreateOnce(0.1, function() SetWave(0.005, 2) end)
-    Timer.CreateOnce(0.1, function() SetPond("FishIndex:-1;SetDestRand:160,293,10,0;SetSpeed:70") end)
-    Timer.CreateOnce(2, function() SetPond("SetLight:0") end)
+function OnInit()
+    GameScript.SetWaveCenter(0, 0)
+    GameScript.SetWave(0.005, 2)
+    -- TODO improve this interface
+    GameScript.SetPond("FishIndex:-1;SetDestRand:160,293,10,0;SetSpeed:70")
     
     Timer.CreateInterval(2, create_ripple)
     
-    Timer.CreateOnce(0.1, test_create)
+    create_stones(4, 0, 0)
 end
 
-function Reload()
-    GameScript.ResetScene()
-    
-    for i = 1, #script_files_to_load do
-        package.loaded[script_files_to_load[i]] = nil
-    end
-    GameScript.LoadScript()
+function OnRelease()
 end
-
-main()
