@@ -7,6 +7,7 @@ local script_files_to_load =
     "script/Timer",
     "script/Toucher",
     "script/DrawElementUtil",
+    "script/Util/MathUtil",
 }
 
 -- load files
@@ -47,27 +48,79 @@ local function get_random_pos(width, height)
     return x, y
 end
 
-local function create_stones(stone_count, scale_speed, rotate_speed)
-    math.randomseed(os.time())
+local function create_ripple()
+    local width, height = GameScript.GetWinSize()
+    local possible = 0.5
     
+    if math.random() >= possible then
+        local x, y = math.random(width), math.random(height)
+        local strength = math.random() * 0.5 + 0.5
+        GameScript.AddRipple(x, y, strength)
+    end
+end
+
+local function get_dir_local(angle, width, height)
+    local a = width / 2
+    local b = height / 2
+    local v = MathUtil.RotateVector({ x = 1, y = 0 }, angle)
+    local t = 1 / ((v.x * v.x) / (a * a) + (v.y * v.y) / (b * b))
+    t = math.sqrt(t)
+    
+    return MathUtil.MultiplyVector(v, t)
+end
+
+local function create_flower(node_id, flower_count)
+    local sprite = "Sprite/PondView/Element/Flower/flower_1.png"
+    local width, height = DrawElementUtil.GetSize(node_id)
+    local x, y = DrawElementUtil.GetPosition(node_id)
+    local rot = DrawElementUtil.GetRotation(node_id)
+    local scale = DrawElementUtil.GetScale(node_id)
+    
+    local angle_delta = 30
+    for i = 1, flower_count do
+        local angle = math.random() * angle_delta
+        local dir = get_dir_local(angle, width, height)
+        Print(dir.x .. " " .. dir.y)
+        local f_x, f_y = x + scale * dir.x, y + scale * dir.y
+        local f_rot = angle
+        local f_scale = math.random() * 0.2 + 0.2
+        local order = -1
+        
+        local node_id = GameScript.AddDrawElement("f", sprite, f_x, f_y, f_rot, f_scale, order)
+        
+        DrawElementUtil.SetSwing(node_id, 3, 1.25)
+    end
+end
+
+local function create_stones(stone_count, scale_speed, rotate_speed)
     local sprite = "Sprite/PondView/Element/Stone/stone_1.png"
     local width, height = GameScript.GetWinSize()
     
-    local nodeIds = {}
+    local node_ids = {}
     
     stone_count = stone_count or 6
     for i = 1, stone_count do
         local x, y = get_random_pos(width, height)
-        local rot = math.random(-10, 10)
-        local scale = math.random() * 0.4 + 0.8
+        
+        -- for debug
+        --local rot = math.random(-10, 10)
+        --local scale = math.random() * 0.4 + 0.8
+        local rot = 0
+        local scale = 1
+        
         local order = -1
         
-        local nodeId = GameScript.AddDrawElement(sprite, x, y, rot, scale, order)
+        local node_id = GameScript.AddDrawElement("s", sprite, x, y, rot, scale, order)
         
-        DrawElementUtil.SetAlpha(nodeId, math.random() * 0.4 + 0.2)
-        table.insert(nodeIds, nodeId)
+        DrawElementUtil.SetAlpha(node_id, math.random() * 0.4 + 0.2)
+        table.insert(node_ids, node_id)
+        
+        -- create flower here
+        local flower_count = 3
+        create_flower(node_id, flower_count)
     end
     
+    --[[
     scale_speed = scale_speed or 0.05
     local scale_min = 0.8
     local scale_max = 1.2
@@ -100,20 +153,12 @@ local function create_stones(stone_count, scale_speed, rotate_speed)
                      function() Timer.CreateInterval(0, scale_nodes) end)
     Timer.CreateOnce(2,
                      function() Timer.CreateInterval(0, rotate_nodes) end)
-end
-
-local function create_ripple()
-    local width, height = GameScript.GetWinSize()
-    local possible = 0.5
-    
-    if math.random() >= possible then
-        local x, y = math.random(width), math.random(height)
-        local strength = math.random() * 0.5 + 0.5
-        GameScript.AddRipple(x, y, strength)
-    end
+    --]]
 end
 
 function OnInit()
+    math.randomseed(os.time())
+    
     GameScript.SetWaveCenter(0, 0)
     GameScript.SetWave(0.005, 2)
     -- TODO improve this interface
