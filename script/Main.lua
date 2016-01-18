@@ -76,23 +76,32 @@ local function create_flower(node_id, flower_count)
     local rot = DrawElementUtil.GetRotation(node_id)
     local scale = DrawElementUtil.GetScale(node_id)
     
-    local angle_delta = 30
+    local angle_delta_min = 0
+    local angle_delta_max = 360
+    local sub_flower_count_min = 3
+    local sub_flower_count_max = 6
+    local sub_flower_delta_min = 0
+    local sub_flower_delta_max = 30
+    
     for i = 1, flower_count do
-        local angle = math.random() * angle_delta
-        local dir = get_dir_local(angle, width, height)
-        Print(dir.x .. " " .. dir.y)
-        local f_x, f_y = x + scale * dir.x, y + scale * dir.y
-        local f_rot = angle
-        local f_scale = math.random() * 0.2 + 0.2
-        local order = -1
-        
-        local node_id = GameScript.AddDrawElement("f", sprite, f_x, f_y, f_rot, f_scale, order)
-        
-        DrawElementUtil.SetSwing(node_id, 3, 1.25)
+        local angle = math.random() * (angle_delta_max - angle_delta_min) + angle_delta_min
+        local sub_count = math.random() * (sub_flower_count_max - sub_flower_count_min) + sub_flower_count_min
+        for j = 1, sub_count do
+            angle = angle + (j - 1) * math.random() * (sub_flower_delta_max - sub_flower_delta_min) + sub_flower_delta_min
+            local dir = get_dir_local(angle, width, height)
+            local f_x, f_y = x + scale * dir.x, y + scale * dir.y
+            local f_rot = -angle
+            local f_scale = math.random() * 0.2 + 0.2
+            local order = -1
+            
+            local node_id = GameScript.AddDrawElement("f", sprite, f_x, f_y, f_rot, f_scale, order)
+            
+            DrawElementUtil.SetSwing(node_id, math.random() * 2 + 1, math.random() * 0.5 + 1)
+        end
     end
 end
 
-local function create_stones(stone_count, scale_speed, rotate_speed)
+local function create_stones(stone_count, flower_count_per_stone_min, flower_count_per_stone_max)
     local sprite = "Sprite/PondView/Element/Stone/stone_1.png"
     local width, height = GameScript.GetWinSize()
     
@@ -102,12 +111,11 @@ local function create_stones(stone_count, scale_speed, rotate_speed)
     for i = 1, stone_count do
         local x, y = get_random_pos(width, height)
         
-        -- for debug
+        -- now we do not handle rot and scale
         --local rot = math.random(-10, 10)
         --local scale = math.random() * 0.4 + 0.8
         local rot = 0
         local scale = 1
-        
         local order = -1
         
         local node_id = GameScript.AddDrawElement("s", sprite, x, y, rot, scale, order)
@@ -116,8 +124,10 @@ local function create_stones(stone_count, scale_speed, rotate_speed)
         table.insert(node_ids, node_id)
         
         -- create flower here
-        local flower_count = 3
-        create_flower(node_id, flower_count)
+        flower_count_per_stone_min = flower_count_per_stone_min or 3
+        flower_count_per_stone_max = flower_count_per_stone_max or 3
+        local create_count = math.random() * (flower_count_per_stone_max - flower_count_per_stone_min) + flower_count_per_stone_min
+        create_flower(node_id, create_count)
     end
     
     --[[
@@ -166,7 +176,7 @@ function OnInit()
     
     Timer.CreateInterval(2, create_ripple)
     
-    create_stones(4, 0, 0)
+    create_stones(4, 3, 3)
 end
 
 function OnRelease()

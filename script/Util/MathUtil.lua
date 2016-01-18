@@ -24,9 +24,9 @@ function MathUtil.DotVector(v1, v2)
 end
 
 function MathUtil.Length(v)
-    return math.sqrt(v.x * v.x, v.y * v.y)
+    return math.sqrt(v.x * v.x + v.y * v.y)
 end
 
 function MathUtil.LengthSq(v)
-    return v.x * v.x, v.y * v.y
+    return v.x * v.x + v.y * v.y
 end
