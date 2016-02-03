@@ -1,28 +1,29 @@
 -- desc lua main
 -- maintainer hugoyu
 
-local script_files_to_load = 
-{
-    "script/Updater",
-    "script/Timer",
-    "script/Toucher",
-    "script/DrawElementUtil",
-    "script/Util/MathUtil",
-}
-
--- load files
-for i = 1, #script_files_to_load do
-    require(script_files_to_load[i])
+local function load_base_script()
+    local base_scripts = 
+    {
+        "script.GamePath",
+        "script.Loader",
+    }
+    
+    -- load base files
+    for i = 1, #base_scripts do
+        package.loaded[base_scripts[i]] = nil
+        local status, error = pcall(require, base_scripts[i])
+        if not status then
+            Print("[Main]Error to load base script file " .. base_scripts[i])
+        end
+    end
 end
+
+load_base_script()
+Loader.LoadGameFiles()
 
 function Reload()
     GameScript.ResetScene()
-    
-    for i = 1, #script_files_to_load do
-        package.loaded[script_files_to_load[i]] = nil
-    end
     GameScript.LoadScript()
-    
     OnInit()
 end
 
@@ -177,7 +178,17 @@ function OnInit()
     Timer.CreateInterval(2, create_ripple)
     
     create_stones(4, 3, 3)
+    
+    --[[
+    local p = point.create()
+    p:set_x(13)
+    Print(p:get_x())
+    Print(tostring(p))
+    
+    p = nil
+    --]]
 end
 
 function OnRelease()
+    -- TODO implement
 end
